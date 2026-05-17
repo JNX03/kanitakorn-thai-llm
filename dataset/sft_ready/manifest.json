@@ -1,0 +1,57 @@
+{
+  "strategy": "sqrt",
+  "train_counts": {
+    "aime_th": 1161,
+    "hotpotqa_agentic": 25,
+    "ifeval_ifbench": 619,
+    "livecodebench_th": 619,
+    "math500_th": 620,
+    "mt_bench": 79,
+    "openthaieval": 618,
+    "teacher_loop_th": 5
+  },
+  "weights": {
+    "aime_th": 0.227586,
+    "hotpotqa_agentic": 0.033396,
+    "ifeval_ifbench": 0.166179,
+    "livecodebench_th": 0.166179,
+    "math500_th": 0.166313,
+    "mt_bench": 0.059367,
+    "openthaieval": 0.166044,
+    "teacher_loop_th": 0.014935
+  },
+  "sft_files": {
+    "aime_th": {
+      "train": "sft_ready/aime_th_train.jsonl",
+      "validation": "sft_ready/aime_th_validation.jsonl"
+    },
+    "hotpotqa_agentic": {
+      "train": "sft_ready/hotpotqa_agentic_train.jsonl",
+      "validation": "sft_ready/hotpotqa_agentic_validation.jsonl"
+    },
+    "ifeval_ifbench": {
+      "train": "sft_ready/ifeval_ifbench_train.jsonl",
+      "validation": "sft_ready/ifeval_ifbench_validation.jsonl"
+    },
+    "livecodebench_th": {
+      "train": "sft_ready/livecodebench_th_train.jsonl",
+      "validation": "sft_ready/livecodebench_th_validation.jsonl"
+    },
+    "math500_th": {
+      "train": "sft_ready/math500_th_train.jsonl",
+      "validation": "sft_ready/math500_th_validation.jsonl"
+    },
+    "mt_bench": {
+      "train": "sft_ready/mt_bench_train.jsonl",
+      "validation": "sft_ready/mt_bench_validation.jsonl"
+    },
+    "openthaieval": {
+      "train": "sft_ready/openthaieval_train.jsonl",
+      "validation": "sft_ready/openthaieval_validation.jsonl"
+    },
+    "teacher_loop_th": {
+      "train": "sft_ready/teacher_loop_th_train.jsonl",
+      "validation": null
+    }
+  }
+}

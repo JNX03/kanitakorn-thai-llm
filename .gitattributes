@@ -1,0 +1,9 @@
+# Only LFS the genuinely large files. HF's free tier has a 1000-API-request
+# per 5-min limit; per-shard small jsonl files shouldn't go through LFS.
+
+# Large files that must use LFS (>1MB):
+tools/continuation_corpus.py filter=lfs diff=lfs merge=lfs -text
+dataset/sft_ready/*.jsonl filter=lfs diff=lfs merge=lfs -text
+dataset/reports/generation_log.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# Small per-shard jsonl files (most are <10KB) stay as regular git blobs.

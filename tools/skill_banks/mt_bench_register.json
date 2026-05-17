@@ -1,0 +1,28 @@
+{
+  "skill_name": "mt_bench_register_calibration",
+  "base_family": "mt_bench",
+  "verifier_module": "verifiers.thai_prosody_verifier",
+  "verifier_function": "check_register",
+  "scenarios": [
+    {
+      "target_register": "formal",
+      "user_init": "กรุณาเขียนข้อความเปิดประชุมคณะกรรมการบริษัทอย่างเป็นทางการ",
+      "follow_up": "ตอนนี้ปรับให้สั้นลงครึ่งหนึ่ง แต่ยังคงความเป็นทางการ"
+    },
+    {
+      "target_register": "formal",
+      "user_init": "เรียบเรียงคำกล่าวขอบคุณในงานพิธีรับปริญญา",
+      "follow_up": "เพิ่มการกล่าวถึงครอบครัวและอาจารย์ที่ปรึกษา"
+    },
+    {
+      "target_register": "informal",
+      "user_init": "ช่วยเขียนแคปชั่นโพสต์ภาพอาหารเย็นบนโซเชียล แนวสบายๆ",
+      "follow_up": "เปลี่ยนให้ดูตลกขึ้นนิดนึง"
+    },
+    {
+      "target_register": "informal",
+      "user_init": "ส่งข้อความถึงเพื่อนชวนไปกินข้าวกลางวัน",
+      "follow_up": "ปรับให้เป็นแบบที่ใช้กับเพื่อนสนิทมากๆ"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "status": "incomplete_due_to_environment_limit",
+  "current_total_train": 4190,
+  "current_total_validation": 18,
+  "target_total_train": 20000,
+  "target_total_validation": 2000,
+  "counts_by_family": {
+    "aime_th": {
+      "train": 1293,
+      "validation": 3
+    },
+    "math500_th": {
+      "train": 694,
+      "validation": 3
+    },
+    "livecodebench_th": {
+      "train": 693,
+      "validation": 3
+    },
+    "openthaieval": {
+      "train": 693,
+      "validation": 3
+    },
+    "mt_bench": {
+      "train": 93,
+      "validation": 3
+    },
+    "ifeval_ifbench": {
+      "train": 693,
+      "validation": 3
+    },
+    "hotpotqa_agentic": {
+      "train": 31,
+      "validation": 0
+    }
+  },
+  "remaining_by_family": {
+    "aime_th": {
+      "train": 2307,
+      "validation": 357
+    },
+    "math500_th": {
+      "train": 2306,
+      "validation": 297
+    },
+    "livecodebench_th": {
+      "train": 2307,
+      "validation": 297
+    },
+    "openthaieval": {
+      "train": 2307,
+      "validation": 297
+    },
+    "mt_bench": {
+      "train": 2307,
+      "validation": 237
+    },
+    "ifeval_ifbench": {
+      "train": 2307,
+      "validation": 297
+    },
+    "hotpotqa_agentic": {
+      "train": 1969,
+      "validation": 200
+    }
+  },
+  "last_completed_shard": {
+    "aime_th": "205",
+    "math500_th": "210",
+    "livecodebench_th": "210",
+    "openthaieval": "211",
+    "mt_bench": "211",
+    "ifeval_ifbench": "210",
+    "hotpotqa_agentic": "025"
+  },
+  "next_required_shard": {
+    "aime_th": "206",
+    "math500_th": "211",
+    "livecodebench_th": "211",
+    "openthaieval": "212",
+    "mt_bench": "212",
+    "ifeval_ifbench": "211",
+    "hotpotqa_agentic": "026"
+  },
+  "last_item_id_by_family": {
+    "aime_th": {
+      "train": "aime-th-train-1293",
+      "validation": "aime-th-val-0003"
+    },
+    "math500_th": {
+      "train": "math500-th-train-0694",
+      "validation": "math500-th-val-0003"
+    },
+    "livecodebench_th": {
+      "train": "lcb-th-train-0693",
+      "validation": "lcb-th-val-0003"
+    },
+    "openthaieval": {
+      "train": "openthaieval-train-0693",
+      "validation": "openthaieval-val-0003"
+    },
+    "mt_bench": {
+      "train": "mtbench-th-train-0093",
+      "validation": "mtbench-en-val-0003"
+    },
+    "ifeval_ifbench": {
+      "train": "ifeval-ifbench-th-train-0693",
+      "validation": "ifeval-ifbench-en-val-0003"
+    },
+    "hotpotqa_agentic": {
+      "train": "hotpotqa-agentic-th-train-0038",
+      "validation": null
+    }
+  },
+  "verification_status": "passed: python tools/package_and_verify.py",
+  "contamination_status": {
+    "passed": true,
+    "benchmark_text_count": 6297,
+    "max_ngram": 0.2667,
+    "max_simhash": 0.75,
+    "simhash_similarity_status": "run_on_ngram_ge_0.25_candidates",
+    "embedding_similarity_status": "not_run",
+    "embedding_similarity_max": null
+  },
+  "rejected_count": 639,
+  "quarantined_count": 479,
+  "quality_gate": {
+    "bulk_generation_paused": true,
+    "reason": "User requested bulk pause; the required 100-item mixed quality audit batch has passed under upgraded standards.",
+    "next_required_batch": {
+      "accepted_items": 100,
+      "mode": "mixed_audit",
+      "must_pass_before_resuming_20k_loop": true
+    },
+    "future_requirements": {
+      "aime_th": "At least 70% of new items require three or more reasoning steps; direct textbook drills are easy/medium, not hard.",
+      "math500_th": "Include Level 4-5 style algebra, intermediate algebra, precalculus, geometry, probability, and number theory.",
+      "livecodebench_th": "Include multi-testcase parsing, DP, graph shortest path, strings, greedy proof, data structures, debugging, and self-repair.",
+      "ifeval_ifbench": "Reduce repeated line/keyword templates; prefer Thai-specific and nested adversarial constraints with deterministic verifiers.",
+      "hotpotqa_agentic": "Reject one-source items; accepted items require at least two supporting facts and should use independent sources.",
+      "openthaieval": "Use plausible distractors, longer passages, source-backed facts, and subtle inference."
+    },
+    "rejection_quota": {
+      "future_policy": "Every accepted production shard must include rejected or quarantined candidates in the audit log.",
+      "minimum_rejected_or_quarantined_per_accepted_shard": 1,
+      "near_zero_rejection_rate_is_quality_warning": true
+    },
+    "mixed_audit_progress": {
+      "accepted_items": 1270,
+      "target_items": 100,
+      "passed": true,
+      "by_family": {
+        "aime_th": 227,
+        "hotpotqa_agentic": 30,
+        "ifeval_ifbench": 229,
+        "livecodebench_th": 228,
+        "math500_th": 236,
+        "mt_bench": 85,
+        "openthaieval": 235
+      }
+    },
+    "mixed_audit_passed": true,
+    "bulk_generation_resume_condition_met": true
+  },
+  "exact_resume_instruction": "Continue from dataset/reports/continuation_checkpoint.json; do not restart or overwrite accepted items. The 100-item mixed quality audit gate has passed, so production generation may resume under upgraded standards from the next_required_shard values until exact target counts are reached."
+}

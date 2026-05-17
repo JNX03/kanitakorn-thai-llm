@@ -1,0 +1,39 @@
+{
+  "skill_name": "ifeval_constraint_following",
+  "base_family": "ifeval_ifbench",
+  "verifier_module": "judges.ifeval_judge",
+  "verifier_function": "IFEvalJudge.evaluate",
+  "constraint_templates": [
+    {
+      "prompt_th": "ตอบเป็นบุลเล็ตจำนวน {n} บรรทัด แต่ละบรรทัดขึ้นต้นด้วย '- หัวข้อ:' หัวข้อ: {topic}",
+      "constraints_factory": "lambda n: [{'type':'exact_line_count','count':n},{'type':'starts_with','prefix':'- หัวข้อ:'}]",
+      "n_options": [3, 4, 5]
+    },
+    {
+      "prompt_th": "อธิบายเรื่อง {topic} ห้ามใช้เลขอารบิก ใช้เลขไทยเท่านั้น",
+      "constraints_factory": "lambda n: [{'type':'no_arabic_digits'}]",
+      "n_options": [0]
+    },
+    {
+      "prompt_th": "ตอบเป็น JSON ที่มีฟิลด์ title, steps (list ของ {n} ขั้น), warning. หัวข้อ: {topic}",
+      "constraints_factory": "lambda n: [{'type':'json_schema','schema':{'type':'object','required':['title','steps','warning'],'properties':{'title':{'type':'string'},'steps':{'type':'array','minItems':n,'maxItems':n},'warning':{'type':'string'}}}}]",
+      "n_options": [3, 4]
+    },
+    {
+      "prompt_th": "อธิบาย {topic} โดยใช้คำว่า '{keyword}' จำนวนพอดี {n} ครั้ง",
+      "constraints_factory": "lambda n, keyword: [{'type':'keyword_frequency','keyword':keyword,'count':n}]",
+      "n_options": [2, 3],
+      "keyword_options": ["ความสำคัญ", "การเรียนรู้", "ระเบียบ", "ความเข้าใจ"]
+    }
+  ],
+  "topics": [
+    "ความปลอดภัยในการขับขี่",
+    "การเรียนภาษาไทย",
+    "การออมเงิน",
+    "การเลือกซื้อโทรศัพท์",
+    "การทำอาหารง่ายๆ",
+    "การออกกำลังกาย",
+    "การจัดบ้าน",
+    "การวางแผนการเดินทาง"
+  ]
+}

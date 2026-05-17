@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-16",
+  "dry_run": false,
+  "skipped": [
+    "1.4"
+  ],
+  "results": [
+    {
+      "phase": "0.1",
+      "name": "rebalance validation split",
+      "status": "pass",
+      "log": "dataset\\reports\\pipeline_2026-05-16\\step_0_1.md"
+    },
+    {
+      "phase": "0.2",
+      "name": "audit_run",
+      "status": "pass",
+      "log": "dataset\\reports\\pipeline_2026-05-16\\step_0_2.md"
+    },
+    {
+      "phase": "3",
+      "name": "few_shot_collator",
+      "status": "pass",
+      "log": "dataset\\reports\\pipeline_2026-05-16\\step_3.md"
+    },
+    {
+      "phase": "3.2",
+      "name": "build_train_manifest",
+      "status": "pass",
+      "log": "dataset\\reports\\pipeline_2026-05-16\\step_3_2.md"
+    },
+    {
+      "phase": "1.4",
+      "name": "benchmark_eval (inputs export)",
+      "status": "skipped"
+    }
+  ],
+  "overall": "PASS"
+}

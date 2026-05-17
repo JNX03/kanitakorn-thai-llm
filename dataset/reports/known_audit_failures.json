@@ -1,0 +1,83 @@
+{
+  "_doc": "IDs already-known to fail audit_run.py. Recording them here keeps Phase-0 gate measuring NEW regressions instead of being perpetually red on the same items. Each entry must include a remediation plan.",
+  "version": "2026-05-16",
+  "known": [
+    {
+      "id": "lcb-th-train-0017",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "reference returns list of tuples; test expects list of lists",
+      "remediation": "either change test 'output' to use tuples, or have the reference solution return lists"
+    },
+    {
+      "id": "lcb-th-train-0040",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "reference returns list of tuples; test expects list of lists",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0057",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "reference returns dict with int keys; test expects str keys",
+      "remediation": "normalize key type in test spec"
+    },
+    {
+      "id": "lcb-th-train-0071",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0092",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0100",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0182",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "int keys vs str keys",
+      "remediation": "normalize key type in test spec"
+    },
+    {
+      "id": "lcb-th-train-0226",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0314",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0387",
+      "family": "livecodebench_th",
+      "kind": "type_mismatch",
+      "detail": "tuple↔list",
+      "remediation": "normalize tuple↔list in test spec"
+    },
+    {
+      "id": "lcb-th-train-0399",
+      "family": "livecodebench_th",
+      "kind": "semantic_bug",
+      "detail": "reference returns [1,2,3,3] but test expects [1,2,3] — looks like missing dedup",
+      "remediation": "fix reference solution OR move record to quarantine"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "benchmark_family",
+    "task_type",
+    "language",
+    "difficulty",
+    "messages",
+    "final_answer",
+    "concise_solution",
+    "verifier",
+    "sources",
+    "contamination_audit",
+    "quality_scores",
+    "training_tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "benchmark_family": {
+      "enum": [
+        "aime_th",
+        "math500_th",
+        "livecodebench_th",
+        "openthaieval",
+        "mt_bench",
+        "ifeval_ifbench",
+        "hotpotqa_agentic",
+        "teacher_loop_th"
+      ]
+    },
+    "loop_metadata": {
+      "type": "object"
+    },
+    "task_type": {
+      "type": "string"
+    },
+    "language": {
+      "enum": [
+        "th",
+        "en",
+        "th-en"
+      ]
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard",
+        "olympiad",
+        "adversarial"
+      ]
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "content"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "system",
+              "user",
+              "assistant"
+            ]
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "final_answer": {
+      "type": "string"
+    },
+    "concise_solution": {
+      "type": "string"
+    },
+    "verifier": {
+      "type": "object",
+      "required": [
+        "type",
+        "details"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "symbolic_math",
+            "unit_tests",
+            "json_schema",
+            "regex",
+            "exact_match",
+            "llm_judge_rubric",
+            "human_review",
+            "retrieval_evidence"
+          ]
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "sources": {
+      "type": "array"
+    },
+    "contamination_audit": {
+      "type": "object"
+    },
+    "quality_scores": {
+      "type": "object"
+    },
+    "training_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

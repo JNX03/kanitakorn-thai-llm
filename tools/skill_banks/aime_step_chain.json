@@ -1,0 +1,47 @@
+{
+  "skill_name": "aime_step_chain",
+  "base_family": "aime_th",
+  "verifier_module": "judges.math_judge",
+  "verifier_function": "MathJudge.score_one",
+  "problems": [
+    {
+      "prompt_th": "ให้ x + y = 10 และ xy = 21 จงหา x³ + y³",
+      "answer": "370",
+      "hint_chain": [
+        "ใช้สูตร x³+y³ = (x+y)³ - 3xy(x+y)",
+        "แทน x+y=10 และ xy=21 ตรงๆ"
+      ]
+    },
+    {
+      "prompt_th": "จำนวนเต็มบวก n ที่ n² ≤ 100 มีกี่จำนวน",
+      "answer": "10",
+      "hint_chain": [
+        "n² ≤ 100 หมายถึง n ≤ 10",
+        "n เป็นจำนวนเต็มบวก จึงมี n = 1, 2, ..., 10"
+      ]
+    },
+    {
+      "prompt_th": "ในรูปสามเหลี่ยมมุมฉาก ABC โดย ∠C = 90° ถ้า AC = 3, BC = 4 จงหา AB",
+      "answer": "5",
+      "hint_chain": [
+        "ใช้พีทาโกรัส: AB² = AC² + BC²",
+        "AB² = 9 + 16 = 25 → AB = 5"
+      ]
+    },
+    {
+      "prompt_th": "จงหาผลรวมของรากของสมการ x² - 7x + 12 = 0",
+      "answer": "7",
+      "hint_chain": [
+        "ใช้สูตรเวียตา: ผลรวมของรากคือ -b/a",
+        "ที่นี่ a=1, b=-7 จึงได้ 7"
+      ]
+    },
+    {
+      "prompt_th": "จงหา GCD ของ 48 กับ 60",
+      "answer": "12",
+      "hint_chain": [
+        "ใช้ Euclidean: gcd(60,48) = gcd(48,12) = gcd(12,0) = 12"
+      ]
+    }
+  ]
+}
