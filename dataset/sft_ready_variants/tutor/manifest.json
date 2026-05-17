@@ -1,0 +1,63 @@
+{
+  "variant": "tutor",
+  "description": "Heavy weight on Thai exam-prep + teacher-loop. For 'help students with exams' mission.",
+  "strategy": "tutor_weighted",
+  "fact_audit_excluded": [
+    "hotpotqa-agentic-th-seed-0006",
+    "hotpotqa-agentic-th-seed-0028"
+  ],
+  "train_counts": {
+    "aime_th": 1166,
+    "hotpotqa_agentic": 62,
+    "ifeval_ifbench": 625,
+    "livecodebench_th": 626,
+    "math500_th": 627,
+    "mt_bench": 86,
+    "openthaieval": 668,
+    "teacher_loop_th": 122
+  },
+  "weights": {
+    "aime_th": 0.138013,
+    "hotpotqa_agentic": 0.039781,
+    "ifeval_ifbench": 0.189457,
+    "livecodebench_th": 0.063203,
+    "math500_th": 0.126507,
+    "mt_bench": 0.070278,
+    "openthaieval": 0.261155,
+    "teacher_loop_th": 0.111607
+  },
+  "sft_files": {
+    "aime_th": {
+      "train": "sft_ready_variants/tutor/aime_th_train.jsonl",
+      "validation": "sft_ready_variants/tutor/aime_th_validation.jsonl"
+    },
+    "hotpotqa_agentic": {
+      "train": "sft_ready_variants/tutor/hotpotqa_agentic_train.jsonl",
+      "validation": "sft_ready_variants/tutor/hotpotqa_agentic_validation.jsonl"
+    },
+    "ifeval_ifbench": {
+      "train": "sft_ready_variants/tutor/ifeval_ifbench_train.jsonl",
+      "validation": "sft_ready_variants/tutor/ifeval_ifbench_validation.jsonl"
+    },
+    "livecodebench_th": {
+      "train": "sft_ready_variants/tutor/livecodebench_th_train.jsonl",
+      "validation": "sft_ready_variants/tutor/livecodebench_th_validation.jsonl"
+    },
+    "math500_th": {
+      "train": "sft_ready_variants/tutor/math500_th_train.jsonl",
+      "validation": "sft_ready_variants/tutor/math500_th_validation.jsonl"
+    },
+    "mt_bench": {
+      "train": "sft_ready_variants/tutor/mt_bench_train.jsonl",
+      "validation": "sft_ready_variants/tutor/mt_bench_validation.jsonl"
+    },
+    "openthaieval": {
+      "train": "sft_ready_variants/tutor/openthaieval_train.jsonl",
+      "validation": "sft_ready_variants/tutor/openthaieval_validation.jsonl"
+    },
+    "teacher_loop_th": {
+      "train": "sft_ready_variants/tutor/teacher_loop_th_train.jsonl",
+      "validation": "sft_ready_variants/tutor/teacher_loop_th_validation.jsonl"
+    }
+  }
+}
