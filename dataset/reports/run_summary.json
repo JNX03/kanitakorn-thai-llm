@@ -635,8 +635,8 @@
   "new_validation_shard_211": 0,
   "distribution": {
     "split": {
-      "train": 4240,
-      "validation": 18
+      "train": 4234,
+      "validation": 24
     },
     "family": {
       "aime_th": 1296,

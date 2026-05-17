@@ -4,7 +4,8 @@
   "strategy": "tutor_weighted",
   "fact_audit_excluded": [
     "hotpotqa-agentic-th-seed-0006",
-    "hotpotqa-agentic-th-seed-0028"
+    "hotpotqa-agentic-th-seed-0028",
+    "thai-exam-seed-0032"
   ],
   "train_counts": {
     "aime_th": 1166,
@@ -13,18 +14,18 @@
     "livecodebench_th": 626,
     "math500_th": 627,
     "mt_bench": 86,
-    "openthaieval": 668,
-    "teacher_loop_th": 122
+    "openthaieval": 662,
+    "teacher_loop_th": 381
   },
   "weights": {
-    "aime_th": 0.138013,
-    "hotpotqa_agentic": 0.039781,
-    "ifeval_ifbench": 0.189457,
-    "livecodebench_th": 0.063203,
-    "math500_th": 0.126507,
-    "mt_bench": 0.070278,
-    "openthaieval": 0.261155,
-    "teacher_loop_th": 0.111607
+    "aime_th": 0.127265,
+    "hotpotqa_agentic": 0.036683,
+    "ifeval_ifbench": 0.174704,
+    "livecodebench_th": 0.058281,
+    "math500_th": 0.116655,
+    "mt_bench": 0.064805,
+    "openthaieval": 0.239734,
+    "teacher_loop_th": 0.181871
   },
   "sft_files": {
     "aime_th": {

@@ -1,20 +1,20 @@
 {
   "conservative": {
     "variant": "conservative",
-    "total_kept": 4218,
+    "total_kept": 4217,
     "by_family": {
       "aime_th": 1296,
       "ifeval_ifbench": 696,
       "livecodebench_th": 696,
       "math500_th": 697,
       "mt_bench": 96,
-      "openthaieval": 737
+      "openthaieval": 736
     },
     "weights_sum": 1.000002
   },
   "tutor": {
     "variant": "tutor",
-    "total_kept": 4414,
+    "total_kept": 4684,
     "by_family": {
       "aime_th": 1296,
       "hotpotqa_agentic": 69,
@@ -22,14 +22,14 @@
       "livecodebench_th": 696,
       "math500_th": 697,
       "mt_bench": 96,
-      "openthaieval": 737,
-      "teacher_loop_th": 127
+      "openthaieval": 736,
+      "teacher_loop_th": 398
     },
-    "weights_sum": 1.000001
+    "weights_sum": 0.999998
   },
   "aggressive": {
     "variant": "aggressive",
-    "total_kept": 4414,
+    "total_kept": 4684,
     "by_family": {
       "aime_th": 1296,
       "hotpotqa_agentic": 69,
@@ -37,9 +37,9 @@
       "livecodebench_th": 696,
       "math500_th": 697,
       "mt_bench": 96,
-      "openthaieval": 737,
-      "teacher_loop_th": 127
+      "openthaieval": 736,
+      "teacher_loop_th": 398
     },
-    "weights_sum": 1.0
+    "weights_sum": 1.000001
   }
 }

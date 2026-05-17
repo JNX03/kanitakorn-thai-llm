@@ -429,16 +429,21 @@ def main() -> int:
                     _sp.run(["attrib", "-R", str(p)], check=False, capture_output=True)
                     p.unlink()
     # Also unlock any pre-existing train_teacher_loop_th_*.jsonl > 000 (rebalance may have created shards).
+    # Skip files that are locked by another process (e.g., still being written to);
+    # the rebalance step dedupes by id so duplicates aren't a problem.
     train_dir = ROOT / "dataset" / "train"
     for p in train_dir.glob("train_teacher_loop_th_*.jsonl"):
         if p.name == out_path.name:
             continue
         try:
             p.unlink()
-        except PermissionError:
+        except (PermissionError, OSError) as _e:
             if sys.platform == "win32":
                 _sp.run(["attrib", "-R", str(p)], check=False, capture_output=True)
-                p.unlink()
+                try:
+                    p.unlink()
+                except (PermissionError, OSError):
+                    pass  # leave it; rebalance dedupe handles it
 
     validator = Draft202012Validator(SCHEMA)
     accepted = 0

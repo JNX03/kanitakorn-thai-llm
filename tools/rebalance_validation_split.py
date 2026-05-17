@@ -120,8 +120,10 @@ def regroup_and_write(items: list[dict], dry_run: bool = False) -> dict:
 
     # Delete every existing train_/val_ jsonl, then rewrite from scratch.
     # Handle Windows read-only attribute (set by lock_state.py).
+    # Tolerate locked files — they'll be overwritten by writes below if dedupe collapses them.
     import subprocess as _sp
     import sys as _sys
+    locked_paths: list[Path] = []
     for d in (DATASET / "train", DATASET / "validation"):
         d.mkdir(parents=True, exist_ok=True)
         for p in d.glob("*.jsonl"):
@@ -130,9 +132,14 @@ def regroup_and_write(items: list[dict], dry_run: bool = False) -> dict:
             except PermissionError:
                 if _sys.platform == "win32":
                     _sp.run(["attrib", "-R", str(p)], check=False, capture_output=True)
-                    p.unlink()
+                    try:
+                        p.unlink()
+                    except (PermissionError, OSError):
+                        locked_paths.append(p)
                 else:
                     raise
+    if locked_paths:
+        print(f"warn: {len(locked_paths)} files locked by another process; they'll be overwritten where dedupe places them")
 
     for (split, family, shard), recs in grouped.items():
         folder = DATASET / ("train" if split == "train" else "validation")

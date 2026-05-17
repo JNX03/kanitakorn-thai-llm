@@ -2,15 +2,15 @@
 
 Accepted total: 4258
 
-Train: 4240
-Validation: 18
+Train: 4234
+Validation: 24
 
 ## By split
 
 | Value | Count |
 |---|---:|
-| train | 4240 |
-| validation | 18 |
+| train | 4234 |
+| validation | 24 |
 
 ## By family
 

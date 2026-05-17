@@ -4,7 +4,8 @@
   "strategy": "uniform",
   "fact_audit_excluded": [
     "hotpotqa-agentic-th-seed-0006",
-    "hotpotqa-agentic-th-seed-0028"
+    "hotpotqa-agentic-th-seed-0028",
+    "thai-exam-seed-0032"
   ],
   "train_counts": {
     "aime_th": 1166,
@@ -12,7 +13,7 @@
     "livecodebench_th": 626,
     "math500_th": 627,
     "mt_bench": 86,
-    "openthaieval": 668
+    "openthaieval": 662
   },
   "weights": {
     "aime_th": 0.166667,

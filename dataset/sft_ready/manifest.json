@@ -1,24 +1,24 @@
 {
   "strategy": "sqrt",
   "train_counts": {
-    "aime_th": 1161,
-    "hotpotqa_agentic": 25,
-    "ifeval_ifbench": 619,
-    "livecodebench_th": 619,
-    "math500_th": 620,
-    "mt_bench": 79,
-    "openthaieval": 618,
-    "teacher_loop_th": 5
+    "aime_th": 1166,
+    "hotpotqa_agentic": 64,
+    "ifeval_ifbench": 625,
+    "livecodebench_th": 626,
+    "math500_th": 627,
+    "mt_bench": 86,
+    "openthaieval": 663,
+    "teacher_loop_th": 410
   },
   "weights": {
-    "aime_th": 0.227586,
-    "hotpotqa_agentic": 0.033396,
-    "ifeval_ifbench": 0.166179,
-    "livecodebench_th": 0.166179,
-    "math500_th": 0.166313,
-    "mt_bench": 0.059367,
-    "openthaieval": 0.166044,
-    "teacher_loop_th": 0.014935
+    "aime_th": 0.197978,
+    "hotpotqa_agentic": 0.046383,
+    "ifeval_ifbench": 0.144946,
+    "livecodebench_th": 0.145062,
+    "math500_th": 0.145178,
+    "mt_bench": 0.053767,
+    "openthaieval": 0.149288,
+    "teacher_loop_th": 0.117398
   },
   "sft_files": {
     "aime_th": {
@@ -51,7 +51,7 @@
     },
     "teacher_loop_th": {
       "train": "sft_ready/teacher_loop_th_train.jsonl",
-      "validation": null
+      "validation": "sft_ready/teacher_loop_th_validation.jsonl"
     }
   }
 }
