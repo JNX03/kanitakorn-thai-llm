@@ -76,9 +76,14 @@ if [ ! -f "$STATE_DIR/train_done" ]; then
     export SFT_PROJECT=/root/kanitakorn
     export SFT_MANIFEST=/root/kanitakorn/dataset/sft_ready_r1d14b/manifest.json
 
-    NGPU=$(nvidia-smi -L | wc -l)
+    # Use CUDA_VISIBLE_DEVICES count if set, else all GPUs
+    if [ -n "$CUDA_VISIBLE_DEVICES" ]; then
+        NGPU=$(echo "$CUDA_VISIBLE_DEVICES" | tr ',' '\n' | wc -l)
+    else
+        NGPU=$(nvidia-smi -L | wc -l)
+    fi
     while [ ! -f "$STATE_DIR/train_done" ]; do
-        echo "=== [$(date)] training attempt (ngpu=$NGPU) ==="
+        echo "=== [$(date)] training attempt (ngpu=$NGPU CUDA_VISIBLE=$CUDA_VISIBLE_DEVICES) ==="
         if [ $NGPU -ge 2 ]; then
             torchrun --nproc_per_node=$NGPU --master_port=29501 train_2xa100_interruptible.py 2>&1 | tee -a /root/kanitakorn/train.log
         else
