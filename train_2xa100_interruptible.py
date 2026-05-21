@@ -91,7 +91,9 @@ for fam in files:
     log(f"[data]   {fam}: {len(d)} (weight={weights[fam]:.3f})")
 
 # Weighted sampling — upsample/downsample each family to match weight target.
-TARGET_THAI = sum(len(d) for d in family_datasets.values()) * int(EPOCHS)
+# SFT_THAI_TOTAL: cap on Thai records (default = sum of families × epochs)
+default_target = sum(len(d) for d in family_datasets.values()) * max(int(EPOCHS), 1)
+TARGET_THAI = int(os.environ.get("SFT_THAI_TOTAL", str(default_target)))
 sampled = []
 rng = random.Random(SEED)
 for fam, d in family_datasets.items():
@@ -219,7 +221,7 @@ cfg = SFTConfig(
     num_train_epochs=EPOCHS,
     per_device_train_batch_size=int(os.environ.get("SFT_BS", "4")),
     gradient_accumulation_steps=int(os.environ.get("SFT_GA", "2")),
-    learning_rate=1e-5,
+    learning_rate=float(os.environ.get("SFT_LR", "1e-5")),
     warmup_ratio=0.03,
     lr_scheduler_type="cosine",
     logging_steps=20,

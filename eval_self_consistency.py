@@ -20,9 +20,30 @@ from datasets import load_dataset
 
 # ---- Answer extractors ----------------------------------------------------
 def extract_boxed(text: str):
-    """Extract \\boxed{...} content. Returns last boxed value or None."""
-    matches = re.findall(r"\\boxed\{([^{}]+)\}", text)
-    return matches[-1].strip() if matches else None
+    """Extract \\boxed{...} content with proper balanced-brace matching.
+    Handles nested LaTeX like \\boxed{\\frac{1}{2}} or \\boxed{\\left(3,\\frac{\\pi}{2}\\right)}.
+    Returns last boxed value or None."""
+    results = []
+    i = 0
+    while True:
+        start = text.find("\\boxed{", i)
+        if start < 0: break
+        # Find matching close brace
+        depth = 0
+        j = start + len("\\boxed")  # position of {
+        content_start = j + 1
+        while j < len(text):
+            if text[j] == '{': depth += 1
+            elif text[j] == '}':
+                depth -= 1
+                if depth == 0:
+                    results.append(text[content_start:j].strip())
+                    i = j + 1
+                    break
+            j += 1
+        else:
+            break
+    return results[-1] if results else None
 
 def extract_after_marker(text: str, markers=("คำตอบคือ", "Answer:", "ANS:", "final answer is")):
     for m in markers:
@@ -43,10 +64,16 @@ def extract_mcq_letter(text: str):
 def normalize_answer(s):
     if s is None: return None
     s = str(s).strip().lower()
-    # Strip $, latex, trailing periods
-    s = s.replace("$", "").replace("\\\\", "").rstrip(".")
-    # Normalize fractions: "1/2" stays "1/2"
-    return s
+    # Strip whitespace, $, latex artifacts, trailing periods/quotes
+    s = s.replace("$", "").rstrip(".\"'")
+    # Strip outer braces/parens
+    while len(s) > 1 and ((s[0]=='{' and s[-1]=='}') or (s[0]=='(' and s[-1]==')')):
+        s = s[1:-1].strip()
+    # Common latex spacing
+    s = s.replace("\\ ", " ").replace("\\,", "").replace("\\!", "")
+    # Remove all whitespace for compact compare
+    s_compact = re.sub(r"\s+", "", s)
+    return s_compact
 
 def extract(text: str, kind: str):
     """kind in {math, mcq, integer}"""
@@ -57,8 +84,24 @@ def extract(text: str, kind: str):
 
 # ---- Benchmarks -----------------------------------------------------------
 def load_aime24():
-    ds = load_dataset("math-ai/aime24", split="test")
-    return [(r["problem"], str(r["answer"]).strip(), "integer") for r in ds]
+    """math-ai/aime24 — schema can vary. Try multiple field names."""
+    try:
+        ds = load_dataset("math-ai/aime24", split="test")
+    except Exception:
+        ds = load_dataset("math-ai/aime24", split="train")
+    out = []
+    for r in ds:
+        problem = r.get("problem") or r.get("Problem") or r.get("question") or ""
+        ans = r.get("answer") or r.get("Answer") or r.get("solution_number") or r.get("Final Answer")
+        if ans is None and "solution" in r:
+            # try extract from solution
+            sol = r["solution"]
+            import re
+            m = re.search(r"\\boxed\{(\d+)\}", sol)
+            if m: ans = m.group(1)
+        if problem and ans is not None:
+            out.append((problem, str(ans).strip(), "integer"))
+    return out
 
 def load_math500():
     ds = load_dataset("HuggingFaceH4/MATH-500", split="test")

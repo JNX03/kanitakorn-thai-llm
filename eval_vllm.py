@@ -73,6 +73,7 @@ def run(args):
         records.append({
             "idx": i, "gold": gold_n, "pred": pred,
             "votes": dict(votes), "n_samples": len(samples),
+            "samples": samples[:2],  # save first 2 samples for debugging
             "correct": ok,
         })
 
