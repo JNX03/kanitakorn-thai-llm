@@ -158,33 +158,47 @@ def run(args):
     if args.limit: items = items[:args.limit]
     print(f"[eval] {args.benchmark}: {len(items)} items, n={args.n} samples each")
 
+    # Batch across records for speed
+    batch_size = max(1, int(os.environ.get("EVAL_BATCH", "4")))
     results = []
     correct = 0
-    for i, (prompt, gold, kind) in enumerate(items):
-        msgs = [{"role":"user","content": prompt + "\n\nThink step by step. End with \\boxed{answer} or 'คำตอบคือ X'."}]
-        text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
-        enc = tok([text]*args.n, return_tensors="pt", truncation=True, max_length=1500, padding=True).to(model.device)
+    if tok.padding_side != "left": tok.padding_side = "left"  # generate needs left-pad
 
+    for batch_start in range(0, len(items), batch_size):
+        batch = items[batch_start:batch_start + batch_size]
+        # Build n_samples * batch_size sequences
+        all_texts = []
+        for prompt, gold, kind in batch:
+            msgs = [{"role":"user","content": prompt + "\n\nThink step by step. End with \\boxed{answer} or 'คำตอบคือ X'."}]
+            text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
+            all_texts.extend([text] * args.n)
+
+        enc = tok(all_texts, return_tensors="pt", truncation=True, max_length=2048, padding=True).to(model.device)
         with torch.no_grad():
             outputs = model.generate(
                 **enc, max_new_tokens=8192,
-                do_sample=True, temperature=0.7, top_p=0.95,
+                do_sample=(args.n > 1), temperature=0.7 if args.n>1 else 1.0, top_p=0.95,
                 pad_token_id=tok.pad_token_id,
             )
-        decoded = tok.batch_decode(outputs[:, enc.input_ids.shape[1]:], skip_special_tokens=True)
-        extracted = [extract(d, kind) for d in decoded]
-        votes = collections.Counter(e for e in extracted if e is not None)
-        pred = votes.most_common(1)[0][0] if votes else None
-        gold_norm = normalize_answer(gold)
-        is_correct = (pred == gold_norm)
-        correct += int(is_correct)
-        results.append({
-            "idx": i, "gold": gold_norm, "pred": pred,
-            "votes": dict(votes), "samples": decoded,
-            "correct": is_correct,
-        })
-        if (i+1) % 10 == 0:
-            print(f"  [{i+1}/{len(items)}] running acc = {correct/(i+1):.3f}")
+        decoded_all = tok.batch_decode(outputs[:, enc.input_ids.shape[1]:], skip_special_tokens=True)
+
+        # Split into per-record n samples
+        for j, (prompt, gold, kind) in enumerate(batch):
+            decoded = decoded_all[j*args.n : (j+1)*args.n]
+            extracted = [extract(d, kind) for d in decoded]
+            votes = collections.Counter(e for e in extracted if e is not None)
+            pred = votes.most_common(1)[0][0] if votes else None
+            gold_norm = normalize_answer(gold)
+            is_correct = (pred == gold_norm)
+            correct += int(is_correct)
+            i = batch_start + j
+            results.append({
+                "idx": i, "gold": gold_norm, "pred": pred,
+                "votes": dict(votes), "samples": decoded,
+                "correct": is_correct,
+            })
+        done = batch_start + len(batch)
+        print(f"  [{done}/{len(items)}] running acc = {correct/done:.3f}")
 
     acc = correct / len(items)
     print(f"\n[final] {args.benchmark} self-consistency (n={args.n}): {acc:.4f}")

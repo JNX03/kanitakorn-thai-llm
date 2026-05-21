@@ -136,12 +136,12 @@ if MIX_EN:
         log(f"[data]   added {n} records")
 
     sources = [
-        ("meta-math/MetaMathQA", "main", "train",
+        ("meta-math/MetaMathQA", "default", "train",
          lambda r: [{"role":"user","content": r["query"]},
                     {"role":"assistant","content": r["response"]}]),
-        ("OpenCoder-LLM/opc-sft-stage1", "evol_instruct", "train",
-         lambda r: [{"role":"user","content": r["instruction"]},
-                    {"role":"assistant","content": r["output"]}]),
+        ("OpenCoder-LLM/opc-sft-stage1", "filtered_infinity_instruct", "train",
+         lambda r: [{"role":"user","content": r.get("instruction") or r.get("input","")},
+                    {"role":"assistant","content": r.get("output","")}]),
         ("teknium/OpenHermes-2.5", None, "train",
          lambda r: r.get("conversations") and [
              {"role":"user" if t["from"] in ("human","user") else "assistant",
@@ -225,7 +225,6 @@ cfg = SFTConfig(
     logging_steps=20,
     save_steps=200,                   # checkpoint every 200 steps (~20 min) for preemption recovery
     save_total_limit=3,
-    save_safetensors=True,
     bf16=True,
     gradient_checkpointing=True,
     gradient_checkpointing_kwargs={"use_reentrant": False},
