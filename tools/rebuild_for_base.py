@@ -74,7 +74,15 @@ def main():
         distill_pat = Path("dataset/train") / "train_distill_r1_*.jsonl"
         for fp in sorted(glob.glob(str(distill_pat))):
             fp = Path(fp)
-            family = "aime_th" if "aime" in fp.name else "math500_th"
+            name = fp.name.lower()
+            if "aime" in name: family = "aime_th"
+            elif "math500" in name or "math" in name: family = "math500_th"
+            elif "openthaieval" in name or "openthai" in name: family = "openthaieval"
+            elif "livecodebench" in name or "lcb" in name: family = "livecodebench_th"
+            elif "ifeval" in name: family = "ifeval_ifbench"
+            elif "mt_bench" in name or "mtbench" in name: family = "mt_bench"
+            elif "hotpot" in name: family = "hotpotqa_agentic"
+            else: family = "math500_th"  # default fallback
             out_fp = out_dir / f"{family}_train.jsonl"
             cnt = 0
             with out_fp.open("a", encoding="utf-8") as out_fh:

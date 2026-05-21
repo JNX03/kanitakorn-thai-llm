@@ -65,14 +65,30 @@ def load_math500():
     return [(r["problem"], normalize_answer(extract_boxed(r["solution"]) or str(r.get("answer",""))), "math") for r in ds]
 
 def load_thaiexam():
-    ds = load_dataset("scb10x/thai_exam", split="test")
+    """scb10x/thai_exam has 5 configs: onet, ic, tgat, tpat1, a_level. Combine all."""
+    configs = ["onet", "ic", "tgat", "tpat1", "a_level"]
     out = []
-    for r in ds:
-        q = r["question"]
-        choices = [r.get(f"choice_{i}") for i in "abcde" if r.get(f"choice_{i}")]
-        prompt = q + "\n\nตัวเลือก:\n" + "\n".join(f"({chr(97+i)}) {c}" for i,c in enumerate(choices))
-        gold = r["answer"].strip().lower()
-        out.append((prompt, gold, "mcq"))
+    for cfg in configs:
+        try:
+            ds = load_dataset("scb10x/thai_exam", cfg, split="test")
+        except Exception as e:
+            print(f"[thaiexam] skip {cfg}: {e}")
+            continue
+        for r in ds:
+            q = r.get("question") or r.get("instruction") or ""
+            # try multiple choice field naming schemes
+            choices = []
+            for i in "abcdeABCDE":
+                v = r.get(f"choice_{i.lower()}") or r.get(f"option_{i.lower()}") or r.get(i.lower())
+                if v: choices.append(v)
+            if not choices:
+                # Some configs have choices as list
+                choices = r.get("choices") or r.get("options") or []
+            if not q or not choices: continue
+            prompt = q + "\n\nตัวเลือก:\n" + "\n".join(f"({chr(97+i)}) {c}" for i,c in enumerate(choices))
+            gold = str(r.get("answer") or r.get("label") or "").strip().lower()
+            if gold.isdigit(): gold = chr(96 + int(gold))  # 1→a, 2→b
+            out.append((prompt, gold, "mcq"))
     return out
 
 def load_openthaieval():
