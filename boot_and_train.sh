@@ -67,14 +67,14 @@ fi
 # Step 5: full Stage B SFT training
 if [ ! -f "$STATE_DIR/train_done" ]; then
     echo "=== [$(date)] STEP 5: Stage B SFT training ==="
-    export SFT_BASE=deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
-    export SFT_OUT=/root/kanitakorn/runs/stage1_v1
-    export SFT_EPOCHS=2
-    export SFT_LORA_R=16
-    export SFT_MIX_EN=1
-    export SFT_QLORA=1
-    export SFT_PROJECT=/root/kanitakorn
-    export SFT_MANIFEST=/root/kanitakorn/dataset/sft_ready_r1d14b/manifest.json
+    export SFT_BASE="${SFT_BASE:-deepseek-ai/DeepSeek-R1-Distill-Qwen-14B}"
+    export SFT_OUT="${SFT_OUT:-/root/kanitakorn/runs/stage1_v1}"
+    export SFT_EPOCHS="${SFT_EPOCHS:-2}"
+    export SFT_LORA_R="${SFT_LORA_R:-16}"
+    export SFT_MIX_EN="${SFT_MIX_EN:-1}"
+    export SFT_QLORA="${SFT_QLORA:-1}"
+    export SFT_PROJECT="${SFT_PROJECT:-/root/kanitakorn}"
+    export SFT_MANIFEST="${SFT_MANIFEST:-/root/kanitakorn/dataset/sft_ready_r1d14b/manifest.json}"
 
     # Use CUDA_VISIBLE_DEVICES count if set, else all GPUs
     if [ -n "$CUDA_VISIBLE_DEVICES" ]; then
