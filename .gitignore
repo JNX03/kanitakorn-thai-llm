@@ -34,3 +34,12 @@ checkpoints/
 
 # 4. HF cache (if user accidentally puts it here)
 .cache/
+.env.secrets
+_state/
+# Old runscripts with embedded secrets (kept local, do not commit)
+RUN_24H_PLAN.md
+fire_24h_when_ready.sh
+FIRE_ON_SSH.sh
+post_r6_pipeline.sh
+train_round9.sh
+train_simpo_r7.sh

@@ -1,0 +1,200 @@
+{"id": "math500-th-train-0001", "question": "จงแก้สมการ |2x-5|+|x+1|=10 และตอบเป็นเซตของคำตอบจริงทั้งหมด", "answer": null, "language": "th", "source": "train_math500_th_000.jsonl"}
+{"id": "math500-th-train-0002", "question": "กล่องใบหนึ่งมีลูกบอลสีแดง 3 ลูก สีน้ำเงิน 4 ลูก และสีเขียว 5 ลูก สุ่มหยิบลูกบอล 2 ลูกโดยไม่ใส่คืน จงหาความน่าจะเป็นที่ลูกบอลสองลูกมีสีต่างกัน", "answer": null, "language": "th", "source": "train_math500_th_000.jsonl"}
+{"id": "math500-th-val-0001", "question": "สี่เหลี่ยมผืนผ้ารูปหนึ่งมีด้านสั้นยาว x หน่วย และด้านยาวยาว x+5 หน่วย ถ้าพื้นที่เท่ากับ 84 ตารางหน่วย จงหาความยาวเส้นทแยงมุม", "answer": null, "language": "th", "source": "train_math500_th_000.jsonl"}
+{"id": "math500-th-train-0003", "question": "จงแก้สมการ log_2(x-1)+log_2(x+3)=3", "answer": null, "language": "th", "source": "train_math500_th_001.jsonl"}
+{"id": "math500-th-train-0004", "question": "ลำดับเลขคณิตลำดับหนึ่งมีผลบวก 20 พจน์แรกเท่ากับ 430 และพจน์ที่ 20 เท่ากับ 40 จงหาพจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_001.jsonl"}
+{"id": "math500-th-train-0005", "question": "จงหาเศษเหลือเมื่อ 7^2026 ถูกหารด้วย 13", "answer": null, "language": "th", "source": "train_math500_th_001.jsonl"}
+{"id": "math500-th-val-0002", "question": "ถ้า sin θ + cos θ = sqrt(3)/2 จงหาค่า sin 2θ", "answer": null, "language": "th", "source": "train_math500_th_001.jsonl"}
+{"id": "math500-th-train-0006", "question": "หาค่าจริงทั้งหมดของ a ที่ทำให้ x^2-4x+a ≥ 0 สำหรับทุก x ในช่วง [1,5]", "answer": null, "language": "th", "source": "train_math500_th_002.jsonl"}
+{"id": "math500-th-train-0007", "question": "มีตัวอักษร A, A, B, C, D ต้องจัดเรียงเป็นแถวโดยห้ามให้ A สองตัวติดกัน จงหาจำนวนวิธีจัดเรียงที่ต่างกัน", "answer": null, "language": "th", "source": "train_math500_th_002.jsonl"}
+{"id": "math500-th-val-0003", "question": "ถ้า x+y=9 และ x^2+y^2=45 จงหาค่า xy", "answer": null, "language": "th", "source": "train_math500_th_002.jsonl"}
+{"id": "math500-th-train-0009", "question": "จงแก้สมการ |3x+2|=|x-6|+4 และตอบเป็นเซตของคำตอบจริงทั้งหมด", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0010", "question": "ลำดับเลขคณิตลำดับหนึ่งมีผลบวก 15 พจน์แรกเท่ากับ 360 และพจน์ที่ 15 เท่ากับ 38 จงหาพจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0011", "question": "จงแก้สมการ log_3(x+2)+log_3(x-4)=2", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0012", "question": "กล่องใบหนึ่งมีลูกบอลสีแดง 4 ลูก สีน้ำเงิน 5 ลูก และสีเขียว 6 ลูก สุ่มหยิบ 3 ลูกพร้อมกัน จงหาความน่าจะเป็นที่จะได้ครบทั้งสามสี", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0013", "question": "วงกลมวงหนึ่งมีเส้นผ่านศูนย์กลางที่มีปลายอยู่ที่จุด (2,1) และ (10,7) จงหาพื้นที่ของวงกลมหารด้วย pi", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0014", "question": "จงหาเศษเหลือเมื่อ 11^2027 ถูกหารด้วย 17", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0015", "question": "ให้ x+y=7 และ xy=10 จงหา x^2+y^2", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0016", "question": "สี่เหลี่ยมผืนผ้ามีเส้นทแยงมุมยาว 13 และเส้นรอบรูปยาว 34 จงหาพื้นที่ของสี่เหลี่ยมผืนผ้า", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0017", "question": "จงหาจำนวนสามอันดับ (x,y,z) ของจำนวนเต็มไม่ลบที่ x+y+z=12 และ x≤3", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0018", "question": "ถ้า sin(theta)+cos(theta)=sqrt(2) จงหา sin(2theta)", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0019", "question": "จงแก้สมการ (x-2)/(x+1)=3/5", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0020", "question": "จำนวนเต็มบวกสองจำนวนมี gcd เท่ากับ 6 และ lcm เท่ากับ 180 จงหาผลคูณของสองจำนวนนั้น", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0021", "question": "ให้ P(x)=x^2+ax+b โดย P(1)=5 และ P(3)=17 จงหา P(5)", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0022", "question": "จงหาจำนวนเต็ม x ทั้งหมดที่ทำให้ |x-3|≤5", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0023", "question": "ทอยลูกเต๋ามาตรฐาน 2 ลูก จงหาความน่าจะเป็นที่ผลรวมแต้มอย่างน้อย 10", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0024", "question": "สามเหลี่ยมสองรูปคล้ายกัน โดยอัตราส่วนด้านที่สมนัยกันของรูปเล็กต่อรูปใหญ่เท่ากับ 5:8 จงหาอัตราส่วนพื้นที่ของรูปเล็กต่อรูปใหญ่", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0025", "question": "จงแก้สมการ 2^{x+1}+2^x=24", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0026", "question": "จงหาจำนวนตัวหารบวกของ 756", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0027", "question": "เส้นตรงผ่านจุด (2,3) และ (8,15) จงหาจุดตัดแกน y ของเส้นตรงนี้", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0028", "question": "พหุนาม x^2-kx+24 มีรากบวกสองรากที่ต่างกัน 2 จงหา k", "answer": null, "language": "th", "source": "train_math500_th_004.jsonl"}
+{"id": "math500-th-train-0029", "question": "จำนวน 5 จำนวนมีค่าเฉลี่ย 18 ถ้าเพิ่มจำนวนอีกหนึ่งจำนวนแล้วค่าเฉลี่ยของทั้ง 6 จำนวนเป็น 20 จงหาจำนวนที่เพิ่มเข้ามา", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0030", "question": "ถ้า 2x+3y=17 และ x-y=1 จงหาค่า xy", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0031", "question": "สามเหลี่ยมรูปหนึ่งมีความยาวด้านเป็น 13, 14 และ 15 หน่วย จงหาพื้นที่ของสามเหลี่ยมนี้", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0033", "question": "ถุงหนึ่งมีลูกแก้วสีแดง 4 ลูก และสีน้ำเงิน 5 ลูก สุ่มหยิบลูกแก้ว 2 ลูกโดยไม่คืนกลับ ความน่าจะเป็นที่ได้ลูกแก้วสีเดียวกันคือ a/b ในรูปอย่างต่ำ จงหา a+b", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0034", "question": "ให้ r และ s เป็นรากของสมการ x^2-6x+2=0 จงหาค่า r^2+s^2", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0035", "question": "ถ้า θ เป็นมุมแหลมและ tan θ = 3/4 จงหาค่า 25(sin θ + cos θ)", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0036", "question": "สร้างสตริงความยาว 3 จากตัวอักษร A, B, C, D โดยต้องใช้ตัวอักษรต่างกัน exactly 2 ชนิด จงหาจำนวนสตริงที่เป็นไปได้", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0037", "question": "เส้นตรงผ่านจุด (1,2) และ (5,10) ถ้าจุดหนึ่งบนเส้นตรงนี้มีพิกัด y=26 จงหาพิกัด x ของจุดนั้น", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0038", "question": "จงแก้สมการ log_2 x + log_2(x-2)=3", "answer": null, "language": "th", "source": "train_math500_th_005.jsonl"}
+{"id": "math500-th-train-0039", "question": "ถังน้ำใบหนึ่งมีน้ำอยู่ 3/5 ของความจุ เมื่อเติมน้ำอีก 18 ลิตร น้ำจะเป็น 4/5 ของความจุ จงหาความจุของถังนี้เป็นลิตร", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0040", "question": "ถ้า x และ y เป็นจำนวนจริงที่ทำให้ 3x+2y=34 และ x-y=3 จงหาค่า xy", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0041", "question": "สี่เหลี่ยมผืนผ้ารูปหนึ่งมีเส้นทแยงมุมยาว 13 และมีเส้นรอบรูป 34 จงหาพื้นที่ของสี่เหลี่ยมผืนผ้านี้", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0042", "question": "จงหาจำนวนตัวหารบวกทั้งหมดของ 720", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0043", "question": "ในกล่องมีลูกบอลสีแดง 4 ลูกและสีน้ำเงิน 5 ลูก หยิบลูกบอล 2 ลูกพร้อมกัน ถ้าความน่าจะเป็นที่จะได้ลูกบอลสีเดียวกันเขียนเป็นเศษส่วนอย่างต่ำ a/b จงหา a+b", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0044", "question": "ถ้า x เป็นจำนวนจริงไม่เป็นศูนย์และ x+1/x=5 จงหาค่า x^2+1/x^2", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0045", "question": "ให้ θ เป็นมุมแหลมและ sin θ = 3/5 จงหาค่า cos 2θ", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0046", "question": "จงหาระยะทางจากจุด (3,4) ไปยังเส้นตรง 3x-4y+10=0", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0047", "question": "ลำดับเลขคณิตลำดับหนึ่งมีพจน์ที่ 3 เท่ากับ 11 และพจน์ที่ 10 เท่ากับ 39 จงหาพจน์ที่ 20", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0048", "question": "จงหาสัมประสิทธิ์ของ x^3 ในการกระจาย (2x-1)^5", "answer": null, "language": "th", "source": "train_math500_th_006.jsonl"}
+{"id": "math500-th-train-0049", "question": "สินค้าชิ้นหนึ่งลดราคา 20% แล้วเหลือราคา 240 บาท จงหาราคาก่อนลด", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0050", "question": "ถ้า r และ s เป็นรากของสมการ x^2-7x+10=0 จงหาค่า r^2+s^2", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0051", "question": "สี่เหลี่ยมคางหมูรูปหนึ่งมีฐานคู่ขนานยาว 10 และ 16 และมีความสูง 7 จงหาพื้นที่", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0052", "question": "ถ้าจำนวนเต็มบวก a และ b มี gcd(a,b)=6 และ lcm(a,b)=180 จงหาค่า ab", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0053", "question": "จงหาจำนวนวิธีเรียงตัวอักษรทั้งหมดของคำว่า LEVEL", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0054", "question": "โยนเหรียญเที่ยงตรง 4 ครั้ง ถ้าความน่าจะเป็นที่จะออกหัวพอดี 3 ครั้งเป็นเศษส่วนอย่างต่ำ a/b จงหา a+b", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0055", "question": "จงแก้สมการ 3^{x+1}=81", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0057", "question": "จงหาผลบวกของคำตอบทั้งหมดของสมการ |2x-5|=7", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0058", "question": "ลำดับเรขาคณิตมีพจน์แรก 3 และอัตราส่วนร่วม 2 จงหาผลบวก 6 พจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_007.jsonl"}
+{"id": "math500-th-train-0059", "question": "จงแก้สมการ 4(x-3)=2x+10", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0060", "question": "สามเหลี่ยมสองรูปคล้ายกัน รูปเล็กมีด้านสองด้านยาว 6 และ 8 ส่วนด้านที่สอดคล้องกับด้านยาว 6 ในรูปใหญ่ยาว 9 จงหาความยาวของด้านในรูปใหญ่ที่สอดคล้องกับด้านยาว 8", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0062", "question": "มีหนังสือคณิตศาสตร์ 5 เล่มและหนังสือวิทยาศาสตร์ 4 เล่ม ถ้าต้องเลือกหนังสือคณิตศาสตร์ 1 เล่มและหนังสือวิทยาศาสตร์ 1 เล่ม จะเลือกได้กี่วิธี", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0063", "question": "ในถุงมีลูกบอลสีแดง 3 ลูก สีเขียว 2 ลูก และสีน้ำเงิน 1 ลูก หยิบลูกบอล 1 ลูกแบบสุ่ม ถ้าความน่าจะเป็นที่จะไม่ได้สีน้ำเงินเป็น a/b ในรูปอย่างต่ำ จงหา a+b", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0064", "question": "จุดกึ่งกลางของจุด (3,-1) และ (9,7) มีพิกัดเป็น (a,b) จงหา a+b", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0065", "question": "ถ้า 2^a=8 และ 3^b=81 จงหาค่า ab", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0066", "question": "จำนวน 5 จำนวนมีค่าเฉลี่ย 12 ถ้าค่าเฉลี่ยของ 4 จำนวนแรกเท่ากับ 10 จงหาจำนวนที่ห้า", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0067", "question": "กำหนด P(x)=x^2+3x+5 จงหาค่า P(2)", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0068", "question": "ถ้า x+y=12 และ x^2-y^2=48 จงหาค่า xy", "answer": null, "language": "th", "source": "train_math500_th_008.jsonl"}
+{"id": "math500-th-train-0070", "question": "วงกลมรัศมี 6 หน่วยมีเซกเตอร์ที่มุมศูนย์กลาง 120 องศา จงหาพื้นที่ของเซกเตอร์นั้นในรูปของ π", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0071", "question": "จงหาเลขโดดหลักหน่วยของ 3^2026", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0072", "question": "มีจำนวนเต็มบวกสามหลักกี่จำนวนที่เลขโดดจากซ้ายไปขวาเรียงเพิ่มขึ้นอย่างเคร่งครัด", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0073", "question": "ในถุงมีลูกบอลสีแดง 4 ลูกและสีน้ำเงิน 3 ลูก สุ่มหยิบพร้อมกัน 2 ลูก จงหาความน่าจะเป็นที่ได้ลูกบอลสีเดียวกัน", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0074", "question": "จำนวน 5 จำนวนมีค่าเฉลี่ย 18 เมื่อนำจำนวนหนึ่งออกไป ค่าเฉลี่ยของ 4 จำนวนที่เหลือเป็น 16 จงหาจำนวนที่ถูกนำออก", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0075", "question": "สมการกำลังสองมีรากจริงสองรากที่ผลบวกเป็น 10 และผลต่างของรากทั้งสองเป็น 4 จงหาผลคูณของรากทั้งสอง", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0076", "question": "สามเหลี่ยมสองรูปคล้ายกัน รูปเล็กมีเส้นรอบรูป 18 และพื้นที่ 45 ส่วนรูปใหญ่มีเส้นรอบรูป 30 จงหาพื้นที่ของรูปใหญ่", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0077", "question": "ถ้า θ เป็นมุมแหลมและ sin θ = 3/5 จงหา cos 2θ", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0078", "question": "ลำดับเลขคณิตมีพจน์ที่ 3 เท่ากับ 11 และพจน์ที่ 10 เท่ากับ 32 จงหาพจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_009.jsonl"}
+{"id": "math500-th-train-0079", "question": "กำหนดให้ 2x+3y=13 และ x-y=1 จงหา 5x", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0080", "question": "จงหาระยะห่างระหว่างจุด (-2,3) และ (4,11)", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0082", "question": "สุ่มเลือกจำนวนเต็มหนึ่งจำนวนจาก 1 ถึง 8 อย่างเท่าเทียมกัน จงหาความน่าจะเป็นที่ได้จำนวนกำลังสองสมบูรณ์", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0083", "question": "ถ้า f(x)=3x^2-2x+1 จงหา f(-2)", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0085", "question": "ถ้า 30% ของจำนวนหนึ่งเท่ากับ 45 จงหาจำนวนนั้น", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0086", "question": "สามเหลี่ยมรูปหนึ่งมีฐานยาว 14 หน่วยและสูง 9 หน่วย จงหาพื้นที่", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0087", "question": "มีหนังสือ 4 เล่มต่างกันคือ คณิต ไทย อังกฤษ วิทย์ ต้องเรียงบนชั้นโดยให้หนังสือคณิตกับไทยอยู่ติดกัน จงหาจำนวนวิธีเรียง", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0088", "question": "ถ้า θ เป็นมุมแหลมและ cos θ=5/13 จงหา tan θ", "answer": null, "language": "th", "source": "train_math500_th_010.jsonl"}
+{"id": "math500-th-train-0089", "question": "สินค้าราคาเดิม 1,500 บาท ลดราคา 20% แล้วจึงคิดภาษีมูลค่าเพิ่ม 7% จากราคาหลังลด ลูกค้าต้องจ่ายเงินกี่บาท", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0090", "question": "จงหาค่า x+y เมื่อ x และ y เป็นจำนวนจริงที่ทำให้ 3x+2y=31 และ x-y=3", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0092", "question": "จงหาจำนวนเต็มบวกที่น้อยที่สุด x ซึ่ง x หารด้วย 5 เหลือเศษ 2, หารด้วย 7 เหลือเศษ 3 และหารด้วย 9 เหลือเศษ 4", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0093", "question": "สร้างรหัส 4 หลักจากตัวเลข 0,1,2,3,4,5,6,7 โดยห้ามใช้ตัวเลขซ้ำ หลักแรกห้ามเป็น 0 และต้องมีเลขคี่พอดี 2 หลัก มีรหัสที่เป็นไปได้ทั้งหมดกี่รหัส", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0094", "question": "สมการ x^2-px+36=0 มีรากจริงบวกสองรากที่ต่างกัน 5 จงหาค่า p", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0095", "question": "ให้ θ เป็นมุมแหลมและ sin θ + cos θ = 7/5 จงหาค่า sin θ cos θ", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0096", "question": "จงแก้สมการ 2^{x+1}+2^{x-1}=20", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0098", "question": "ทอยลูกเต๋ามาตรฐานสองลูกพร้อมกัน จงหาความน่าจะเป็นที่ผลคูณของแต้มทั้งสองหารด้วย 3 ลงตัว และผลรวมของแต้มทั้งสองเป็นจำนวนคู่", "answer": null, "language": "th", "source": "train_math500_th_011.jsonl"}
+{"id": "math500-th-train-0099", "question": "สมุด 3 เล่มราคา 84 บาท และปากกา 5 ด้ามราคา 60 บาท ถ้าซื้อสมุด 2 เล่มกับปากกา 3 ด้าม ต้องจ่ายทั้งหมดกี่บาท", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0100", "question": "จงหาจำนวนเต็ม x ทั้งหมดที่ทำให้ 2(x-3)<5x+6≤3x+18", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0101", "question": "ในสามเหลี่ยม ABC มีจุด D อยู่บน AB และจุด E อยู่บน AC โดย DE ขนานกับ BC ถ้า AD/AB = 2/5 และ BC = 30 จงหาความยาว DE", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0102", "question": "จงหาจำนวนคู่ลำดับ (a,b) ของจำนวนเต็มบวกที่ gcd(a,b)=12 และ lcm(a,b)=180", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0103", "question": "มีบัตรตัวอักษร 5 ใบเขียนว่า ก, ก, ข, ข, ค ถ้านำมาจัดเรียงเป็นแถว จะได้ลำดับที่แตกต่างกันทั้งหมดกี่แบบ", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0104", "question": "กำหนด f(x)=2x-1 และ g(x)=x^2+3 จงหาค่า f(g(4))-g(f(2))", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0105", "question": "จงแก้สมการ 1/(x-1)+1/(x+1)=1 และตอบเป็นเซตของคำตอบจริงทั้งหมด", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0106", "question": "ทรงกระบอกมีรัศมีฐาน 3 หน่วยและสูง 10 หน่วย กรวยอีกอันมีรัศมีฐานและความสูงเท่ากัน จงหาว่าปริมาตรทรงกระบอกมากกว่าปริมาตรกรวยกี่หน่วยลูกบาศก์", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0107", "question": "หมุนแป้นที่มีเลข 1,2,3,4 ซึ่งมีโอกาสออกเท่ากัน และโยนเหรียญหนึ่งครั้ง จงหาความน่าจะเป็นที่ได้เลขคู่และเหรียญออกหัว หรือได้เลข 1", "answer": null, "language": "th", "source": "train_math500_th_012.jsonl"}
+{"id": "math500-th-train-0110", "question": "จงหาจำนวนเต็ม x ที่ทำให้ |2x-3| ≤ 9", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0111", "question": "สี่เหลี่ยมคางหมูมีด้านคู่ขนานยาว 8 และ 14 หน่วย และมีความสูง 5 หน่วย จงหาพื้นที่", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0112", "question": "จงหาหลักหน่วยของ 7^2027", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0113", "question": "กล่องหนึ่งมีบัตรสีแดง 5 ใบและสีน้ำเงิน 7 ใบ สุ่มหยิบบัตร 2 ใบโดยไม่ใส่คืน จงหาความน่าจะเป็นที่ได้บัตรคนละสี", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0114", "question": "จงแก้สมการ log_3(x)+log_3(x-2)=2", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0115", "question": "ถ้า r และ s เป็นรากของสมการ x^2-8x+10=0 จงหาค่า r^2+s^2", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0116", "question": "บันไดยาว 17 เมตรพาดกำแพง โดยโคนบันไดห่างจากกำแพง 8 เมตร จงหาความสูงจากพื้นถึงจุดที่บันไดแตะกำแพง", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0117", "question": "จากจุด (0,0) ต้องเดินไปยังจุด (4,3) โดยแต่ละก้าวเดินได้เฉพาะไปทางขวา 1 หน่วยหรือขึ้น 1 หน่วย จะมีเส้นทางทั้งหมดกี่เส้นทาง", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0118", "question": "ฟังก์ชันเชิงเส้น f มีสมบัติ f(2)=7 และ f(6)=19 จงหา f(10)", "answer": null, "language": "th", "source": "train_math500_th_013.jsonl"}
+{"id": "math500-th-train-0119", "question": "ราคาสินค้าชิ้นหนึ่งเพิ่มขึ้น 20% แล้วต่อมาลดลง 15% หลังจากการเปลี่ยนแปลงทั้งสองครั้ง ราคาสุดท้ายเป็น 1020 บาท จงหาราคาเดิมก่อนเพิ่มราคา", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0120", "question": "ถ้า 2x+3y=19 และ x-y=2 จงหาค่า x^2+y^2", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0121", "question": "วงกลมรัศมี 6 มีภาควงกลมที่มุมที่จุดศูนย์กลาง 120 องศา จงหาพื้นที่ของภาควงกลมนี้", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0122", "question": "จงหาจำนวนเต็มบวกที่น้อยที่สุด n ซึ่งเมื่อหารด้วย 5 เหลือเศษ 2 เมื่อหารด้วย 7 เหลือเศษ 3 และเมื่อหารด้วย 9 เหลือเศษ 4", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0123", "question": "ต้องการสร้างสตริงความยาว 4 จากตัวอักษร A,B,C,D,E โดยไม่ใช้ตัวอักษรซ้ำ และต้องมีสระ A หรือ E อยู่ในสตริง exactly 2 ตัว จงหาจำนวนสตริงที่เป็นไปได้", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0125", "question": "จงแก้สมการ log_2(x-1)+log_2(x+3)=4 โดยตอบค่า x ที่เป็นจำนวนจริง", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0126", "question": "กล่องหนึ่งมีลูกบอลสีแดง 2 ลูก สีน้ำเงิน 3 ลูก และสีเขียว 5 ลูก สุ่มหยิบลูกบอล 3 ลูกพร้อมกัน จงหาความน่าจะเป็นที่ได้ครบทั้งสามสี", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0127", "question": "จุดกึ่งกลางของจุด (4,-1) และ (10,7) อยู่ห่างจากจุดกำเนิดเท่าใด", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0128", "question": "ลำดับเลขคณิตลำดับหนึ่งมีพจน์ที่ 3 เท่ากับ 11 และพจน์ที่ 9 เท่ากับ 35 จงหาผลบวกของ 12 พจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_014.jsonl"}
+{"id": "math500-th-train-0129", "question": "ถ้าปากกา 3 ด้ามราคา 45 บาท และดินสอ 5 แท่งราคา 40 บาท จงหาราคารวมของปากกา 2 ด้ามและดินสอ 3 แท่ง", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0131", "question": "สามเหลี่ยม ABC คล้ายกับสามเหลี่ยม DEF โดยด้าน AB สอดคล้องกับ DE ถ้า AB=12, BC=15, DE=20 และ EF สอดคล้องกับ BC จงหาความยาว EF", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0132", "question": "จำนวนเต็มบวกสองจำนวนมีห.ร.ม. เท่ากับ 6 และค.ร.น. เท่ากับ 180 ถ้าจำนวนหนึ่งเท่ากับ 30 อีกจำนวนหนึ่งเท่ากับเท่าใด", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0133", "question": "สุ่มหยิบไพ่ 2 ใบพร้อมกันจากชุดไพ่ที่มีไพ่สีแดง 4 ใบและไพ่สีน้ำเงิน 6 ใบ จงหาความน่าจะเป็นที่ได้ไพ่ต่างสีกัน", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0134", "question": "จงทำให้นิพจน์ (x^2-9)/(x^2+6x+9) อยู่ในรูปอย่างง่าย โดยระบุเงื่อนไขของ x ด้วย", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0136", "question": "กำหนด f(x)=2x-1 และ g(x)=x^2+3 จงหาค่า f(g(4))-g(f(4))", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0137", "question": "ชุดข้อมูล 6, 8, 10, 10, 14 มีค่าเฉลี่ยมากกว่ามัธยฐานอยู่เท่าใด", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0138", "question": "เส้นตรงผ่านจุด (2,5) และมีความชัน -3 จงหาพิกัด y ของจุดบนเส้นตรงนี้เมื่อ x=6", "answer": null, "language": "th", "source": "train_math500_th_015.jsonl"}
+{"id": "math500-th-train-0139", "question": "น้ำผลไม้ 6 ขวดราคา 210 บาท ถ้าซื้อ 9 ขวดในอัตราเดียวกันต้องจ่ายกี่บาท", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0140", "question": "จงแก้สมการ 3^{2x-1}=81 และหาค่า x", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0141", "question": "กล่องทรงสี่เหลี่ยมมุมฉากมีความยาว 8 หน่วย กว้าง 5 หน่วย และสูง 3 หน่วย ถ้าตัดลูกบาศก์ขนาด 2×2×2 ออกจากมุมหนึ่ง จงหาปริมาตรที่เหลือ", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0142", "question": "จงหาเศษเหลือเมื่อ 7^{25} ถูกหารด้วย 10", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0144", "question": "สุ่มเลือกจำนวนเต็มหนึ่งจำนวนจาก 1 ถึง 30 ถ้าทราบว่าจำนวนนั้นเป็นจำนวนคู่ จงหาความน่าจะเป็นที่จำนวนนั้นหารด้วย 6 ลงตัว", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0145", "question": "ถ้า P(x)=x^3-2x^2+ax+5 และ P(2)=7 จงหาค่า a", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0147", "question": "จงหาระยะห่างระหว่างจุด (-2,3) และ (4,-5)", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0148", "question": "จงหาคำตอบของอสมการ 5-2x < 17 โดยตอบเป็นช่วงของ x", "answer": null, "language": "th", "source": "train_math500_th_016.jsonl"}
+{"id": "math500-th-train-0149", "question": "หนังสือเล่มหนึ่งลดราคา 15% จากราคาป้าย แล้วคิดภาษีมูลค่าเพิ่ม 7% จากราคาหลังลด ถ้าลูกค้าจ่ายทั้งหมด 1819 บาท จงหาราคาป้ายของหนังสือ", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0150", "question": "ถ้า 3x-2y=11 และ x+y=13 จงหาค่า x-y", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0152", "question": "ให้ a และ b เป็นจำนวนเต็มบวกที่ a<b, gcd(a,b)=12 และ lcm(a,b)=420 จงหาจำนวนคู่ (a,b) ที่เป็นไปได้", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0153", "question": "ทอยลูกเต๋ามาตรฐานหนึ่งลูกสองครั้ง จงหาความน่าจะเป็นที่ผลคูณของแต้มทั้งสองครั้งเป็นจำนวนคู่", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0154", "question": "จงแก้สมการ log_3(x)+log_3(x-2)=2 โดยตอบเฉพาะคำตอบจริงที่อยู่ในโดเมน", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0155", "question": "ถ้า θ เป็นมุมแหลมและ sin θ = 3/5 จงหาค่า sin 2θ + cos 2θ", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0156", "question": "จงหาเศษเมื่อ x^4-1 ถูกหารด้วย x-2", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0158", "question": "เส้นตรงผ่านจุด (2,5) และ (8,-1) จงหาค่า x ของจุดตัดแกน x", "answer": null, "language": "th", "source": "train_math500_th_017.jsonl"}
+{"id": "math500-th-train-0159", "question": "จำนวนสองจำนวนมีอัตราส่วนเป็น 3:5 และผลรวมเท่ากับ 96 จงหาจำนวนที่มากกว่า", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0160", "question": "จงแก้สมการ (x-2)/3 + (x+1)/4 = 5", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0161", "question": "พื้นที่ระหว่างวงกลมสองวงที่มีจุดศูนย์กลางเดียวกันและมีรัศมี 5 กับ 3 เท่ากับ kπ จงหาค่า k", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0162", "question": "จงหาเลขหลักหน่วยของ 7^2026", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0163", "question": "กล่องหนึ่งมีลูกบอลสีแดง 2 ลูกและสีน้ำเงิน 3 ลูก สุ่มหยิบ 2 ลูกพร้อมกัน จงหาความน่าจะเป็นที่ได้ลูกบอลต่างสีกัน", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0164", "question": "จงแก้สมการ sqrt(x+5)=x-1 โดยตอบเฉพาะคำตอบจริงที่ทำให้สมการเดิมเป็นจริง", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0166", "question": "จงหาจำนวนตัวหารบวกทั้งหมดของ 72", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0167", "question": "ให้ f(x)=2x+3 และ g(x)=x^2 จงหาค่า g(f(2))-f(g(2))", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0168", "question": "จงหาระยะห่างระหว่างจุด (-1,4) และ (5,-4)", "answer": null, "language": "th", "source": "train_math500_th_018.jsonl"}
+{"id": "math500-th-train-0169", "question": "จงหาจำนวนเต็มที่มากที่สุดที่ทำให้ 2x+5 ≤ 17", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0170", "question": "รูปสี่เหลี่ยมคางหมูมีฐานคู่ขนานยาว 8 และ 14 หน่วย และมีความสูง 5 หน่วย จงหาพื้นที่", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0171", "question": "โยนเหรียญยุติธรรมหนึ่งเหรียญและทอยลูกเต๋ามาตรฐานหนึ่งลูก จงหาความน่าจะเป็นที่เหรียญออกหัวและแต้มลูกเต๋าเป็นจำนวนคู่", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0172", "question": "จงแก้สมการ 2^(x+1)=32", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0173", "question": "จงหาผลต่างบวกของคำตอบสองค่าของสมการ x^2-7x+10=0", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0174", "question": "จำนวนเต็มบวกสองจำนวนมีผลคูณเท่ากับ 540 และมี gcd เท่ากับ 6 จงหา lcm ของสองจำนวนนั้น", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0175", "question": "จงหาจุดกึ่งกลางของจุด (-3,7) และ (5,-1)", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0176", "question": "ลำดับเรขาคณิตมีพจน์แรกเป็น 3 และอัตราส่วนร่วมเป็น 2 จงหาผลบวก 5 พจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0177", "question": "จงแก้สมการ |x-4|=9 และตอบเป็นเซตของคำตอบจริงทั้งหมด", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0178", "question": "ต้องการสร้างรหัสยาว 3 ตัวจากตัวอักษร A, B, C, D โดยห้ามใช้ตัวอักษรซ้ำ จงหาจำนวนรหัสที่สร้างได้", "answer": null, "language": "th", "source": "train_math500_th_019.jsonl"}
+{"id": "math500-th-train-0179", "question": "ให้ a,b เป็นจำนวนจริง สมการ x^2-ax+b=0 มีรากเป็น a-b และ b-a จงหาค่ามากที่สุดของ a^2+b^2", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0180", "question": "สี่เหลี่ยมผืนผ้า ABCD มี AB=10 และ BC=6 จุด P อยู่บน AB โดย AP=4 เส้นตรงผ่าน P ที่ขนานกับเส้นทแยงมุม BD ตัด AD ที่ Q จงหาพื้นที่สามเหลี่ยม DPQ", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0181", "question": "มีตัวอักษร A,A,B,B,C,D จงหาจำนวนวิธีเรียงตัวอักษรทั้งหกเป็นแถวโดยไม่มีตัวอักษรที่เหมือนกันอยู่ติดกัน", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0182", "question": "กล่องหนึ่งมีลูกบอลสีแดง 3 ลูก สีน้ำเงิน 2 ลูก และสีเขียว 1 ลูก หยิบพร้อมกัน 3 ลูกโดยไม่ใส่คืน จงหาความน่าจะเป็นที่ได้ลูกบอลครบทั้ง 3 สี", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0183", "question": "ลำดับ x_1,x_2,... กำหนดโดย x_1=2 และ x_{k+1}=3x_k+1 จงหาค่า x_5", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0184", "question": "จงแก้สมการ log_2 x + log_2(x-2)=3 โดยที่ x>2", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0186", "question": "วงกลมรัศมี 5 มีคอร์ดยาว 8 จงหาระยะจากจุดศูนย์กลางของวงกลมถึงคอร์ดเส้นนี้", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0187", "question": "จงหาจำนวนตัวหารบวกของ 720 ที่เป็นพหุคูณของ 12", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0188", "question": "จงหาจำนวนคำตอบจำนวนเต็มของสมการ x+y+z=15 ที่ทำให้ x≥2, y≥0 และ z≥1", "answer": null, "language": "th", "source": "train_math500_th_020.jsonl"}
+{"id": "math500-th-train-0189", "question": "สินค้าราคา 800 บาท ลดราคา 15% จงหาราคาหลังลด", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0190", "question": "ถ้า 2x+y=13 และ x-y=2 จงหาค่า xy", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0191", "question": "จุด A=(1,1), B=(5,1), และ C=(3,6) เป็นจุดยอดของสามเหลี่ยม จงหาพื้นที่ของสามเหลี่ยม ABC", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0193", "question": "มีนักเรียน 7 คนรวมทั้งอาร์ตและบีม ต้องเลือกตัวแทน 3 คน โดยห้ามเลือกอาร์ตและบีมพร้อมกัน จงหาจำนวนวิธีเลือก", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0194", "question": "สุ่มเลือกตัวเลขจาก 1 ถึง 8 สองครั้งโดยใส่คืนทุกครั้ง จงหาความน่าจะเป็นที่ผลคูณของสองตัวเลขเป็นจำนวนคี่", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0195", "question": "จงหาค่าของ (x^2-5x+6)/(x-2) เมื่อ x=7", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0196", "question": "ถ้า θ เป็นมุมแหลมและ sin θ = 3/5 จงหาค่า cos θ", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0197", "question": "จงหาความยาวของช่วงคำตอบของอสมการ |2x-1| ≤ 5", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0198", "question": "ลำดับเลขคณิตลำดับหนึ่งมี a_3=10 และ a_8=25 จงหาผลบวก 10 พจน์แรก", "answer": null, "language": "th", "source": "train_math500_th_021.jsonl"}
+{"id": "math500-th-train-0199", "question": "จงหาผลบวกของคำตอบจริงทั้งหมดของสมการ\n\n(x-2)/(x+1) + (x+1)/(x-2) = 5\n\nโดย x ≠ -1 และ x ≠ 2", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0200", "question": "สามเหลี่ยมรูปหนึ่งมีด้านยาว 13, 14 และ 15 หน่วย จงหาความสูงที่ลากลงบนด้านยาว 14 หน่วย", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0202", "question": "ต้องการสร้างสตริงยาว 5 ตัวอักษรจากตัวอักษร A, B, C, D โดยต้องมีตัว A อยู่พอดี 2 ตัว และ A ทั้งสองตัวต้องไม่อยู่ติดกัน จงหาจำนวนสตริงที่เป็นไปได้", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0203", "question": "ทอยลูกเต๋ามาตรฐานสองลูกตามลำดับ ถ้าทราบว่าผลของลูกแรกเป็นจำนวนคู่ จงหาความน่าจะเป็นที่ผลรวมของแต้มทั้งสองลูกอย่างน้อย 9 เขียนเป็นเศษส่วนอย่างต่ำ m/n แล้วหาค่า m+n", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0204", "question": "สมการกำลังสอง x^2-6x+k=0 มีรากเป็น r และ s ถ้า r^2+s^2=20 จงหาค่า k", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0205", "question": "ให้ 0<θ<π/2 และ sin θ = 3/5 จงหาค่า 25cos(2θ)", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0206", "question": "จงแก้สมการ log_2(x)+log_2(x-2)=3 โดย x>2", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0208", "question": "เส้นตรงผ่านจุด (2,-1) และ (8,11) จงหาพิกัด y ของจุดบนเส้นตรงนี้ที่มีพิกัด x เท่ากับ 5", "answer": null, "language": "th", "source": "train_math500_th_022.jsonl"}
+{"id": "math500-th-train-0210", "question": "ถ้า 2x+3y=17 และ x-y=1 จงหาค่า x^2+y^2", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0211", "question": "วงกลมรัศมี 6 หน่วย มีเซกเตอร์ที่มุมที่จุดศูนย์กลางเท่ากับ 120 องศา พื้นที่ของเซกเตอร์นี้เท่ากับ kπ จงหาค่า k", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0212", "question": "จงหาจำนวนเต็มบวกที่น้อยที่สุด n ซึ่ง n หารด้วย 8 เหลือเศษ 3 และ n หารด้วย 9 เหลือเศษ 5", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0213", "question": "มีหนังสือนวนิยาย 5 เล่มและหนังสือวิทยาศาสตร์ 4 เล่ม ต้องเลือกหนังสือทั้งหมด 3 เล่ม โดยต้องมีหนังสืออย่างน้อยหนึ่งเล่มจากแต่ละประเภท จงหาจำนวนวิธีเลือก", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0214", "question": "ถ้า x เป็นจำนวนจริงที่ไม่เป็นศูนย์และ x + 1/x = 5 จงหาค่า x^2 + 1/x^2", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0215", "question": "ลำดับเลขคณิตมีพจน์ที่ 3 เท่ากับ 11 และพจน์ที่ 9 เท่ากับ 35 จงหาพจน์ที่ 15", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0216", "question": "ถุงใบหนึ่งมีลูกบอลสีแดง 2 ลูกและสีน้ำเงิน 3 ลูก สุ่มหยิบลูกบอล 2 ลูกพร้อมกัน ความน่าจะเป็นที่ได้ลูกบอลสีเดียวกันเท่ากับ m/n เมื่อเขียนเป็นเศษส่วนอย่างต่ำ จงหาค่า m+n", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0217", "question": "จงหาจำนวนจำนวนเต็ม x ที่ทำให้ |2x-3| ≤ 5", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0218", "question": "จุดปลายของเส้นตรงเส้นหนึ่งคือ (-2,5) และ (6,-1) จงหากำลังสองของระยะจากจุดกึ่งกลางของเส้นตรงนี้ถึงจุดกำเนิด", "answer": null, "language": "th", "source": "train_math500_th_023.jsonl"}
+{"id": "math500-th-train-0219", "question": "แก้สมการ 4(x-3)+7=2x+9", "answer": null, "language": "th", "source": "train_math500_th_024.jsonl"}
+{"id": "math500-th-train-0220", "question": "อัตราส่วนของจำนวนปากกาสีน้ำเงินต่อปากกาสีดำเป็น 3:5 ถ้ามีปากกาทั้งหมด 64 ด้าม จงหาจำนวนปากกาสีดำ", "answer": null, "language": "th", "source": "train_math500_th_024.jsonl"}
+{"id": "math500-th-train-0221", "question": "กล่องทรงสี่เหลี่ยมมุมฉากมีความยาว 6 หน่วย กว้าง 5 หน่วย และสูง 4 หน่วย ถ้าต้องการเพิ่มความสูงเป็นสองเท่าโดยความยาวและความกว้างเท่าเดิม ปริมาตรใหม่มากกว่าปริมาตรเดิมกี่หน่วยลูกบาศก์", "answer": null, "language": "th", "source": "train_math500_th_024.jsonl"}
