@@ -167,7 +167,7 @@ def run(args):
 
         with torch.no_grad():
             outputs = model.generate(
-                **enc, max_new_tokens=512,
+                **enc, max_new_tokens=8192,
                 do_sample=True, temperature=0.7, top_p=0.95,
                 pad_token_id=tok.pad_token_id,
             )
