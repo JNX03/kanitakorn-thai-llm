@@ -4,6 +4,20 @@
 **Goal:** Beat all existing Thai LLMs at ≤14B params on 12 benchmarks
 **Approach:** Multi-model ensemble (all open-weight, all ≤14B params, all permissive license)
 
+## TL;DR — 5 benchmarks measured, 2 BEAT, 1 within 1pp
+
+| Benchmark | Target | Best | Status |
+|-----------|-------:|-----:|:------:|
+| AIME24 | >25 | 26.67 | ✅ BEAT |
+| MATH500 | >82 | 85.0 | ✅ BEAT |
+| MT-Bench-TH | >85 | 84.5 | ⚠️ -0.5pp |
+| ThaiExam | >75 | 67.0 | ❌ -8pp |
+| IFEval-TH | >82 | 55.35 | ❌ -27pp |
+
+**Key conclusion: BASE models with Maj@N voting beat ALL our fine-tuned variants.** R1-Distill, Qwen2.5-Math, Qwen3 are too strong for light SFT to improve — any SFT damages them. Our value-add is the ensemble routing strategy + Maj@N tuning per benchmark.
+
+
+
 ## Targets vs Best Results (100-record subsets unless noted)
 
 | Benchmark | Target | Best | Model | Status |
