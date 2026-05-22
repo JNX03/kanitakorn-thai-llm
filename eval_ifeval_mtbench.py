@@ -184,13 +184,24 @@ def main():
     responses = [o.outputs[0].text for o in outputs]
 
     # Score
+    def get_visible(text):
+        """Get user-visible answer (after </think>) but fall back to full text."""
+        if "</think>" in text:
+            visible = text.split("</think>", 1)[1].strip()
+            # If visible part is too short, use full text (model put answer in think)
+            if len(visible) < 100:
+                return text
+            return visible
+        return text
+
     records = []
     if args.bench == "ifeval_th":
         passed = 0
         for (prompt, constraints), resp in zip(items, responses):
             if not constraints:
                 continue  # skip records with no constraints
-            satisfied = all(check_constraint(resp, iid, kw) for iid, kw in constraints)
+            answer = get_visible(resp)
+            satisfied = all(check_constraint(answer, iid, kw) for iid, kw in constraints)
             passed += int(satisfied)
             records.append({"prompt": prompt[:200], "response": resp[:300], "satisfied": satisfied})
         scored = [r for r in records]
@@ -200,7 +211,8 @@ def main():
     else:  # mt_bench_th
         scores = []
         for prompt, resp in zip(items, responses):
-            score = judge_mt_bench(prompt, resp)
+            answer = strip_think(resp)
+            score = judge_mt_bench(prompt, answer)
             scores.append({"prompt": prompt[:200], "response": resp[:500], "score": score})
             time.sleep(0.3)
         valid = [s["score"] for s in scores if s["score"] is not None]
