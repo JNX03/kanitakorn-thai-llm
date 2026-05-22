@@ -46,7 +46,12 @@ def run(args):
 
     prompts = []
     for prompt, gold, kind in items:
-        msgs = [{"role":"user","content": prompt + "\n\nThink step by step. End with \\boxed{answer} or 'คำตอบคือ X'."}]
+        if kind == "mcq":
+            # Thai-language prompt with strict format
+            suffix = "\n\nคิดและให้เหตุผลอย่างละเอียด แล้วระบุคำตอบในบรรทัดสุดท้ายในรูปแบบ:\nคำตอบคือ (X)\n\nโดย X ต้องเป็นตัวอักษรจากตัวเลือกข้างต้นเท่านั้น (a, b, c, d, หรือ e — ห้ามใช้ตัวอักษรอื่น)"
+        else:
+            suffix = "\n\nThink step by step. End with \\boxed{answer}."
+        msgs = [{"role":"user","content": prompt + suffix}]
         text = tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
         prompts.append(text)
 

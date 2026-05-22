@@ -56,9 +56,24 @@ def extract_after_marker(text: str, markers=("คำตอบคือ", "Answer
     return None
 
 def extract_mcq_letter(text: str):
-    # Find last (a)/(b)/.../(e) or "answer is a"
+    """Find MCQ answer. Prefer last 'คำตอบคือ X' or '(X)' for X in [a-e].
+    Falls back to digit→letter mapping (1→a, 2→b, etc)."""
+    # First try 'คำตอบคือ (X)' or 'Answer: (X)'
+    for pat in [
+        r"คำตอบคือ\s*[(\[]?([a-eA-E])[)\]]?",
+        r"answer\s+is\s+[(\[]?([a-eA-E])[)\]]?",
+        r"final\s+answer\s+is\s+[(\[]?([a-eA-E])[)\]]?",
+    ]:
+        m = re.findall(pat, text, re.IGNORECASE)
+        if m: return m[-1].lower()
+    # Then try '(X)' pattern restricted to a-e
     matches = re.findall(r"[(\[]([a-eA-E])[)\]]", text)
     if matches: return matches[-1].lower()
+    # Then try last digit 1-5 → letter
+    NUM_TO_LET = {"1":"a","2":"b","3":"c","4":"d","5":"e","๑":"a","๒":"b","๓":"c","๔":"d","๕":"e"}
+    for pat in [r"คำตอบคือ\s*[(\[]?([1-5๑๒๓๔๕])[)\]]?", r"answer\s+is\s+([1-5])"]:
+        m = re.findall(pat, text, re.IGNORECASE)
+        if m: return NUM_TO_LET.get(m[-1], m[-1])
     return None
 
 def normalize_answer(s):
@@ -135,11 +150,22 @@ def load_thaiexam():
     return out
 
 def load_openthaieval():
-    """iapp/openthaieval — Thai O-NET / A-Level / TGAT / TPAT MCQ."""
-    try:
-        ds = load_dataset("iapp/openthaieval", split="test")
-    except Exception:
-        ds = load_dataset("iapp/openthaieval", split="train")
+    """iapp/openthaieval — Thai O-NET / A-Level / TGAT / TPAT MCQ.
+    The dataset uses a custom script that's no longer supported; try alternate path."""
+    ds = None
+    for ref in [
+        ("openthaieval", "openthaieval"),
+        ("scb10x/openthaieval", "test"),
+        ("scb10x/thai_exam", "tgat"),  # fallback to thaiexam tgat config
+    ]:
+        try:
+            ds = load_dataset(ref[0], split=ref[1] if ref[1] != "openthaieval" else "test")
+            print(f"[openthaieval] loaded from {ref}")
+            break
+        except Exception as e:
+            print(f"[openthaieval] failed {ref}: {str(e)[:100]}")
+    if ds is None:
+        return []
     out = []
     for r in ds:
         q = r.get("question") or r.get("instruction") or ""
@@ -159,14 +185,24 @@ def load_openthaieval():
 
 def load_ifeval_th():
     """typhoon-ai/ifeval-th — Thai instruction following with verifiable constraints."""
-    ds = load_dataset("typhoon-ai/ifeval-th", split="test")
-    return [(r["prompt"], r.get("instruction_id_list") or r.get("instructions") or [], "ifeval") for r in ds]
+    try:
+        ds = load_dataset("typhoon-ai/ifeval-th", split="test")
+    except Exception:
+        ds = load_dataset("typhoon-ai/ifeval-th", split="train")
+    return [(r.get("prompt") or r.get("instruction") or "", r.get("instruction_id_list") or r.get("instructions") or [], "ifeval") for r in ds]
 
 def load_mt_bench_th():
     """ThaiLLM-Leaderboard/mt-bench-thai — MT-Bench Thai. Score via LLM judge."""
-    ds = load_dataset("ThaiLLM-Leaderboard/mt-bench-thai", split="test")
-    return [(r["turns"][0] if isinstance(r.get("turns"), list) else r.get("question_1", ""),
-             r.get("category", "unknown"), "open_quality") for r in ds]
+    try:
+        ds = load_dataset("ThaiLLM-Leaderboard/mt-bench-thai", split="test")
+    except Exception:
+        ds = load_dataset("ThaiLLM-Leaderboard/mt-bench-thai", split="train")
+    out = []
+    for r in ds:
+        q = (r["turns"][0] if isinstance(r.get("turns"), list) and r["turns"] else
+             r.get("question_1") or r.get("question") or r.get("instruction") or "")
+        if q: out.append((q, r.get("category", "unknown"), "open_quality"))
+    return out
 
 def load_aime25():
     ds = load_dataset("math-ai/aime25", split="test")
