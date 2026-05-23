@@ -1,0 +1,4 @@
+=== [Fri May 22 15:18:20 UTC 2026] Eval ADAPTER=runs/r1d_kanitakorn_v6/final TAG=v6 ===
+[out] reports/v6_thaiexam_full.json
+(EngineCore pid=23110) INFO 05-22 16:15:14 [core.py:1242] Shutdown initiated (timeout=0)
+(EngineCore pid=23110) INFO 05-22 16:15:14 [core.py:1265] Shutdown complete

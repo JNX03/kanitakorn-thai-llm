@@ -1,0 +1,24 @@
+=== [Fri May 22 02:50:19 UTC 2026] BASE math500 (limit=100) ===
+
+[final] math500 vLLM n=1: 0.6000 (60/100)
+[out] reports/base_math500.json
+(EngineCore pid=1437) INFO 05-22 03:03:19 [core.py:1242] Shutdown initiated (timeout=0)
+(EngineCore pid=1437) INFO 05-22 03:03:19 [core.py:1265] Shutdown complete
+=== [Fri May 22 03:03:22 UTC 2026] BASE aime24 (limit=30) ===
+
+[final] aime24 vLLM n=1: 0.2667 (8/30)
+[out] reports/base_aime24.json
+(EngineCore pid=2031) INFO 05-22 03:11:59 [core.py:1242] Shutdown initiated (timeout=0)
+(EngineCore pid=2031) INFO 05-22 03:11:59 [core.py:1265] Shutdown complete
+=== [Fri May 22 03:12:02 UTC 2026] BASE thaiexam (limit=100) ===
+
+[final] thaiexam vLLM n=1: 0.5900 (59/100)
+[out] reports/base_thaiexam.json
+(EngineCore pid=2432) INFO 05-22 03:22:48 [core.py:1242] Shutdown initiated (timeout=0)
+(EngineCore pid=2432) INFO 05-22 03:22:48 [core.py:1265] Shutdown complete
+=== R1-Distill BASE (no SFT) vs Targets ===
+Benchmark       Base      v2  Target
+---------------------------------------------
+math500        60.00       -      82
+aime24         26.67       -      25
+thaiexam       59.00       -      75

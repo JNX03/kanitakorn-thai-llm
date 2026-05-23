@@ -1,0 +1,219 @@
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[AProcessing Files (1 / 3)      :  15%|█▌        | 11.4MB / 75.7MB, 1.12MB/s  
+
+
+  ...adapter_model.safetensors:   0%|          | 26.0kB / 64.3MB            [A[A[A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:   0%|          | 26.0kB / 64.3MB            [A[A[AProcessing Files (1 / 3)      :  15%|█▌        | 11.4MB / 75.7MB, 1.09MB/s  
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:   0%|          | 26.0kB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:   1%|          |  56.0B / 5.78kB            [A[A[A[A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:   1%|          |  658kB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:   1%|          |  56.0B / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  16%|█▌        | 12.1MB / 75.7MB, 1.05MB/s  
+New Data Upload               :   1%|          |  632kB / 64.3MB, 59.7kB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:   2%|▏         | 1.29MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:   2%|▏         |   113B / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  17%|█▋        | 12.7MB / 75.7MB, 1.09MB/s  
+New Data Upload               :   2%|▏         | 1.26MB / 64.3MB,  118kB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:   8%|▊         | 5.08MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:   8%|▊         |   454B / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  22%|██▏       | 16.5MB / 75.7MB, 1.41MB/s  
+New Data Upload               :   8%|▊         | 5.06MB / 64.3MB,  469kB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  11%|█         | 6.98MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  11%|█         |   624B / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  24%|██▍       | 18.4MB / 75.7MB, 1.56MB/s  
+New Data Upload               :  11%|█         | 6.95MB / 64.3MB,  633kB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  22%|██▏       | 13.9MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  22%|██▏       | 1.25kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  33%|███▎      | 25.4MB / 75.7MB, 2.12MB/s  
+New Data Upload               :  22%|██▏       | 13.9MB / 64.3MB, 1.24MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  28%|██▊       | 17.7MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  28%|██▊       | 1.59kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  38%|███▊      | 29.1MB / 75.7MB, 2.42MB/s  
+New Data Upload               :  28%|██▊       | 17.7MB / 64.3MB, 1.56MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  33%|███▎      | 21.5MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  33%|███▎      | 1.93kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  44%|████▎     | 32.9MB / 75.7MB, 2.71MB/s  
+New Data Upload               :  33%|███▎      | 21.5MB / 64.3MB, 1.87MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  38%|███▊      | 24.7MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  38%|███▊      | 2.21kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  48%|████▊     | 36.1MB / 75.7MB, 2.93MB/s  
+New Data Upload               :  38%|███▊      | 24.7MB / 64.3MB, 2.11MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  44%|████▍     | 28.5MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  44%|████▍     | 2.56kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  53%|█████▎    | 39.9MB / 75.7MB, 3.21MB/s  
+New Data Upload               :  44%|████▍     | 28.4MB / 64.3MB, 2.40MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  49%|████▉     | 31.6MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  49%|████▉     | 2.84kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  57%|█████▋    | 43.1MB / 75.7MB, 3.42MB/s  
+New Data Upload               :  49%|████▉     | 31.6MB / 64.3MB, 2.63MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  55%|█████▌    | 35.4MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  55%|█████▌    | 3.18kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  62%|██████▏   | 46.8MB / 75.7MB, 3.68MB/s  
+New Data Upload               :  55%|█████▌    | 35.4MB / 64.3MB, 2.91MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  63%|██████▎   | 40.5MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  63%|██████▎   | 3.64kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  69%|██████▊   | 51.9MB / 75.7MB, 4.04MB/s  
+New Data Upload               :  63%|██████▎   | 40.5MB / 64.3MB, 3.29MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  69%|██████▉   | 44.3MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  69%|██████▉   | 3.98kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  74%|███████▎  | 55.7MB / 75.7MB, 4.29MB/s  
+New Data Upload               :  69%|██████▉   | 44.3MB / 64.3MB, 3.55MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  74%|███████▍  | 47.4MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  74%|███████▍  | 4.26kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  78%|███████▊  | 58.9MB / 75.7MB, 4.47MB/s  
+New Data Upload               :  74%|███████▍  | 47.4MB / 64.3MB, 3.75MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  82%|████████▏ | 52.5MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  82%|████████▏ | 4.71kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  84%|████████▍ | 63.9MB / 75.7MB, 4.81MB/s  
+New Data Upload               :  82%|████████▏ | 52.5MB / 64.3MB, 4.11MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  88%|████████▊ | 56.3MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  88%|████████▊ | 5.06kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  89%|████████▉ | 67.7MB / 75.7MB, 5.04MB/s  
+New Data Upload               :  88%|████████▊ | 56.3MB / 64.3MB, 4.35MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  93%|█████████▎| 60.1MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  93%|█████████▎| 5.40kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  94%|█████████▍| 71.5MB / 75.7MB, 5.26MB/s  
+New Data Upload               :  93%|█████████▎| 60.1MB / 64.3MB, 4.58MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors:  99%|█████████▉| 63.9MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin:  99%|█████████▉| 5.74kB / 5.78kB            [A[A[A[AProcessing Files (1 / 3)      :  99%|█████████▉| 75.3MB / 75.7MB, 5.47MB/s  
+New Data Upload               :  99%|█████████▉| 63.8MB / 64.3MB, 4.81MB/s  [A
+
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            [A[A
+
+
+  ...adapter_model.safetensors: 100%|██████████| 64.3MB / 64.3MB            [A[A[A
+
+
+
+  ...t/final/training_args.bin: 100%|██████████| 5.78kB / 5.78kB            [A[A[A[AProcessing Files (3 / 3)      : 100%|██████████| 75.7MB / 75.7MB, 5.05MB/s  
+New Data Upload               : 100%|██████████| 64.3MB / 64.3MB, 4.45MB/s  [AProcessing Files (3 / 3)      : 100%|██████████| 75.7MB / 75.7MB, 5.05MB/s  
+New Data Upload               : 100%|██████████| 64.3MB / 64.3MB, 4.45MB/s  
+  ..._sft/final/tokenizer.json: 100%|██████████| 11.4MB / 11.4MB            
+  ...adapter_model.safetensors: 100%|██████████| 64.3MB / 64.3MB            
+  ...t/final/training_args.bin: 100%|██████████| 5.78kB / 5.78kB            
+[hf] pushed https://huggingface.co/Jnx03/kanitakorn-qwen3-14b-stage1-qwen3-20260522
+[log] appended to /root/kanitakorn/VERSION_LOG.md

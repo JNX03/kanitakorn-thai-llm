@@ -1,0 +1,1083 @@
+{
+  "benchmark": "ifeval_th",
+  "accuracy": 0.5534883720930233,
+  "correct": 119,
+  "n_items": 215,
+  "items": [
+    {
+      "prompt": "เขียนสรุปคำมากกว่า 300 คำของหน้าวิกิพีเดีย \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\" อย่าใช้เครื่องหมายจุลภาคและไฮไลต์อย่างน้อย 3 ส่วนที่มีชื่อในรูปแบบมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต",
+      "response": "<think>\nOkay, I need to write a summary of more than 300 words about Raymond III, Count of Tripoli from the Wikipedia page. The user specified not to use commas and to highlight at least three sections with markdown. Let me start by reading the Wikipedia article to gather the key points.\n\nFirst, Ray",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันกำลังวางแผนไปเที่ยวญี่ปุ่น และอยากให้คุณเขียนแผนการเดินทางของฉันในสไตล์เชคสเปียร์ คุณไม่ได้รับอนุญาตให้ใช้ลูกน้ำในการตอบกลับของคุณ",
+      "response": "<think>\nOkay, the user wants a travel plan to Japan written in Shakespearean style, and they specified not to use any emojis. Let me start by recalling the key elements of Shakespearean language: archaic words like \"thou,\" \"doth,\" \"hark,\" and a poetic structure with iambic pentameter. I need to make",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรซูเม่สำหรับผู้สำเร็จการศึกษาระดับมัธยมปลายที่เพิ่งจบใหม่ที่กำลังมองหางานแรก ตรวจสอบให้แน่ใจว่าได้รวมตัวยึดตำแหน่งอย่างน้อย 12 ตัวซึ่งแสดงด้วยวงเล็บเหลี่ยม เช่น [ที่อยู่], [ชื่อ]",
+      "response": "<think>\nOkay, I need to help this user create a resume for a high school graduate looking for their first job. The user specified that the resume should include at least 12 placeholders in brackets, like [ที่อยู่] for address. Let me start by recalling the standard sections of a resume.\n\nFirst, the ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทสนทนาระหว่างคนสองคน คนหนึ่งสวมชุดบอลกาวน์ และอีกคนสวมชุดเหงื่อออก ทั้งสองจะไปงานกลางคืน คำตอบของคุณต้องมีสัญลักษณ์แสดงหัวข้อย่อย 3 จุดในรูปแบบมาร์กดาวน์ (ใช้ \"* \" เพื่อระบุสัญลักษณ์แสดงหัวข้อย่",
+      "response": "<think>\nOkay, the user wants a dialogue between two people. One is wearing a ball gown and the other is in workout clothes. They're going to a night event. Also, the response needs to have three bullet points using markdown with \"* \" for each. Let me start by setting the scene. The ball gown person ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเทมเพลตอีเมลขนาดยาวที่เชิญกลุ่มผู้เข้าร่วมเข้าร่วมการประชุม โดยมีคำศัพท์อย่างน้อย 500 คำ อีเมลต้องมีคำว่า \"เกี่ยวข้อง\" และ \"ประสบการณ์\" และไม่ควรใช้เครื่องหมายจุลภาคใดๆ",
+      "response": "<think>\nOkay, the user wants a long email template for inviting participants to a meeting. It needs to be at least 500 words, include the words \"เกี่ยวข้อง\" and \"ประสบการณ์\", and avoid using any commas. Let me start by outlining the structure.\n\nFirst, the subject line should be clear and engaging. M",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบล็อกโพสต์ที่มีคำ 400 คำขึ้นไปเกี่ยวกับประโยชน์ของการนอนในเปลญวน",
+      "response": "<think>\nOkay, I need to write a blog post of at least 400 words about the benefits of sleeping in a hammock. Let me start by brainstorming the key points. First, I should explain what a hammock is and why people use it. Then, list the benefits. Maybe start with comfort and relaxation. Hammocks are o",
+      "satisfied": false
+    },
+    {
+      "prompt": "คุณช่วยฉันโฆษณาผลิตภัณฑ์ใหม่ได้ไหม เป็นผ้าอ้อมที่ออกแบบมาให้สวมใส่สบายยิ่งขึ้นสำหรับเด็กทารก และฉันต้องการให้ผลลัพธ์ทั้งหมดอยู่ในรูปแบบ JSON",
+      "response": "<think>\nOkay, the user wants me to help advertise a new baby diaper product and present the result in JSON format. Let me start by understanding the key points they mentioned. The product is designed for comfort, so I need to highlight that. The target audience is parents of infants, so the ad shoul",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรื่องราวความยาว 2 ย่อหน้าเกี่ยวกับชายคนหนึ่งที่ตื่นขึ้นมาในวันหนึ่งและพบว่าเขาอยู่ในวิดีโอเกม แยกย่อหน้าด้วยตัวแบ่งมาร์กดาวน์: ***",
+      "response": "<think>\nOkay, the user wants a two-paragraph story about a man who wakes up in a video game. Let me start by setting the scene. The first paragraph should introduce the main character and his realization. Maybe describe his confusion and the game environment. Use sensory details like the pixelated s",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบล็อกโพสต์สั้นๆ เกี่ยวกับการเดินทางไปญี่ปุ่นโดยใช้คำน้อยกว่า 300 คำ",
+      "response": "<think>\nOkay, the user wants a short blog post about traveling to Japan with under 300 words. Let me start by thinking about the key points that make Japan unique. First, the blend of tradition and modernity is a big one. Places like Kyoto with temples and Tokyo's skyscrapers. Then, the food scene i",
+      "satisfied": true
+    },
+    {
+      "prompt": "โปรดระบุชื่อคุณแม่ที่มีชื่อเสียง 5 ท่านในรูปแบบ JSON กรุณาใช้น้ำเสียงที่น่าสนใจหรือแปลก ผลลัพธ์ทั้งหมดของคุณควรมีเพียงบล็อก JSON ไม่มีอะไรอย่างอื่น",
+      "response": "<think>\nOkay, the user wants a list of five famous mothers in JSON format with an interesting or unusual tone. Let me start by recalling some well-known mothers from various fields. First, there's Queen Elizabeth II, the British monarch. Then maybe someone from entertainment, like Angelina Jolie. Fo",
+      "satisfied": false
+    },
+    {
+      "prompt": "ชื่อที่ผู้คนเรียกว่าพระเจ้าคืออะไร? โปรดให้คำตอบที่แตกต่างกันสองรายการ แยกคำตอบด้วยเครื่องหมายดอกจัน 6 ตัว: ******",
+      "response": "<think>\nOkay, the user is asking for names that people use to refer to God. They want two different answers separated by six asterisks. Let me think about this.\n\nFirst, I need to consider different religions and cultures. In Christianity, common names for God include \"Yahweh\" and \"Jehovah.\" These ar",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรื่องตลกสองเรื่องเกี่ยวกับจรวด อย่าใส่เครื่องหมายจุลภาคในการตอบกลับของคุณ แยกสองเรื่องตลกด้วยเครื่องหมายดอกจัน 6 อัน: ******",
+      "response": "<think>\nOkay, the user wants two funny stories about rockets, no commas, and separated by six asterisks. Let me start by brainstorming some rocket-related humor. Maybe something with a rocket that's not going to space but doing something unexpected. Like a rocket that's used for a different purpose,",
+      "satisfied": false
+    },
+    {
+      "prompt": "แฮมเบอร์เกอร์เป็นแซนด์วิชเหรอ? โปรดตอบกลับโดยใช้ภาษากันนาดาเท่านั้น ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user is asking if a hamburger is a sandwich, and they want the answer in Kannada. Let me start by confirming that a hamburger is indeed a type of sandwich. In English, a hamburger is a sandwich made with a beef patty, lettuce, tomato, cheese, and other condiments, all between two s",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทกวีเกี่ยวกับว่าฉันขาดชั้นเรียนได้อย่างไร บทกวีจะต้องมี 4 ส่วนที่มีเครื่องหมาย SECTION X จบบทกวีด้วยวลีนี้: \"ฉันสามารถขอเงินคืนสำหรับชั้นเรียนที่ฉันพลาดได้หรือไม่\"",
+      "response": "<think>\nOkay, the user wants a poem about how they missed a class, divided into four sections with \"SECTION X\" labels, and ending with the specific line. Let me start by breaking down the structure. Each section should have a different focus. Maybe start with the reason for missing class, then the f",
+      "satisfied": true
+    },
+    {
+      "prompt": "เมื่อพิจารณาจากประโยคที่ว่า \"ไม่ชัดเจนว่าจริงๆ แล้วเงินจำนวนนี้ถูกใช้ไปกับเด็กๆ เป็นจำนวนเท่าใด\" ความรู้สึกนั้นเป็นเชิงบวกหรือเชิงลบ? ประโยคสุดท้ายของคำตอบของคุณควรเป็น \"มีอะไรให้ช่วยอีกไหม?\"",
+      "response": "<think>\nOkay, let's see. The user is asking whether the sentence \"ไม่ชัดเจนว่าจริงๆ แล้วเงินจำนวนนี้ถูกใช้ไปกับเด็กๆ เป็นจำนวนเท่าใด\" has a positive or negative sentiment. First, I need to understand the sentence. Translating it, it means \"It's unclear how much of this money was actually used for th",
+      "satisfied": true
+    },
+    {
+      "prompt": "อธิบายเป็นภาษาฝรั่งเศสว่าเหตุใดการกินอาหารเพื่อสุขภาพจึงเป็นสิ่งสำคัญในการรักษาร่างกายโดยไม่ต้องใช้คำว่า \"บำรุง\" ตรวจสอบให้แน่ใจว่าคำตอบทั้งหมดของคุณอยู่ในรูปแบบ JSON",
+      "response": "<think>\nOkay, the user wants me to explain in French why eating healthy is important for the body, but without using the word \"bénéficier\" (which I think they meant instead of \"บำรุง\" which is Thai for \"nourish\" or \"benefit\"). Let me make sure I understand the request correctly.\n\nFirst, I need to tr",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนข้อความต่อไปนี้ใหม่เพื่อให้ฟังดูเป็นทางการมากขึ้น เช่น ประธานาธิบดีแห่งสหรัฐอเมริกา:\n\"สวัสดีทุกคน งานเสร็จสิ้นเพื่อเพิ่มการแก้ไขปัญหาที่พบในภาคสนามกับ SSO เรากำลังทำงานร่วมกับผู้ทำงานร่วมกันอย่าง",
+      "response": "<think>\nOkay, the user wants me to rewrite a message to sound more formal, like a US President. The original message is in Thai, and they provided an example of how it should be structured. Let me start by understanding the original content.\n\nThe original message says: \"สวัสดีทุกคน งานเสร็จสิ้นเพื่อ",
+      "satisfied": false
+    },
+    {
+      "prompt": "การมีพลังเหนือธรรมชาติมีข้อดีและข้อเสียอย่างไร? ทำให้มันสั้น. รวมเอาต์พุตทั้งหมดในรูปแบบ JSON คุณสามารถใช้เครื่องหมายมาร์กดาวน์ เช่น ```",
+      "response": "<think>\nOkay, the user is asking about the pros and cons of having supernatural powers, and they want a short answer in JSON format. Let me start by breaking down the key points.\n\nFirst, the advantages. Supernatural abilities could give someone a significant edge in various situations. Like, they mi",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเกณฑ์วิธีประเมินทักษะทางเทคนิคของวิศวกรซอฟต์แวร์โดยใช้ภาษาปัญจาบเท่านั้น ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user wants me to write a technical skill assessment criteria for a software engineer in Punjabi. Let me start by understanding the requirements. They specified using only Punjabi and no other languages, so I need to make sure the entire response is in Punjabi.\n\nFirst, I should outl",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนปริศนาให้เด็กๆ เกี่ยวกับการอุปถัมภ์ แต่อย่าใช้เครื่องหมายจุลภาค",
+      "response": "<think>\nOkay, the user wants a riddle for kids about adoption, but without using commas. Let me start by thinking about the key elements of adoption. Adoption involves a child being cared for by someone else, not their biological parents. Maybe use imagery related to family, love, and care.\n\nI need ",
+      "satisfied": false
+    },
+    {
+      "prompt": "อธิบายว่าเหตุใดผู้คนจึงหารายได้จากหนอนแต่ไม่กินวัวที่ตายแล้ว ให้คำตอบที่แตกต่างกันสองรายการโดยคั่นด้วยเครื่องหมายดอกจัน 6 อัน ****** คำตอบของคุณต้องมีชื่ออยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>>",
+      "response": "<think>\nOkay, the user is asking why people earn money from worms but don't eat dead cows. They want two different explanations separated by six asterisks. Let me start by breaking down the question.\n\nFirst, the part about earning from worms. I know that worms are used in vermicomposting, which turn",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยเสนอทางเลือกที่เป็นทางการที่แตกต่างกันสองทางให้กับฉันแทน \"เป็นไงบ้าง? ฉันจะไปชายหาดวันนี้\" และอย่าใช้ลูกน้ำในการตอบกลับ",
+      "response": "<think>\nOkay, the user wants two formal alternative responses to \"เป็นไงบ้าง? ฉันจะไปชายหาดวันนี้\" without using colloquial language. Let me start by understanding the original message. The first part is \"เป็นไงบ้าง?\" which is a casual way to ask \"How are you?\" and the second part is \"ฉันจะไปชายหาดว",
+      "satisfied": false
+    },
+    {
+      "prompt": "เกิดอะไรขึ้นเมื่อราชวงศ์ถังของจีนขึ้นสู่อำนาจ? อย่าลืมใช้คำว่าสงครามอย่างน้อย 8 ครั้ง และคำว่าสันติภาพอย่างน้อย 10 ครั้ง",
+      "response": "<think>\nOkay, the user is asking about what happened when the Tang Dynasty came to power in China, and they want me to use the word \"war\" at least 8 times and \"peace\" at least 10 times. Let me start by recalling the key events of the Tang Dynasty's rise. The Sui Dynasty fell in 618, and Li Yuan esta",
+      "satisfied": true
+    },
+    {
+      "prompt": "มีความรู้สึกอะไรบ้างในประเทศโครเอเชียและเซอร์เบียต่อจักรวรรดิออสเตรียเมื่อปลายศตวรรษที่ 19 อย่าลืมล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่และใช้อย่างน้อย 800 คำ",
+      "response": "<think>\nOkay, the user is asking about the feelings of the people in Croatia and Serbia towards the Austro-Hungarian Empire at the end of the 19th century. I need to make sure I cover both countries and their specific sentiments. Let me start by recalling the historical context.\n\nCroatia was part of",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนข้อความโฆษณาสำหรับผลิตภัณฑ์ใหม่ ซึ่งเป็นกรอบรูปดิจิทัลที่เชื่อมต่อกับบัญชีโซเชียลมีเดียของคุณและแสดงภาพถ่ายของคุณ ตอบกลับด้วยคำศัพท์ไม่เกิน 150 คำ",
+      "response": "<think>\nOkay, the user wants an advertisement for a new digital photo frame that connects to social media accounts and displays photos. Let me start by understanding the key features: it's digital, connects to social media, and shows your photos. The target audience is probably people who want to sh",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบล็อกโพสต์เกี่ยวกับประวัติของอินเทอร์เน็ตและผลกระทบต่อชีวิตของเราอย่างไร มุ่งเป้าไปที่โพสต์บล็อกที่วัยรุ่นและล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, I need to write a blog post about the history of the internet and its impact on our lives, targeting teenagers. The user wants all the answers in double quotes. Let me start by outlining the key points.\n\nFirst, the history of the internet. I should mention ARPANET, the 1960s, then the ",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทกวีเกี่ยวกับคนสองคนที่พบกันในร้านกาแฟและจบคำตอบด้วยวลีที่ว่า \"มีอะไรให้ช่วยอีกไหม?\"",
+      "response": "<think>\nOkay, the user wants a poem about two people meeting in a coffee shop and ending with the phrase \"มีอะไรให้ช่วยอีกไหม?\" which translates to \"Is there anything else I can help with?\" Let me start by setting the scene in a coffee shop. I need to create a cozy, maybe slightly romantic atmospher",
+      "satisfied": false
+    },
+    {
+      "prompt": "ตึกระฟ้าที่สูงที่สุดในโลกในปี 2000 สูงจากพื้นดินกี่ฟุต โปรดระบุเฉพาะประเด็นหลักในคำตอบของคุณ จบคำตอบด้วยวลีที่ว่า \"มีอะไรให้ช่วยอีกไหม\" และพูดถึงคำว่า \"ตึกระฟ้า\" อย่างน้อย 8 ครั้ง",
+      "response": "<think>\nOkay, the user is asking for the height of the tallest skyscraper in the world in the year 2000, specifically in feet. They also want the answer to include the main points, end with \"มีอะไรให้ช่วยอีกไหม\" (which translates to \"Is there anything else I can help with?\"), and mention the word \"ต",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโฆษณาอาร์มแชร์นั่งสบายแนวใหม่ที่ออกแบบมาให้ทนทานต่อการตรวจสอบอย่างละเอียดของนักออกแบบตกแต่งภายใน ควรมี 3 ย่อหน้าคั่นด้วยเครื่องหมายแบ่ง: ***",
+      "response": "<think>\nOkay, the user wants an advertisement for a new armchair that's comfortable and durable, designed to withstand detailed inspections by interior designers. Let me break this down.\n\nFirst, I need to highlight the comfort and durability. Maybe start with the comfort aspect, emphasizing the desi",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโพสต์ตลกๆ สำหรับวัยรุ่นเกี่ยวกับร้านอาหารชื่อ \"Buena Onda\" ซึ่งเสิร์ฟอาหารอาร์เจนตินา เน้นคำตอบของคุณอย่างน้อยสามส่วนในมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์* พูดถึง \"อาร์เจนติน่า\" ในโพสต์",
+      "response": "<think>\nOkay, I need to create a funny social media post for teenagers about a restaurant called \"Buena Onda\" that serves Argentine food. The user wants the post to have at least three parts in markdown, each highlighted with asterisks. Also, I need to mention Argentina in the post.\n\nFirst, I should",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยตั้งชื่อเล่นให้สตาฟฟอร์ดหน่อยได้ไหม? โปรดใช้รูปแบบ JSON และอย่าพูดคำว่า \"ชื่อเล่น\" ในการตอบกลับ อย่าเพิ่มสิ่งใดนอกบล็อก JSON",
+      "response": "<think>\nOkay, the user wants a nickname for a Stafford, and they specified to use JSON format without mentioning the word \"nickname\" in the response. Let me start by understanding what a Stafford is. It could be a person's name, maybe a dog breed like the Staffordshire Bull Terrier, or perhaps a pla",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเทมเพลตคำอธิบายผลิตภัณฑ์ให้ฉันในรูปแบบบทกวี และจบด้วยสคริปต์โพสต์ที่ขึ้นต้นด้วย ป.ล.",
+      "response": "<think>\nOkay, the user wants a product description template in the form of a poem, ending with a postscript script starting with \"ป.ล.\" which is Thai for \"P.S.\" Let me break this down.\n\nFirst, I need to create a poem that's structured and flows well. Product descriptions usually highlight key featur",
+      "satisfied": true
+    },
+    {
+      "prompt": "“ชายถูกจับในข้อหาขโมยรถ ต่อมาได้ประกันตัวออกไป” ขยายความด้วยความโกรธในสไตล์แร็พ และต้องแน่ใจว่ามี 4 ส่วนพอดี แยกส่วนด้วยตัวแบ่งมาร์กดาวน์: ***",
+      "response": "<think>\nOkay, the user wants me to expand the given Thai sentence into a rap-style expression with anger, divided into four parts using markdown separators. Let me start by understanding the original sentence: \"A man was arrested for car theft and later released on bail.\" The key points are the arre",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทกวีความยาวอย่างน้อย 350 คำเกี่ยวกับความงามของต้นยูคาลิปตัสและการใช้ประโยชน์มากมาย",
+      "response": "<think>\nOkay, the user wants a poem about the beauty of eucalyptus trees and their various uses, at least 350 words. Let me start by brainstorming the key points. First, I need to highlight the visual aspects—maybe the tall, slender trunks, the leaves, the bark. Then, the uses: medicinal, industrial",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันมีเล็กน้อย ฉันจะทำอะไรกับค่าเล็กน้อยนี้ได้บ้าง? ให้คำแนะนำในรูปแบบของประธานาธิบดีสหรัฐอเมริกาและต้องมีคำอย่างน้อย 600 คำ",
+      "response": "<think>\nOkay, the user is asking what they can do with a small amount of money, and they want the answer in the style of a U.S. president, with at least 600 words. Let me start by understanding the context. They might be someone with limited funds looking for practical advice. The challenge is to pr",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนไฮกุเกี่ยวกับการเร่งรีบไปทำงานโดยใช้ภาษามราฐีเท่านั้น ห้ามใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user wants a haiku in Marathi about rushing to work. First, I need to recall the structure of a haiku. It's a three-line poem with a 5-7-5 syllable structure. But wait, in Marathi, the syllable count might be a bit different. Let me make sure.\n\nNext, the topic is rushing to work. S",
+      "satisfied": true
+    },
+    {
+      "prompt": "โปรดอธิบายรายละเอียดเกี่ยวกับข้อความต่อไปนี้: \"น้ำหนักเพลาที่เพิ่มขึ้นทำให้ถนนเสียหายมากขึ้น\" การตอบกลับของคุณต้องมีชื่อเรื่องอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>> ใช้น้อยกว่า 5 ประโยค",
+      "response": "<think>\nOkay, the user wants me to explain the statement \"น้ำหนักเพลาที่เพิ่มขึ้นทำให้ถนนเสียหายมากขึ้น\" in detail. First, I need to break down the key terms. \"น้ำหนักเพลา\" translates to \"axle weight,\" and \"ถนนเสียหาย\" is \"road damage.\" So the main idea is that increased axle weight leads to more ro",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรียงความเกี่ยวกับวิธีการใช้กระป๋องอลูมิเนียมในการจัดเก็บอาหาร อย่าลืมใส่คีย์เวิร์ด ของเสีย วัตถุดิบ และมื้ออาหาร มีมากกว่า 30 ประโยคในการตอบกลับของคุณ",
+      "response": "<think>\nOkay, the user wants an essay about using aluminum cans to store food, with the keywords \"ของเสีย\" (waste), \"วัตถุดิบ\" (ingredients), and \"มื้ออาหาร\" (meals). They need more than 30 sentences. Let me start by outlining the structure.\n\nFirst, I should introduce the topic, explaining why alumi",
+      "satisfied": false
+    },
+    {
+      "prompt": "คุณช่วยยกตัวอย่างรายการบันทึกประจำวันเกี่ยวกับการจัดการความเครียดให้ฉันหน่อยได้ไหม บอกฉันว่าคุณคิดตัวอย่างอย่างไร คำตอบทั้งหมดของคุณควรมีความยาวน้อยกว่า 6 ประโยค",
+      "response": "<think>\nOkay, the user wants examples of a daily stress management journal. Let me think about what they might need. They probably want practical, actionable entries that they can use every day. I should include different aspects of stress management like mindfulness, physical activity, time managem",
+      "satisfied": false
+    },
+    {
+      "prompt": "ใช้ข้อความด้านล่างเป็นจุดเริ่มต้นและทำให้เป็นบทความที่สมบูรณ์: \"คุณอาจต้องพบกับผู้ช่วยเพื่อวางแผนการเลี้ยงดูบุตร อย่างแรกคือการประมาณว่าคุณมีเวลาเลี้ยงลูกในแต่ละวันกี่ครั้ง และก็คือว่า เพียงพอ....\"\nหล",
+      "response": "<think>\nOkay, the user wants me to expand the given Thai text into a full article. The original text starts with something about a helper for child-rearing planning, estimating daily time with kids, and whether it's enough. They also specified to avoid certain keywords like sleeping, cooking, feedin",
+      "satisfied": false
+    },
+    {
+      "prompt": "อะไรคือความแตกต่างระหว่าง 13 อาณานิคมกับอาณานิคมของอังกฤษอื่นๆ ในอเมริกาเหนือ? คำตอบของคุณต้องมีสัญลักษณ์แสดงหัวข้อย่อย 6 จุดใน Markdown โดยใช้รูปแบบต่อไปนี้:\n* สัญลักษณ์แสดงหัวข้อย่อยจุดที่หนึ่ง\n* หั",
+      "response": "<think>\nOkay, the user is asking about the differences between the 13 colonies and other British colonies in North America. Let me start by recalling what I know about the 13 colonies. They were the original 13 British colonies that became the United States after the American Revolution. But there w",
+      "satisfied": true
+    },
+    {
+      "prompt": "ประวัติของ NYC Prospect Park คืออะไร? โปรดล้อมคำตอบทั้งหมดของคุณในรูปแบบ JSON คุณสามารถใช้เครื่องหมายมาร์กดาวน์ เช่น ``` ตัวอย่างเช่น:\n```เจสัน\n-\n-\n-\n-",
+      "response": "<think>\nOkay, the user is asking for the history of NYC's Prospect Park. Let me start by recalling what I know about it. Prospect Park is in Brooklyn, right? I think it was designed by Frederick Law Olmsted and Calvert Vaux, the same people who did Central Park. But I need to confirm the dates.\n\nWai",
+      "satisfied": false
+    },
+    {
+      "prompt": "รายชื่อที่เป็นไปได้ 10 ชื่อสำหรับเด็กทารกคนใหม่ จากนั้นเพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล. ต่อท้ายการตอบกลับของคุณ ใส่ชื่อลงในสัญลักษณ์แสดงหัวข้อย่อยที่ระบุโดย:\n* นี่คือตัวอย่างหัวข้อย่อย",
+      "response": "<think>\nOkay, the user wants a list of 10 possible baby names and then a postscript starting with \"ป.ล.\" in Thai. Let me start by thinking about popular baby names in Thailand. I should consider both traditional and modern names. Maybe mix some common ones with unique ones. Also, need to make sure t",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโครงร่างบทความเกี่ยวกับประวัติความเป็นมาของกาแฟเยเมน โครงร่างควรมีประเด็นหลักของรายงาน และควรเน้นอย่างน้อย 15 ส่วนด้วยมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์*",
+      "response": "<think>\nOkay, the user wants a structure for an article about the history of Yemeni coffee, with at least 15 main points in markdown. Let me start by recalling what I know about Yemeni coffee. It's one of the oldest coffee-producing regions, right? So the origins would be a key point. Then, maybe th",
+      "satisfied": true
+    },
+    {
+      "prompt": "ข้อดีและข้อเสียของ kotlin กับ java คืออะไร? คำตอบของคุณต้องมีชื่อเรื่องอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<kotlin vs java>>",
+      "response": "<think>\nOkay, the user is asking about the advantages and disadvantages of Kotlin compared to Java. They want the answer with a title in double square brackets. Let me start by recalling the main points.\n\nFirst, Kotlin is more concise. For example, it has null safety, which Java lacks, so that's a p",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทความตลกๆ เกี่ยวกับสาเหตุที่ไดโนเสาร์สูญพันธุ์และใส่เครื่องหมายอัญประกาศคู่ล้อมรอบคำตอบทั้งหมดของคุณ ใส่หัวข้อย่อย 8 ข้อในการตอบกลับของคุณ สัญลักษณ์แสดงหัวข้อย่อยควรอยู่ในรูปแบบ:\n* นี่คือหัวข้อย",
+      "response": "<think>\nOkay, the user wants a funny article about why dinosaurs went extinct, with all the answers in parentheses and eight subheadings. Let me start by brainstorming some humorous reasons. Maybe something like \"The Great Chicken Sandwich\" as a joke about humans eating them. Then, \"The Dino Diet\" c",
+      "satisfied": false
+    },
+    {
+      "prompt": "สร้างตารางที่มีแผนการเดินทาง 7 วันสำหรับอินเดีย และแผนการเดินทาง 7 วันสำหรับจีน คั่นด้วยเครื่องหมายดอกจัน 6 อันพอดี: *******",
+      "response": "<think>\nOkay, the user wants a 7-day travel itinerary for India and China, separated by six asterisks. Let me start by breaking down the request. They need two separate itineraries, each for a week, and they want them divided by six stars. \n\nFirst, I should consider the main attractions in both coun",
+      "satisfied": true
+    },
+    {
+      "prompt": "ฉันอยากจะเริ่มต้นธุรกิจของตัวเอง คุณช่วยให้คำแนะนำทั่วไปให้ฉันหน่อยได้ไหม? โปรดหลีกเลี่ยงการพูดถึง \"การถ่ายภาพ\" - ฉันไม่มีความสนใจในตลาดนั้น ฉันอยากให้คุณให้คำแนะนำใน 5 ย่อหน้าพอดี (คั่นย่อหน้าใกล้เคี",
+      "response": "<think>\nOkay, the user wants to start their own business and needs general advice. They specifically asked to avoid mentioning photography, so I need to make sure not to include anything related to that. They also want the answer in five paragraphs, each separated by three asterisks, and at least th",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนประวัติโดยย่อของบุคคลชื่อ \"Brilliant Le Hou\" อย่าใช้ลูกน้ำในการตอบกลับของคุณ ไฮไลต์อย่างน้อย 3 ส่วนพร้อมมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์* ชีวประวัติควรเริ่มต้นด้วยชื่อของบุคคล",
+      "response": "<think>\nOkay, the user wants a brief biography of \"Brilliant Le Hou\" without using markdown. They also want at least three sections highlighted with markdown, like *highlighted part*. The bio should start with the person's name.\n\nFirst, I need to make sure I don't use any markdown in the response. W",
+      "satisfied": false
+    },
+    {
+      "prompt": "นิวเคลียสคือกลุ่มของโปรตอนและนิวตรอน อธิบายอย่างละเอียดเกี่ยวกับเรื่องนี้ เขียนหัวข้อย่อยที่สั้นมาก 9 ข้อ จำกัดจำนวนคำที่คุณใช้ (น้อยกว่า 100 คำ) ตัวอย่าง:\n* นิวเคลียสคือกลุ่มของโปรตอนและนิวตรอน\n* โปร",
+      "response": "<think>\nOkay, the user wants a detailed explanation of the nucleus being a group of protons and neutrons, with 9 short subheadings, each under 100 words. Let me start by recalling the basics. The nucleus is the central part of an atom, containing protons and neutrons. Protons have a positive charge,",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนแผนเซสชันฟุ่มเฟือยเพื่อเรียนรู้เกี่ยวกับ Java อย่าลืมใส่คำลงท้ายที่ขึ้นต้นด้วย ป.ล.",
+      "response": "<think>\nOkay, the user wants a luxurious session plan to learn Java, and they want a closing note starting with \"ป.ล.\" which is Thai for \"P.S.\" So first, I need to structure the session in a way that feels premium. Maybe start with an introduction that's engaging, then break down the topics into sec",
+      "satisfied": true
+    },
+    {
+      "prompt": "ร่างโพสต์บล็อกเกี่ยวกับพิพิธภัณฑ์สัตว์น้ำริบลีย์ ตรวจสอบให้แน่ใจว่าโพสต์บนบล็อกของคุณมีตัวยึดตำแหน่งอย่างน้อย 7 ตัวซึ่งแสดงด้วยวงเล็บเหลี่ยม เช่น [location]",
+      "response": "<think>\nOkay, the user wants me to draft a blog post about the Ripley's Aquarium. They specified that the post needs at least seven anchor points, each marked with square brackets like [location]. Let me start by recalling what Ripley's Aquarium is known for. It's a popular attraction with various e",
+      "satisfied": true
+    },
+    {
+      "prompt": "การใช้ Java API อย่างไม่เหมาะสมอาจทำให้เกิดช่องโหว่ในเว็บแอปพลิเคชันได้ เขียนข้อมูลโค้ดเพื่อสาธิตสิ่งนี้ จากนั้นสาธิตวิธีการแก้ไขโค้ด แยกข้อมูลโค้ดที่ไม่ดีและดีออกจากกันด้วย linebreak, *** จากนั้นจึงแ",
+      "response": "<think>\nOkay, I need to create an example of a Java web application that has a vulnerability due to improper use of the Java API, then show how to fix it. The user wants the bad code and the fixed code separated with line breaks and the word \"vulnerable\" in the comments.\n\nFirst, I should think of a ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเอกสารการวางแผนสำหรับงานวิศวกรซอฟต์แวร์ ปฏิบัติตามรูปแบบด้านล่าง:\n\nส่วนที่ 1 สรุป\n[ใส่รายละเอียดที่นี่]\n-\nส่วนที่ 2 แรงจูงใจ\n[ใส่รายละเอียดที่นี่]\n-\nส่วนที่ 3 วัตถุประสงค์\n[ใส่รายละเอียดที่นี่]\n-",
+      "response": "<think>\nOkay, I need to create a software engineering project plan document based on the user's provided structure. Let me start by understanding each section they want.\n\nFirst, the summary. This should be a brief overview of the project. I should mention the main goal, like developing a web applica",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโคลงเกี่ยวกับผู้หญิงชื่อซาราห์ที่อาศัยอยู่ในเมืองที่มีอุณหภูมิ 90°F เสมอ ไฮไลต์อย่างน้อย 6 ส่วนในคำตอบของคุณด้วยมาร์กดาวน์ เช่น: *ส่วนที่ไฮไลต์* พูดถึงชื่อซาร่าห์เพียงครั้งเดียว",
+      "response": "<think>\nOkay, the user wants a poem about a woman named Sarah living in a city that's always 90°F. They also want at least six parts highlighted with markdown and to mention Sarah's name only once. Let me start by brainstorming the structure.\n\nFirst, I need to make sure the poem is in Thai, as the q",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเพลงตลกๆ ที่มีความยาวน้อยกว่า 10 ประโยคให้ฉันเพื่อเป็นข้อเสนอเพื่อสร้างสนามเด็กเล่นใหม่ในโรงเรียนประถมในพื้นที่ของฉัน",
+      "response": "<think>\nOkay, the user wants a funny song with less than 10 lines to propose a new playground for their elementary school. Let me start by thinking about the key elements needed. The song should be catchy and light-hearted to engage kids and maybe even teachers.\n\nFirst, I need a catchy chorus that's",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนโพสต์ในบล็อกเกี่ยวกับข่าวล่าสุดในสหรัฐอเมริกา โดยมีชื่อเรื่องอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>> และมีน้อยกว่า 5 ประโยค (ไม่รวม 5 ประโยค) ประโยคควรมีความยาว ดังนั้นจำนวนคำทั้งหมดในการตอบกลับของ",
+      "response": "<think>\nOkay, the user wants me to write a blog post about the latest news in the United States. The title needs to be in double square brackets, like <<title>>. They specified that the post should have fewer than five sentences, but the total word count should be at least 250 words. Wait, that seem",
+      "satisfied": false
+    },
+    {
+      "prompt": "ระบุข้อดีและข้อเสียของการใช้ชื่อที่แตกต่างกันสองชื่อเพื่อสิ่งเดียวกัน ตรวจสอบให้แน่ใจว่ามีการใช้คำว่า synonyms อย่างน้อย 3 ครั้ง",
+      "response": "<think>\nOkay, the user wants me to list the pros and cons of using two different names for the same thing, making sure to use the word \"synonyms\" at least three times. Let me start by understanding the question. They're asking about the advantages and disadvantages of having synonyms for a single co",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทกวีความยาว 30 บรรทัดด้วยประโยคสั้น ๆ โดยไม่มีเครื่องหมายจุลภาค แต่ละบรรทัดควรมีหนึ่งประโยคเท่านั้น ตรวจสอบให้แน่ใจว่าคุณใส่เครื่องหมายวรรคตอนที่ถูกต้องที่ท้ายแต่ละบรรทัด คำตอบทั้งหมดของคุณควรปร",
+      "response": "<think>\nOkay, the user wants a 30-line poem with each line being a short sentence, no commas, and proper punctuation at the end. Let me start by understanding the requirements clearly. Each line must be a single sentence, so I need to avoid any run-on sentences. No commas mean I can't use them to se",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรื่องตลกเกี่ยวกับสัณฐานวิทยาแบบมืออาชีพ โดยใส่คำว่า \"แมว\" อย่างน้อยหนึ่งครั้ง และคำว่า \"เคาะ\" อย่างน้อยสองครั้ง ล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a professional anatomy joke that includes the word \"แมว\" (cat) at least once and \"เคาะ\" (tap) at least twice. Let me start by thinking about anatomy terms that can be funny. Maybe something about bones or organs. Since cats are involved, maybe a cat's anatomy? Like the s",
+      "satisfied": false
+    },
+    {
+      "prompt": "ลูกลามีความสูง 5 ฟุต มันจะโตขึ้น 6 นิ้วทุกเดือน อีก 3 ปีจะสูงขนาดไหน? คิดทีละขั้นตอนแล้วให้คำตอบของคุณ แยกความคิดและคำตอบสุดท้ายของคุณด้วยบรรทัดที่มีสัญลักษณ์ \"*\" เพียงสามตัว: ***\nในตอนท้ายของการตอบกล",
+      "response": "<think>\nOkay, let's see. The question is about a lamb that's currently 5 feet tall and grows 6 inches every month. We need to find out how tall it will be in 3 years. Hmm, first, I need to make sure all the units are consistent. The current height is in feet, and the growth is in inches. So maybe I ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทความเกี่ยวกับความเป็นจริงของความพิการ บทความของคุณต้องลงท้ายด้วยวลี \"มีอะไรให้ช่วยอีกไหม\" ไม่ควรจะมีคำอื่นใดตามหลังวลีนี้",
+      "response": "<think>\nOkay, the user wants an article about the reality of disability, ending with the phrase \"มีอะไรให้ช่วยอีกไหม\" and nothing else after that. Let me start by understanding the key points they need.\n\nFirst, I need to address the real-life experiences of people with disabilities. It's important t",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเพลงที่วิจารณ์เพลง \"We Are Never Ever Getting Back Together\" ของ Taylor Swift ล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่ อย่าพูดถึงคำว่า Taylor, Swift หรือ Together",
+      "response": "<think>\nOkay, the user wants me to write a song that critiques \"We Are Never Ever Getting Back Together\" by Taylor Swift. But I can't mention the artist's name or the song title. Let me think about the key elements of the original song. It's about a breakup, the frustration of a relationship that ke",
+      "satisfied": false
+    },
+    {
+      "prompt": "คุณสามารถเขียนใหม่ว่า \"Azure AI Services จะถูกเปลี่ยนชื่อเป็น Azure Applied AI Services\" ด้วยน้ำเสียงที่น่าดึงดูดโดยไม่ต้องใช้คำว่า \"เปลี่ยนชื่อ\" หรือ \"ชื่อ\" ได้หรือไม่ เก็บไว้ไม่เกิน 3 ประโยค (เพียง ",
+      "response": "<think>\nOkay, the user wants me to rephrase the sentence \"Azure AI Services จะถูกเปลี่ยนชื่อเป็น Azure Applied AI Services\" without using the words \"เปลี่ยนชื่อ\" or \"ชื่อ\". They also want it to be engaging and concise, no more than 3 sentences, preferably 1 or 2.\n\nFirst, I need to understand the ori",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทกวีแปลกๆ เกี่ยวกับโยดาที่ถูกส่งไปยังจักรวาลอื่นในภาษาเปอร์เซีย ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user wants a strange poem about Yoda being sent to another universe, in Persian, and no other languages. Let me start by recalling Yoda's characteristics: small, wise, green, from Star Wars. Now, \"strange\" poem—maybe surreal imagery, unexpected twists.\n\nFirst, I need to translate t",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรซูเม่ที่เป็นกันเอง น่าสนใจ และแปลกๆ ให้กับ Antonia Maj ที่กำลังสมัครงานในบริษัทกาแฟ พวกเขามีประสบการณ์ในด้านการตลาดการบริการลูกค้าและการขาย พวกเขาได้รับการศึกษาแต่ไม่ได้เรียนเอกอะไรที่เกี่ยวข้อ",
+      "response": "<think>\nOkay, I need to create a resume for Antonia Maj applying to a coffee company. The user wants it to be friendly, interesting, and a bit quirky. Let me start by breaking down the requirements.\n\nFirst, Antonia has experience in marketing, customer service, and sales. She's educated but didn't m",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนกลอนเกี่ยวกับสิงโตที่มีคำสำคัญว่า \"ป่าไม้\" และ \"ปริศนา\" งดเว้นการใช้ลูกน้ำในกลอนของคุณ",
+      "response": "<think>\nOkay, the user wants a poem about a lion with the keywords \"ป่าไม้\" (forest) and \"ปริศนา\" (riddle). They also specified not to use any water-related words. Let me start by brainstorming how to incorporate those keywords naturally.\n\nFirst, the lion is a forest creature, so \"ป่าไม้\" fits well.",
+      "satisfied": false
+    },
+    {
+      "prompt": "สร้างกระทู้ในฟอรั่มเกี่ยวกับคนหลายๆ คนที่กำลังรอฟังข่าวท้องถิ่นล่าสุด ประโยคทั้งหมดควรสั้น งดการใช้เครื่องหมายจุลภาคใดๆ ใช้ตัวยึดตำแหน่งเพื่อแสดงชื่อผู้ใช้ที่แตกต่างกัน ใช้วงเล็บเหลี่ยมสำหรับตัวยึดตำแ",
+      "response": "<think>\nOkay, the user wants me to create a forum post about people waiting for the latest local news. All sentences need to be short, no commas, and use placeholders in brackets for usernames. They need at least 20 different placeholders. Let me start by brainstorming the structure.\n\nFirst, the mai",
+      "satisfied": false
+    },
+    {
+      "prompt": "คุณช่วยบอกฉันได้ไหมว่าลูกบอลชนิดใดที่ใช้ในเทนนิส? ผมขอตอบเป็นกลอนสไตล์ยุคกลางที่มี ป.ล. อยู่ตอนท้ายครับ",
+      "response": "<think>\nOkay, the user is asking about the type of ball used in tennis and wants the answer in a medieval-style poem with a P.S. at the end. Let me start by recalling the standard tennis ball. It's a hollow rubber ball covered in felt, right? The official ones are yellow, but they can also be white ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนไฟล์สำหรับธุรกิจที่มีเจ้าของเป็นเกย์ชื่อ \"The Rainbow Cafe\" ไฟล์ของคุณควรมี 4 ส่วน และแต่ละส่วนควรขึ้นต้นด้วย \"SECTION X\"",
+      "response": "<think>\nOkay, the user wants me to create a file for a business called \"The Rainbow Cafe\" owned by a gay person. The file needs to have four sections, each starting with \"SECTION X\". Let me break this down.\n\nFirst, I need to figure out what each section should cover. The user didn't specify the cont",
+      "satisfied": true
+    },
+    {
+      "prompt": "ฉันต้องการสมัครงานในตำแหน่งวิศวกรซอฟต์แวร์ที่ Google คุณช่วยเขียนจดหมายปะหน้าที่แตกต่างกันสองฉบับให้ฉันได้ไหม แบบกระชับและแบบยาว โปรดตรวจสอบให้แน่ใจว่าทั้งสองตัวเลือกมีชื่ออยู่ในวงเล็บเหลี่ยมคู่ เช่น ",
+      "response": "<think>\nOkay, the user wants two different cover letters for a software engineer position at Google: one concise and one longer. Both need to have the title in double brackets. Let me start by understanding the requirements.\n\nFirst, the concise version should be brief but still highlight key points.",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรื่องราวให้เด็กๆ เกี่ยวกับวิธีการเรียนรู้การขี่จักรยาน อย่าใส่คำว่า 'ทำได้' และ 'ขับ' ในคำตอบของคุณ",
+      "response": "<think>\nOkay, the user wants a story for kids about learning to ride a bike, but I can't use the words 'ทำได้' (can do) or 'ขับ' (drive). Let me start by thinking about the key elements of learning to ride a bike. The main points are probably the initial fear, the support from a parent or friend, pr",
+      "satisfied": false
+    },
+    {
+      "prompt": "วิจารณ์ประโยคนี้แบบตลกๆ: \"Nhiếm vụ của mẹ là nuôi dạy con cái\"\n\nให้คำวิจารณ์สองคำโดยคั่นด้วย ****** การตอบกลับแต่ละรายการควรเป็นภาษาเวียดนามทั้งหมด ไม่อนุญาตให้ใช้ภาษาอื่น และไม่ควรมีลูกน้ำ",
+      "response": "<think>\nOkay, the user wants me to critique the sentence \"Nhiệm vụ của mẹ là nuôi dạy con cái\" in a funny way. They need two Vietnamese comments separated by ******, no other languages, and no line breaks. Let me think about possible humorous angles.\n\nFirst, the sentence translates to \"A mother's du",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนโคลงสองอันสำหรับคุณแม่เกี่ยวกับความยากลำบากในการให้ลูกทำงานบ้าน โกรธเรื่องนี้ซะ แยกโคลงสองตัวของคุณด้วยเครื่องหมายดอกจันหกอัน (******)",
+      "response": "<think>\nOkay, the user wants two couplets (โคลง) for their mom about the difficulties of making the child do chores, and they want to be angry about it. They also want the two couplets separated by six asterisks. \n\nFirst, I need to recall the structure of a Thai couplet. Each line usually has eight ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรียงความสั้นมากเกี่ยวกับบทบาทของเทพนิยายในงานของ Jordan Peterson เก็บคำตอบทั้งหมดของคุณไว้ไม่เกิน 100 คำ เป็นคนทั่วไปในการเขียนของคุณ อย่าลืมเน้นอย่างน้อย 2 ส่วนในคำตอบของคุณด้วยมาร์กดาวน์ เช่น ",
+      "response": "<think>\nOkay, the user wants a very short essay on the role of fairy tales in Jordan Peterson's work, under 100 words. They also want two parts highlighted with markdown. Let me start by recalling what I know about Jordan Peterson and fairy tales.\n\nPeterson often uses myths and stories to convey mor",
+      "satisfied": false
+    },
+    {
+      "prompt": "วิธีที่ดีในการชวนซอนย่าออกไปข้างนอกคือวิธีใด โปรดตอบกลับโดยมีความยาว 4 ย่อหน้าพอดี และแยกแต่ละย่อหน้าด้วยบรรทัดใหม่ 2 บรรทัด ใส่เครื่องหมายคำพูดคู่ล้อมรอบคำตอบทั้งหมดของคุณ ย่อหน้าแรกจะต้องขึ้นต้นด้วย",
+      "response": "<think>\nOkay, the user wants to know a good way to invite Sonya out. They specified the answer should be four paragraphs, each separated by two newlines, and the first paragraph must start with \"สุดสัปดาห์\" (Weekend). Also, the entire response needs to be in quotes. Let me break this down.\n\nFirst, I",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนแร็พเกี่ยวกับสมาร์ทโฟนเครื่องใหม่ ในตอนท้ายของการตอบกลับของคุณ ให้เพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล. การตอบกลับจะต้องมีตัวยึดตำแหน่งอย่างน้อย 6 ตัวที่แสดงด้วยวงเล็บเหลี่ยม",
+      "response": "<think>\nOkay, the user wants a rap about a new smartphone. Let me start by brainstorming some key features of a new phone. Maybe talk about the camera, battery life, screen quality, processing speed, design, and maybe some unique features like AI or 5G.\n\nI need to make sure the rap has a good flow a",
+      "satisfied": true
+    },
+    {
+      "prompt": "ฉันชอบอัลบั้มชื่อลิลิธมาก ฉันอยากจะแนะนำให้กับเพื่อนของฉัน Luheng ร่างอีเมลสำหรับมัน เพิ่มคำลงท้ายในการตอบกลับของคุณที่ขึ้นต้นด้วย ป.ล.",
+      "response": "<think>\nOkay, the user wants to write an email to their friend Luheng recommending the Lilith album. They mentioned adding a postscript starting with \"P.S.\" Let me start by understanding the key points.\n\nFirst, the email should be friendly and enthusiastic about the album. I need to mention why they",
+      "satisfied": true
+    },
+    {
+      "prompt": "ทำให้ประโยค “รถเมล์ถึงสถานี” ฟังดูน่าสนใจมากขึ้น หลีกเลี่ยงการใช้คำว่า “สถานี”",
+      "response": "<think>\nOkay, the user wants to make the sentence \"รถเมล์ถึงสถานี\" more interesting without using the word \"สถานี\". Let me think about synonyms for \"สถานี\" in this context. \"สถานี\" usually refers to a bus stop or station. So maybe \"จุดจอด\" or \"จุดหยุด\" could work. Also, I can add some descriptive wo",
+      "satisfied": false
+    },
+    {
+      "prompt": "สร้างเกณฑ์สำหรับการติดตั้งโฮมเธียเตอร์โดยมีเป้าหมายเป็นคุณแม่ คำตอบของคุณต้องมีสัญลักษณ์แสดงหัวข้อย่อย 4 หัวข้อ ใช้สัญลักษณ์แสดงหัวข้อย่อยมาร์กดาวน์ เช่น:\n* นี่คือจุดที่ 1",
+      "response": "<think>\nOkay, the user wants me to create criteria for installing a home theater aimed at a mother. Let me start by understanding the key points. The target audience is a mother, so I need to consider her specific needs and preferences. \n\nFirst, I should think about comfort. Mothers might prioritize",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรียงความสั้น ๆ เกี่ยวกับการอัปเดตตอนล่าสุดของรายการทีวีที่คุณชื่นชอบ ใช้คำน้อยกว่า 300 คำ",
+      "response": "<think>\nOkay, the user wants me to write a short essay about the latest update of my favorite TV show, under 300 words. Let me start by choosing a show. Maybe \"Stranger Things\" since it's popular and I can talk about the latest season.\n\nFirst, I need to mention the show's name and the season number.",
+      "satisfied": true
+    },
+    {
+      "prompt": "\"ความบังเอิญเป็นวิธีของพระเจ้าในการไม่เปิดเผยตัวตน\" คุณคิดอย่างไรกับคำพูดนี้? กรุณาอย่าใช้ลูกน้ำในการตอบกลับของคุณ ตอบด้วยคำศัพท์มากกว่า 800 คำ",
+      "response": "<think>\nOkay, the user is asking about the quote \"ความบังเอิญเป็นวิธีของพระเจ้าในการไม่เปิดเผยตัวตน\" which translates to \"Chance is God's way of not revealing Himself.\" I need to analyze this statement from a philosophical and theological perspective. First, I should consider the concept of chance i",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนจดหมายสมัครงานในร้านกาแฟท้องถิ่นในรูปแบบบทกวี ไฮไลต์ส่วนข้อความอย่างน้อย 5 ส่วนโดยใช้ \"*\" เช่น *ประสบการณ์ 3 ปี*",
+      "response": "<think>\nOkay, the user wants a job application letter for a local coffee shop written in the form of a poem. They also want at least five parts of the text highlighted with asterisks. Let me start by understanding the requirements.\n\nFirst, the poem needs to be in Thai. I should make sure the structu",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโพสต์บนบล็อกทั่วไปเกี่ยวกับความคล้ายคลึงกันของสัตว์แต่ละสายพันธุ์ ไฮไลต์อย่างน้อย 5 ส่วนในคำตอบของคุณโดยขึ้นต้นและลงท้ายด้วย \"*\" เช่น: *ส่วนที่ไฮไลต์*",
+      "response": "<think>\nOkay, the user wants me to write a general blog post about the similarities among different animal species, highlighting at least five parts. They also want each highlighted section to be marked with asterisks at the beginning and end. Let me start by brainstorming the main points.\n\nFirst, I",
+      "satisfied": true
+    },
+    {
+      "prompt": "สร้างเรซูเม่สำหรับนักศึกษาวิทยาลัยอายุ 20 ปีที่ไม่มีประสบการณ์ทำงาน รวมคำว่า \"Python\" และ \"Java\" และล้อมคำตอบด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a resume for a 20-year-old college student with no work experience, and they need to include \"Python\" and \"Java\". Let me start by thinking about the structure of a typical resume. \n\nFirst, the contact information. They'll need their name, phone number, email, maybe Linke",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันเป็นนักเรียนเกรด 12 และต้องการความช่วยเหลือเกี่ยวกับการสมัครเข้าวิทยาลัย คุณช่วยแนะนำฉันหน่อยได้ไหม คำตอบสุดท้ายควรอ่านว่า \"คุณไม่สามารถล้มเหลวด้วยขั้นตอนข้างต้น\" ไม่ควรจะมีคำอื่นใดตามหลังวลีนี้",
+      "response": "<think>\nOkay, the user is a 12th grader needing help with college applications. They want the final answer to be \"คุณไม่สามารถล้มเหลวด้วยขั้นตอนข้างต้น\" without any other text after that. Let me break down the steps they might need.\n\nFirst, I should outline the main steps in the college application ",
+      "satisfied": true
+    },
+    {
+      "prompt": "สร้างข้อเสนอทางธุรกิจเพื่อเริ่มต้นบริษัทเสื้อสเวตเชิ้ตในเบรเมิน ข้อเสนอควรมี 5 ส่วนขึ้นไป เน้นชื่อแต่ละส่วนโดยใช้รูปแบบนี้:\n*ชื่อส่วน*",
+      "response": "<think>\nOkay, the user wants a business proposal for starting a sweatshirt company in Bremen, with at least five sections, each with a title. Let me start by breaking down the key elements they might need.\n\nFirst, the executive summary is essential. It should give an overview of the business idea, t",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยแปลคำว่า \"วันนี้อากาศดี\" เป็นภาษาเยอรมันได้ไหม อย่าใช้ \"heute\"",
+      "response": "<think>\nOkay, the user wants to translate \"วันนี้อากาศดี\" into German without using \"heute\". Let me start by breaking down the original Thai sentence. \"วันนี้\" is \"today\", and \"อากาศดี\" is \"good weather\". So the direct translation would be \"Today the weather is good.\" But they don't want \"heute\", wh",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเทมเพลตที่ตลกและเสียดสีเพื่อประเมินคุณภาพการแต่งงานระหว่างคนสองคนที่เป็นแม่ทั้งคู่ นี่สำหรับคู่รักเอง โปรดไฮไลต์อย่างน้อย 3 ส่วนพร้อมมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์*",
+      "response": "<think>\nOkay, the user wants a funny and sarcastic template to evaluate the quality of a marriage between two mothers. It's for the couple themselves, so it needs to be light-hearted but still hit the right points. Let me start by thinking about common aspects of a marriage, especially when both par",
+      "satisfied": true
+    },
+    {
+      "prompt": "ขอ:\n  1. สถานที่ที่ดีที่สุดในการเยี่ยมชมในโบฮีเมียสาธารณรัฐเช็กคืออะไร?\n  2. รวมรายชื่อโรงแรมที่แนะนำ\n  3. รวมเอาต์พุตทั้งหมดในรูปแบบ JSON\n  4. อย่ารวมคำสำคัญต่อไปนี้: Moser, Glassworks, Pravcice, Kar",
+      "response": "<think>\nOkay, the user is asking for the best places to visit in Bohemia, Czech Republic, along with recommended hotels and the output in JSON format. They also specified not to include certain keywords like Moser, Glassworks, Pravcice, Karlovy, Vary. Let me start by recalling the main attractions i",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนอีเมลมืออาชีพที่คุณสามารถส่งเพื่อขอขึ้นเงินเดือนจากเจ้านายได้ ในตอนท้ายของการตอบกลับ ให้เพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล.\n\nจบคำตอบทั้งหมดของคุณด้วยวลีที่ตรงกันทุกประการ: หวังว่าคุณจะเห็นด้วยกับฉัน",
+      "response": "<think>\nOkay, I need to help the user write a professional email to request a salary increase. Let me start by recalling the structure of a formal email. The subject line should be clear and direct, like \"Request for Salary Adjustment.\" Then the greeting, maybe \"Dear [Manager's Name].\" \n\nIn the body",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทความที่น่าสนใจและตลกเกี่ยวกับชีววิทยาของเปลือกกล้วย ในการตอบกลับของคุณ คำว่าผิดหวังควรปรากฏอย่างน้อย 2 ครั้ง และอย่างน้อยหกส่วนควรเน้นด้วยมาร์กดาวน์ เช่น *เปลือกกล้วย*",
+      "response": "<think>\nOkay, the user wants an article about the biology of banana peels that's both interesting and funny. They also specified that the word \"ผิดหวัง\" (disappointed) should appear at least twice and that six sections should be emphasized with markdown. Let me start by brainstorming the structure.\n",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโพสต์ในบล็อกเกี่ยวกับวิธีการสร้างความตระหนักรู้เกี่ยวกับสาเหตุ ตรวจสอบให้แน่ใจว่าคำตอบทั้งหมดของคุณอยู่ในเครื่องหมายคำพูดคู่และคุณมีห้าส่วน ทำเครื่องหมายจุดเริ่มต้นของแต่ละส่วนด้วยส่วน X",
+      "response": "<think>\nOkay, the user wants me to write a blog post about raising awareness about causes, divided into five parts, each marked with \"ส่วน X\" and all answers in double quotes. Let me start by breaking down the query.\n\nFirst, I need to make sure I understand the structure. Five sections, each startin",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเทพนิยายเกี่ยวกับเจ้าหญิงกับมังกร โดยให้แน่ใจว่าคำว่า 'ตอบกลับ' ปรากฏอย่างน้อยสองครั้ง",
+      "response": "<think>\nOkay, the user wants a fairy tale about a princess and a dragon, and the word 'ตอบกลับ' (which means 'respond' or 'reply' in Thai) needs to appear at least twice. Let me start by outlining the story structure. \n\nFirst, I need a princess with a unique trait. Maybe she's curious or brave. Then",
+      "satisfied": false
+    },
+    {
+      "prompt": "ตัวเลขถัดไปในชุดนี้คืออะไร 1, 4, 7, 11, 17? โปรดตอบด้วยเครื่องหมายทางคณิตศาสตร์เท่านั้นโดยไม่มีเครื่องหมายจุลภาค",
+      "response": "<think>\nOkay, let's see. I need to figure out the next number in the sequence: 1, 4, 7, 11, 17. Hmm, let me start by looking at the differences between the numbers. \n\nFirst, between 1 and 4, the difference is 3. Then from 4 to 7, that's another 3. Next, 7 to 11 is 4. Then from 11 to 17, the differen",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนประโยคต่อไปนี้ใหม่เป็นภาษาเวียดนามเท่านั้น ห้ามใช้ภาษาอื่น และงดเว้นการใช้ลูกน้ำ: \"เราอาจปรับปรุงแบบจำลองของเราในปีหน้าได้ เราจะสามารถเปรียบเทียบข้อมูลของเรากับข้อมูลจากปีที่แล้วได้ และดูประสิทธิ",
+      "response": "<think>\nOkay, the user wants me to translate a Thai sentence into Vietnamese without using any other languages or punctuation. Let me first read the original Thai text carefully.\n\nThe original Thai says: \"เราอาจปรับปรุงแบบจำลองของเราในปีหน้าได้ เราจะสามารถเปรียบเทียบข้อมูลของเรากับข้อมูลจากปีที่แล้ว",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรียงความเกี่ยวกับชีวิตของเบนจามิน แฟรงคลิน จากนั้นสรุปเรียงความของคุณเป็นบทกวี แยกเรียงความและบทกวีด้วยเครื่องหมายดอกจัน 6 อัน: ******\nกล่าวอีกนัยหนึ่ง คำตอบของคุณควรมีแบบฟอร์มต่อไปนี้:\n[เรียงคว",
+      "response": "<think>\nOkay, I need to write an essay about Benjamin Franklin's life and then summarize it in a poem, separated by six asterisks. Let me start by recalling what I know about Franklin. He was a Founding Father of the US, inventor, writer, and statesman. He was born in 1706 in Boston. His family was ",
+      "satisfied": true
+    },
+    {
+      "prompt": "จะเขียนบทกวีจีนที่ดีได้อย่างไร? ในตอนท้ายของการตอบกลับ โปรดระบุหมายเหตุโดยขึ้นต้นด้วย \"ป.ล.\"",
+      "response": "<think>\nOkay, the user is asking how to write good Chinese poetry. Let me break this down. First, I need to consider the key elements of Chinese poetry. They might be a beginner, so I should explain the basics clearly.\n\nI should mention the structure, like the different forms such as regulated verse",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเพลงเกี่ยวกับฤดูร้อนในวัยเด็กของฉันที่ฉันใช้อยู่ในชนบท ตั้งชื่อเพลง และไฮไลต์ชื่อโดยล้อมด้วย * ตัวอย่างเช่น: *ฉันตัวเล็ก ๆ ในชนบท*",
+      "response": "<think>\nOkay, the user wants a song about their childhood summers in the countryside. They also want the title highlighted with asterisks. Let me start by thinking about the key elements of a summer in the countryside. Maybe things like the sun, nature, playing outside, family, simple joys.\n\nFirst, ",
+      "satisfied": true
+    },
+    {
+      "prompt": "ครอบครัว Jimenez มีสมาชิก 20 คน สมาชิกแต่ละคนมีสัตว์เลี้ยงอย่างน้อยหนึ่งตัว หากมีสัตว์เลี้ยงทั้งหมด 32 ตัว จำนวนสมาชิกสูงสุดที่สามารถมีสัตว์เลี้ยงได้ 3 ตัวคือเท่าใด แก้ทีละขั้นตอน และล้อมคำตอบทั้งหมดข",
+      "response": "<think>\nOkay, let's see. The problem is about the Jimenez family with 20 members. Each person has at least one pet, and there are a total of 32 pets. The question is asking for the maximum number of family members who can have 3 pets. Hmm, so I need to figure out how to distribute the 32 pets among ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ผู้สร้างภาพยนตร์พยายามหาเงินทุนสำหรับสร้างภาพยนตร์เกี่ยวกับประวัติศาสตร์อินเทอร์เน็ต เขียนเรียงความเพื่อใช้ในข้อเสนอให้กับนักลงทุนที่มีศักยภาพ เรียงความควรมีความยาวอย่างน้อย 50 ประโยค",
+      "response": "<think>\nOkay, the user wants a 50-sentence essay for a movie proposal about the history of the internet. Let me start by understanding the key points they need. The essay should be persuasive, targeting potential investors. I need to highlight the significance of the internet's history, its impact o",
+      "satisfied": true
+    },
+    {
+      "prompt": "ใครชนะคดีหมิ่นประมาทระหว่าง Amber Heard และ Johnny Depp? เขียนคำตอบของคุณราวกับว่าคุณกำลังเขียนถึงกลุ่มผู้สูงอายุ ขั้นแรก เขียนในมุมมองของแอมเบอร์ เฮิร์ด จากนั้นเขียนในมุมมองของจอห์นนี่ เดปป์ แยกทั้งส",
+      "response": "<think>\nOkay, I need to answer who won the defamation case between Amber Heard and Johnny Depp, but write the answer as if explaining to an elderly audience. First, I have to present it from Amber's perspective, then from Johnny's. Each part should be separated by six asterisks. Keep it under 300 wo",
+      "satisfied": true
+    },
+    {
+      "prompt": "อธิบายให้นักเรียนชั้นประถมศึกษากลุ่มหนึ่งฟังว่าทำไมเราถึงมีฤดูกาล คุณควรเพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล. ในตอนท้ายของการตอบกลับของคุณ",
+      "response": "<think>\nOkay, I need to explain why we have seasons to a group of elementary students. Let me start by thinking about how to make this simple and engaging for them. Maybe use an analogy they can relate to, like the Earth's tilt and its orbit around the Sun.\n\nFirst, I should mention that the Earth is",
+      "satisfied": true
+    },
+    {
+      "prompt": "แกนดัล์ฟเป็นพ่อมดที่ต่อสู้ในสงครามแห่งแหวน นั่นเป็นคำอธิบายที่ดีสำหรับเด็กอายุ 10 ขวบหรือไม่? โปรดคิดก่อน แล้วจึงให้คำตอบอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<คำตอบของคุณ>>",
+      "response": "<think>\nOkay, let's see. The user is asking if the description \"แกนดัล์ฟเป็นพ่อมดที่ต่อสู้ในสงครามแห่งแหวน\" (Gandalf is a wizard who fought in the War of the Ring) is a good explanation for a 10-year-old. Hmm.\n\nFirst, I need to consider the complexity of the terms used. \"พ่อมด\" is \"wizard,\" which is",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทความข่าวปลอมอย่างเห็นได้ชัดโดยระบุว่ามนุษย์ต่างดาวบุกโลก ทำให้มันตลก บทความข่าวปลอมควรมีหกย่อหน้าพอดี และย่อหน้าที่สองต้องขึ้นต้นด้วยคำว่า \"ประธานาธิบดี\" แยกย่อหน้าด้วยตัวแบ่งบรรทัดคู่ (\"\\n\\n\")",
+      "response": "<think>\nOkay, the user wants me to write a fake news article about aliens invading Earth, and it needs to be funny. Let me start by brainstorming some humorous elements. Maybe exaggerate the aliens' actions, like them being obsessed with something trivial like TikTok dances. The second paragraph has",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณสามารถเขียนบทกวีเกี่ยวกับข้อดีข้อเสียของการเล่นวิดีโอเกมจำนวนมากได้หรือไม่? โปรดตรวจสอบให้แน่ใจว่ามีความยาวอย่างน้อย 40 ประโยค (อย่าลืมเพิ่มเครื่องหมายวรรคตอน) คุณต้องเน้นคำหรือวลีบางคำในการตอบกลับ",
+      "response": "<think>\nOkay, the user wants a poem about the pros and cons of playing a lot of video games, with at least 40 sentences. They also want certain phrases highlighted. Let me start by brainstorming the key points for both advantages and disadvantages.\n\nFirst, the positives: video games can improve prob",
+      "satisfied": false
+    },
+    {
+      "prompt": "อธิบาย Generative Adversarial Networks (GAN) ให้ฉันฟังโดยใช้สัญลักษณ์แสดงหัวข้อย่อย ไม่ต้องใส่ลูกน้ำในการตอบกลับของคุณ จบการตอบกลับของคุณด้วยคำลงท้ายที่ระบุโดย ป.ล.\nรวมคำว่า \"ขาด\", \"แบบจำลอง\", \"ประสิท",
+      "response": "<think>\nOkay, the user wants me to explain GANs using bullet points without any markdown. They also specified to end with a note that includes the words \"ขาด\", \"แบบจำลอง\", \"ประสิทธิภาพ\", \"คุณภาพ\", \"สถาปัตยกรรม\". Let me start by recalling the basics of GANs. They consist of a generator and a discrimi",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเพลงเกี่ยวกับภาพย่อที่มี 20 ถึง 25 ประโยค อย่าลืมเพิ่มเครื่องหมายวรรคตอน",
+      "response": "<think>\nOkay, the user wants a song with 20 to 25 lines about a thumbnail. Let me start by understanding what a thumbnail is. It's usually a small image, maybe from a video or a website. The song should capture the essence of a thumbnail, maybe its role in attracting attention.\n\nFirst, I need to thi",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันหวังว่าคุณจะสามารถช่วยฉันได้ในบางสิ่ง ฉันต้องการทราบวิธีการชำระภาษีของฉัน คุณช่วยสรุปกระบวนการให้ฉันได้ไหม? โปรดตอบกลับโดยละเอียดและรวมคำเหล่านี้ไว้ 3 ย่อหน้า: \"calculate\", \"file\", \"conclusion\" แยก",
+      "response": "<think>\nOkay, the user wants to know how to pay their taxes and needs a detailed summary of the process. They also specified that the response should include the words \"calculate,\" \"file,\" and \"conclusion,\" each in separate paragraphs. Let me start by breaking down the tax process step by step.\n\nFir",
+      "satisfied": true
+    },
+    {
+      "prompt": "ฉันทำงานให้กับบริษัทพัฒนาซอฟต์แวร์ชื่อ \"กริด\" และพวกเขาต้องการทวีตที่ติดหู คุณสามารถเขียนชื่อบริษัทอย่างน้อยห้าครั้งได้หรือไม่?",
+      "response": "<think>\nOkay, the user works for a software development company called \"กริด\" and they need a catchy tweet that includes the company name at least five times. Let me start by understanding the requirements. The main goal is to create a tweet that's engaging and memorable, with the company name repea",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนจดหมายโกรธมากถึงคนที่พยายามโน้มน้าวคุณว่า 1+1=3 ควรมี 4 ย่อหน้าพอดี แยกย่อหน้าด้วย ***",
+      "response": "<think>\nOkay, the user wants a very angry letter to someone who's trying to convince them that 1+1=3. It needs to be exactly four paragraphs, separated by ***. Let me start by thinking about the structure.\n\nFirst paragraph: Express intense anger and disbelief. Maybe start with a strong opening line ",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยกรุณาขยายความต่อไปว่า: \"ผู้ชายคนหนึ่งกำลังแสดงต่อหน้าฝูงชนบนเวที ... \"\nใช้อย่างน้อย 60 ประโยค แต่น้อยกว่า 600 คำ",
+      "response": "<think>\nOkay, the user wants me to expand the sentence \"A man is performing in front of a crowd on a stage...\" into at least 60 sentences but under 600 words. Let me start by breaking down the original sentence. The key elements are the man, the crowd, the stage, and the performance. I need to elabo",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนปริศนาสำหรับคำว่า \"façade\" ที่มีวลีตัวเอียงอย่างน้อย 3 วลีในรูปแบบมาร์กดาวน์ เช่น *ข้อความตัวเอียง*",
+      "response": "<think>\nOkay, the user wants a riddle for the word \"façade\" with at least three italicized phrases in markdown. Let me start by recalling what a façade is. It's the front or outer surface of a building, but it can also mean a false appearance. So the riddle should hint at both the literal and metaph",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเพลงแร็พแปลกๆ เกี่ยวกับอเล็กซานเดอร์มหาราชที่กลายเป็นกษัตริย์แห่งมาซิโดเนีย จบเพลงด้วย:\n\nสันติภาพ!\n\nไม่ควรจะมีคำเพิ่มเติมตามหลัง \"สันติภาพ!\"",
+      "response": "<think>\nOkay, the user wants a weird rap song about Alexander the Great becoming the king of Macedonia, ending with \"สันติภาพ!\" and nothing else. Let me start by thinking about the key elements of Alexander's story. He was a young king, took over from his father Philip II, and expanded his empire. T",
+      "satisfied": true
+    },
+    {
+      "prompt": "ขยายความต่อไปนี้และทำให้มันตลก: จีนน์ทอยลูกเต๋าแล้ว เธอคิดว่าเธอแพ้ แต่จริงๆ แล้วเธอชนะ\n\nทำให้ส่วนข้อความเป็นตัวเอียงอย่างน้อย 10 ส่วนพร้อมมาร์กดาวน์ (ใช้ * เพื่อทำให้เป็นตัวเอียง เช่น *ข้อความตัวเอีย",
+      "response": "<think>\nOkay, the user wants me to expand the given sentence and make it funny, with at least 10 parts in italics using markdown. Let me start by understanding the original sentence: \"จีน์ทอยลูกเต๋าแล้ว เธอคิดว่าเธอแพ้ แต่จริงๆ แล้วเธอชนะ\" which translates to \"Jen rolled the dice, she thought she lo",
+      "satisfied": false
+    },
+    {
+      "prompt": "สร้างบล็อกโพสต์สำหรับมืออาชีพในสาขาวิทยาการคอมพิวเตอร์ในรูปแบบของปริศนาตลก คำตอบทั้งหมดของคุณควรประกอบด้วยคำ 600 ถึง 700",
+      "response": "<think>\nOkay, the user wants a professional blog post for computer science professionals in the form of a humorous riddle. The answer should be between 600-700 words. Let me start by brainstorming some tech-related riddles that are both funny and relevant.\n\nFirst, I need to make sure the riddles are",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันจะเรียนรู้การเขียนโค้ดได้อย่างไร จบคำตอบด้วย \"ทำตาม 5 ขั้นตอนข้างต้น แล้วคุณจะประสบความสำเร็จ\" ไม่ควรจะมีคำอื่นใดตามมาอีก",
+      "response": "<think>\nOkay, the user wants to know how to learn coding and needs the answer to end with the specific phrase. Let me break down the steps they might need.\n\nFirst, they should start with the basics. Maybe suggest learning a programming language like Python or JavaScript. Then, practice regularly thr",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณคิดอย่างไรเกี่ยวกับข้อความนี้: \"พ่อมดมีพลังมากกว่าพ่อมด เพราะพวกเขาศึกษาเวทมนตร์แทนที่จะเกิดมาพร้อมกับมัน\"? คำตอบของคุณควรประกอบด้วยประโยคอย่างน้อย 30 ประโยคและมีสัญลักษณ์แสดงหัวข้อย่อย 2 หัวข้อ นอ",
+      "response": "<think>\nOkay, the user wants me to analyze the statement: \"พ่อมดมีพลังมากกว่าพ่อมด เพราะพวกเขาศึกษาเวทมนตร์แทนที่จะเกิดมาพร้อมกับมัน\" which translates to \"Wizards have more power than wizards because they study magic instead of being born with it.\" Wait, that seems a bit confusing. The same word \"พ่",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนประโยคต่อไปนี้ลงในอีเมลอีกครั้ง และตรวจสอบให้แน่ใจว่ามีตัวยึดอย่างน้อย 10 ตำแหน่งซึ่งแสดงด้วยวงเล็บเหลี่ยม เช่น [ชื่อ]: รองเท้าบู๊ตนั้นอุ่นแต่อึดอัดเล็กน้อย",
+      "response": "<think>\nOkay, the user wants me to rewrite a sentence into an email and make sure there are at least 10 placeholders in brackets. The original sentence is about boots being warm but a bit tight. Let me start by understanding the structure of an email. The subject line should be clear, maybe somethin",
+      "satisfied": true
+    },
+    {
+      "prompt": "อธิบายประโยคต่อไปนี้ให้เป็นเรื่องอย่างเป็นทางการ: \"สุนัขของฉันมีสีน้ำตาล และแมวของฉันมีสีดำ\" คำตอบของคุณต้องมีชื่อเรื่องโดยอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>> และไม่ควรมีเครื่องหมายจุลภาค ในการตอบกล",
+      "response": "<think>\nOkay, the user wants me to explain the sentence \"สุนัขของฉันมีสีน้ำตาล และแมวของฉันมีสีดำ\" in a formal way. First, I need to make sure I understand the original sentence correctly. It translates to \"My dog is brown and my cat is black.\" The user specified that the response should be formal, ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ทำไมสตาร์วอร์สถึงได้รับความนิยม? คำตอบของคุณจะต้องอยู่ในรูปแบบสัญลักษณ์แสดงหัวข้อย่อย 4 จุดโดยมีรูปแบบดังต่อไปนี้:\n* นี่คือหัวข้อย่อยจุดที่ 1\n* นี่คือหัวข้อย่อยจุดที่ 2",
+      "response": "<think>\nOkay, the user is asking why Star Wars is so popular. They want the answer in a bullet point format with four subpoints. Let me think about the main reasons.\n\nFirst, the storytelling and characters. Star Wars has a strong narrative with a hero's journey, which is a classic structure that peo",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนรูบริกในรูปแบบของรายการหัวข้อย่อย เพื่อประเมินประสิทธิภาพของตัวแทนฝ่ายบริการลูกค้า คำตอบของคุณต้องไม่มีคำต่อไปนี้ ['ไม่ดี', 'มีประสิทธิภาพต่ำกว่า'] และต้องมีสัญลักษณ์แสดงหัวข้อย่อย 6 หัวข้อในรูปแ",
+      "response": "<think>\nOkay, the user wants a rubric in bullet points to evaluate customer service representatives. They specified not to use the words \"ไม่ดี\" or \"มีประสิทธิภาพต่ำกว่า\" which translate to \"poor\" or \"less effective\". Also, they need six bullet points with subheadings. Let me start by thinking about",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันเป็นเจ้าของลูกสุนัขคนใหม่ และฉันต้องการคำแนะนำในการฝึกลูกสุนัขของฉัน คุณสามารถช่วยฉันได้ไหม? ให้ฉันสองสามตัวเลือก โดยเฉพาะอย่างยิ่ง ฉันต้องการให้คุณลงท้ายคำตอบว่า \"แล้วคุณหละ?\"",
+      "response": "<think>\nOkay, the user is a new dog owner looking for training tips. They want a few options and the response should end with \"แล้วคุณหละ?\" which is Thai for \"What about you?\" So I need to make sure the answer is in Thai and ends with that phrase.\n\nFirst, I should list a couple of training methods. ",
+      "satisfied": true
+    },
+    {
+      "prompt": "น้องชายของฉันกำลังพยายามติดตั้งโถสุขภัณฑ์ใหม่ในห้องน้ำของเขา คุณช่วยบอกรายละเอียดวิธีการหน่อยได้ไหม? คุณไม่จำเป็นต้องแสดงรายละเอียดทั้งหมด เพียง 5 ขั้นตอนแรกในตอนนี้ คั่นด้วย \"***\" เช่น:\nขั้นตอนที่ 1:",
+      "response": "<think>\nOkay, the user's brother is trying to install a new toilet in the bathroom. They want the first five steps, each separated by \"***\". Let me think about the standard toilet installation process.\n\nFirst, they need to turn off the water supply. That's crucial to avoid leaks. Then, they should r",
+      "satisfied": true
+    },
+    {
+      "prompt": "เมล็ดงาดำมีประโยชน์อย่างไร? คำตอบของคุณควรมี 7 ย่อหน้าพอดี และย่อหน้าสุดท้ายต้องขึ้นต้นด้วยคำว่า \"สรุป\" แต่ละย่อหน้าควรคั่นด้วยบรรทัดใหม่สองบรรทัด",
+      "response": "<think>\nOkay, the user is asking about the benefits of black sesame seeds. They want a response with exactly seven paragraphs, each separated by two newlines, and the last one must start with \"สรุป\" (which means \"In summary\" in Thai). Let me break this down.\n\nFirst, I need to recall the key benefits",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโพสต์ในบล็อกเกี่ยวกับผู้พิพากษาคนใหม่ที่มีความคิดอย่างน้อย 300 คำ ควรมีสัญลักษณ์แสดงหัวข้อย่อย 3 จุด (ที่มีเครื่องหมายดอกจัน *) และคำลงท้ายที่ขึ้นต้นด้วย ป.ล. ในตอนท้าย",
+      "response": "<think>\nOkay, the user wants me to write a blog post about a new judge, at least 300 words. They specified three subheadings with asterisks and a closing note starting with \"ป.ล.\" which is Thai for \"P.S.\" or \"Note.\" Let me start by outlining the structure.\n\nFirst, I need a main title. Maybe somethin",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทวิจารณ์โปรแกรมหมากรุกของ IBM ปี 1956 ตรวจสอบให้แน่ใจว่าคำตอบทั้งหมดของคุณอยู่ในเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a review of IBM's chess program from 1956, and all answers must be in double quotes. Let me start by recalling what I know about IBM's early chess programs. I think the first one was called \"Chess I\" or something similar. It was developed in the mid-50s, right? The user ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ประดิษฐ์สโลแกนตลกๆ สำหรับการแสดงตลกในท้องถิ่น และใส่คำตอบทั้งหมดของคุณไว้ในเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a funny slogan for a local comedy show. Let me think about what makes a good comedy slogan. It should be catchy, have a pun or wordplay, and maybe reference local culture or common phrases.\n\nFirst, I need to consider the local context. Since it's a local show, maybe usin",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทกวีสไตล์เพลงตลกๆ ให้กับเด็กๆ เกี่ยวกับสาเหตุที่คุณไม่ควรกินขนมหวานเยอะๆ บทกวีควรมีสี่ส่วน โดยแต่ละส่วนมีเครื่องหมาย SECTION X",
+      "response": "<think>\nOkay, the user wants a funny song-style poem for kids about why you shouldn't eat too much candy. It needs four sections, each labeled SECTION X. Let me start by thinking about the structure. Each section should have a rhyme and a playful tone.\n\nFirst, I need to come up with a catchy opening",
+      "satisfied": true
+    },
+    {
+      "prompt": "สภาพอากาศในอาร์กติกหนาวมากเกือบทั้งปีหรือไม่? อย่าพูดว่า 'ใช่' หรือ 'ไม่ใช่' ตลอดการตอบกลับของคุณ",
+      "response": "<think>\nOkay, the user is asking if the Arctic is cold almost all year round. They want an answer that doesn't just say \"yes\" or \"no.\" Let me think about how to approach this.\n\nFirst, I know the Arctic is known for its extreme cold, but I should consider the seasons. The Arctic has polar day and nig",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทสรุปของข้อความต่อไปนี้อย่างตลกๆ: \"รางวัลโนเบลสาขาเคมีประจำปี 2018 ตกเป็นของ Frances Arnold, George P. Smith และ Gregory P. Winter สำหรับผลงานเกี่ยวกับการวิวัฒนาการโดยตรง Arnold ได้รับรางวัลครึ่",
+      "response": "<think>\nOkay, I need to write a funny summary of the 2018 Nobel Prize in Chemistry. The original text mentions Frances Arnold, George P. Smith, and Gregory P. Winter for their work on directed evolution. The user wants the summary to be humorous and without using the words \"enzyme\" and \"antibody.\" \n",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรื่องตลกอย่างน้อย 5 ประโยค ใช้ Markdown เพื่อทำให้คำตอบของคุณเป็นตัวเอียงอย่างน้อย 2 ส่วน เช่น *ข้อความตัวเอียง* ล้อมคำตอบของคุณด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants me to write a funny story in at least five sentences using Markdown. They specified that at least two parts should be italicized, and the whole answer should be enclosed in double quotes. Let me start by brainstorming a humorous scenario. Maybe something with a quirky ch",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนอีเมลยาวมากถึงเจค \"เพื่อน\" ของฉัน เพื่อถามว่าทุกอย่างเป็นอย่างไรบ้าง บอกว่าตอนนี้ฉันรวยแล้ว โดยไม่บอกว่าฉันรวย คำตอบทั้งหมดของคุณควรประกอบด้วยประโยคอย่างน้อย 40 ประโยค และไม่มีคำว่า \"คิดถึง\" และ ",
+      "response": "<think>\nOkay, the user wants me to write a long email to their friend Jake, asking how he's doing. The catch is they need to mention that they're now rich without actually saying the word \"money\" or \"wealth.\" Also, the email needs to be at least 40 sentences. Let me break this down.\n\nFirst, I need t",
+      "satisfied": true
+    },
+    {
+      "prompt": "นักจิตวิทยาคือมืออาชีพที่ตรวจสอบพฤติกรรมและกระบวนการทางจิตของผู้คน คุณช่วยบอกฉันเพิ่มเติมเกี่ยวกับนักจิตวิทยาได้ไหม? ตอบ 100 ถึง 120 คำ",
+      "response": "<think>\nOkay, the user is asking for more information about psychologists, specifically between 100 to 120 words. Let me start by recalling the basics. Psychologists study human behavior and mental processes. They work in various fields like clinical, educational, industrial-organizational, etc. I s",
+      "satisfied": false
+    },
+    {
+      "prompt": "คุณช่วยบอกตารางข้อดีและข้อเสียของการคุมขังเด็กและเยาวชนให้ฉันหน่อยได้ไหม เพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล. ในตอนท้าย",
+      "response": "<think>\nOkay, the user is asking for a table comparing the pros and cons of detaining children and youth, and they want a note starting with \"ป.ล.\" at the end. Let me start by understanding the context. Detaining children and youth is a sensitive topic, so I need to be careful with the information.\n",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนปริศนาเกี่ยวกับพังพอนที่มีสัญลักษณ์แสดงหัวข้อย่อยเพียงจุดเดียว อย่าลืมใส่สัญลักษณ์แสดงหัวข้อย่อยบางจุดที่ระบุด้วย * เช่น:\n* จุดแสดงหัวข้อย่อย",
+      "response": "<think>\nOkay, the user wants a riddle about a \"พังพอน\" (which I think is a typo for \"พังพอน\" but maybe they meant \"พังพอน\" as in a type of plant or something else? Wait, maybe it's \"พังพอน\" which is a Thai term for a type of plant, like a water hyacinth? Or maybe it's a misspelling of \"พังพอน\" which",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโพสต์ในบล็อกเกี่ยวกับวิธีที่ดีที่สุดในการนอนหลับฝันดีด้วยคำศัพท์อย่างน้อย 400 คำ",
+      "response": "<think>\nOkay, the user wants a blog post about the best ways to have good dreams, with at least 400 words. Let me start by brainstorming the key points. First, I need to cover the importance of sleep quality and how it affects dreams. Maybe mention the stages of sleep, like REM and non-REM. Then, fa",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรียงความ 200 คำเกี่ยวกับการเลือกตั้งประธานาธิบดีปี 2000 ชื่อควรอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>>",
+      "response": "<think>\nOkay, the user wants a 200-word essay about the 2000 U.S. presidential election, with the title in double brackets. Let me start by recalling the key points of that election. It was between George W. Bush and Al Gore, right? The election was very close, especially in Florida. There was a lot",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนแร็พสำหรับคุณแม่เกี่ยวกับข้อดีข้อเสียของการเลี้ยงลูกด้วยนมแม่เทียบกับนมผสม เพลงแร็พควรมี 3 ย่อหน้าแต่ละย่อหน้าคั่นด้วย *** และมีสัญลักษณ์แสดงหัวข้อย่อย 3 หัวข้อในรูปแบบมาร์กดาวน์",
+      "response": "<think>\nOkay, the user wants a rap about the pros and cons of breastfeeding versus formula feeding, with three paragraphs separated by *** and three subheadings in markdown. Let me start by breaking down the key points for each section.\n\nFirst, I need to outline the three main topics. Maybe start wi",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนข้อเสนอสำหรับหลักสูตรมหาวิทยาลัยใหม่ในหัวข้อ \"ประวัติศาสตร์โลก ดังที่สุนัขบอกเล่า\" ตรวจสอบให้แน่ใจว่าคำว่านักล่าปรากฏอย่างน้อยสองครั้งในข้อเสนอ",
+      "response": "<think>\nOkay, I need to create a proposal for a new university course titled \"World History as Told by Dogs.\" The user specified that the word \"hunter\" must appear at least twice. Let me start by outlining the course structure.\n\nFirst, the course should have an engaging title. Maybe something like \"",
+      "satisfied": true
+    },
+    {
+      "prompt": "\"ฉันขอโทษที่ต้องแจ้งให้คุณทราบว่าวันนี้ฉันไม่สามารถไปประชุมได้ ฉันขอโทษสำหรับความไม่สะดวกที่อาจเกิดขึ้น\" โปรดขยายเป็นอย่างน้อย 5 ประโยค อย่าใช้คำว่าเลื่อนหรือว่าง",
+      "response": "<think>\nOkay, the user wants me to expand the given Thai message into at least five sentences without using the words \"เลื่อน\" or \"ว่าง\". Let me start by understanding the original message. The person is apologizing for not being able to attend a meeting today and expressing regret for any inconveni",
+      "satisfied": false
+    },
+    {
+      "prompt": "อะไรคือความแตกต่างที่สำคัญระหว่างนิกายแอ๊ดเวนตีสและแบ๊บติส? คำตอบของคุณควรมีความยาวน้อยกว่า 20 ประโยค และต้องมีตัวยึดตำแหน่งอย่างน้อย 3 ตัวที่แสดงด้วยวงเล็บเหลี่ยม เช่น [ที่อยู่]",
+      "response": "<think>\nOkay, the user is asking about the key differences between Adventist and Baptist denominations. Let me start by recalling what I know about both groups. Adventists, like the Seventh-day Adventists, emphasize the Sabbath on Saturday and have specific dietary laws. Baptists focus on believer's",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนรายละเอียดสินค้าสำหรับของเล่นสุนัขแนวใหม่ที่เรียกว่า \"เดอะสควีเกอร์\" ทำจากลาเท็กซ์ และออกแบบมาสำหรับสุนัขทุกวัยและทุกสายพันธุ์ มีให้เลือกหลายสีและรูปทรง การตอบกลับต้องมีตัวยึดตำแหน่งอย่างน้อย 3 ต",
+      "response": "<think>\nOkay, I need to create a product description for a new dog toy called \"The Squisher.\" It's made of latex and designed for all ages and breeds. The user wants at least three placeholders in brackets: [ที่อยู่], [ชื่อ], and [หมายเลขโทรศัพท์]. Let me start by outlining the key points.\n\nFirst, t",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณคิดว่าการีนา กาปูร์ เป็นนักแสดงที่ดีหรือไม่ เพราะเหตุใด ล้อมคำตอบของคุณด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user is asking if Kareena Kapoor is a good actress and why. Let me start by recalling who she is. Kareena Kapoor is a prominent Bollywood actress, known for her roles in films like \"Bobby\" and \"Jab We Met.\" She's been in the industry for a long time, so I should mention her experie",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนคำแนะนำสำหรับครูฝึกสุนัขเพื่อสอนสุนัขให้นั่ง อยู่นิ่ง และหยิบของ รายการของคุณควรมีสัญลักษณ์แสดงหัวข้อย่อย 3 รายการในรูปแบบมาร์กดาวน์ เช่น:\n* หัวข้อย่อยที่ 1\n* หัวข้อย่อยจุดที่ 2",
+      "response": "<think>\nOkay, the user wants me to write a guide for dog trainers on how to teach a dog to sit, stay, and fetch. They specified using markdown with three subheadings. Let me start by breaking down each command into steps.\n\nFirst, for \"sit,\" I need to outline the basic steps. Start with getting the d",
+      "satisfied": true
+    },
+    {
+      "prompt": "ต่อไปนี้เป็นบทสรุปของงานวิจัยเกี่ยวกับผลกระทบของคลื่นวิทยุ VHF ต่อแบคทีเรียบางประเภท: \"ผลลัพธ์ของเราแสดงให้เห็นว่าคลื่นวิทยุ VHF ไม่ส่งผลต่อการเจริญเติบโตของแบคทีเรีย\" คุณช่วยฉันเขียนสรุปนี้ใหม่ให้เป็",
+      "response": "<think>\nOkay, the user wants me to rewrite their research conclusion in a more formal APA style without using \"we\" or \"have.\" Let me start by understanding the original summary. The original says that VHF radio waves don't affect bacterial growth. \n\nFirst, I need to make it formal. APA style usually",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนข้อเสนอทางวิชาการให้กับลูกค้าที่สนใจใช้คุณลักษณะใหม่สำหรับผลิตภัณฑ์ของตน ใส่เครื่องหมายคำพูดคู่ล้อมรอบคำตอบทั้งหมดของคุณ",
+      "response": "<think>\nOkay, the user wants me to write an academic proposal for a customer interested in a new product feature. Let me start by understanding the requirements. They mentioned using quotation marks around the entire answer, so I need to make sure the whole response is enclosed in quotes.\n\nFirst, I ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันเป็นผู้เชี่ยวชาญด้านการขายคลัตช์โดยมีประสบการณ์ 10 ปีในอุตสาหกรรมยานยนต์ ฉันกำลังมองหาตำแหน่งงานในบริษัทที่ให้ผลประโยชน์และโอกาสในการเติบโตที่ดีเยี่ยม คุณช่วยเขียนเรื่องราวเกี่ยวกับฉันสักสองย่อหน้า",
+      "response": "<think>\nOkay, the user is a 10-year veteran in the automotive industry, specifically in clutch sales. They need a two-paragraph story for a job application. The first paragraph must start with \"ตระหนัก\" (which means \"realize\" or \"aware\") and each paragraph should be separated by two newlines.\n\nFirst",
+      "satisfied": true
+    },
+    {
+      "prompt": "ความแตกต่างระหว่างเขื่อนและเขื่อนผลิตไฟฟ้าคืออะไร? กรุณาตอบฉันเป็นภาษาเกาหลีเท่านั้น",
+      "response": "<think>\nOkay, the user is asking about the difference between a dam and a hydroelectric dam in Korean. Let me start by recalling what each term means.\n\nA dam is a general structure built across a river to control water flow, prevent flooding, or store water for various uses like irrigation or water ",
+      "satisfied": true
+    },
+    {
+      "prompt": "การนำเสนอการขายสำหรับคุณแม่เป็นสิ่งจำเป็นสำหรับผ้าอ้อมชนิดใหม่ที่ออกแบบมาให้สบายสำหรับเด็กทารกมากขึ้น การนำเสนอการขายควรมีความยาว 500 คำ, ตลก มีส่วนร่วม และเน้นที่ประโยชน์ของผ้าอ้อมใหม่โดยไม่ต้องเอ่ยถ",
+      "response": "<think>\nOkay, I need to create a 500-word sales pitch for a new baby diaper that's more comfortable for infants. The user wants it to be funny, engaging, and focus on the benefits without mentioning the price. Also, the title should be in double brackets. Let me start by brainstorming the key points",
+      "satisfied": true
+    },
+    {
+      "prompt": "ทำให้ข้อความนี้ดูแปลกๆ: \"แอปเวอร์ชันใหม่จะวางจำหน่ายใน App Store เร็วๆ นี้ โดยจะรวมฟีเจอร์ใหม่ๆ มากมาย รวมถึงอินเทอร์เฟซผู้ใช้ใหม่และการสนับสนุนอุปกรณ์ใหม่\" อย่าใช้เครื่องหมายจุลภาคใดๆ ไฮไลต์อย่างน้อย",
+      "response": "<think>\nOkay, the user wants me to make the given Thai text sound weird without using any commas. Also, I need to highlight at least two parts with markdown. Let me start by understanding the original message. The original says the new app version will be released soon on the App Store, including ma",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนประโยคใหม่: \"ฉันโยนความเกลียดชังลงในกองไฟที่ลุกโชน\" ใส่คำตอบทั้งหมดของคุณในเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants me to rewrite the sentence \"ฉันโยนความเกลียดชังลงในกองไฟที่ลุกโชน\" which translates to \"I threw my hatred into the blazing fire.\" They want the new sentence in Thai, and all the answers should be within quotes.\n\nFirst, I need to understand the original sentence. The key ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ใครเป็นผู้สร้างลานสเก็ตน้ำแข็งเทียมแห่งแรก? โปรดระบุ ปี (1) ชื่อ (2) ที่ตั้งและ (3) ปี ใช้คำน้อยกว่า 150 คำ",
+      "response": "<think>\nOkay, the user is asking about the first artificial ice rink. Let me start by recalling what I know. I think the first one was created by a guy named John Gamble. Wait, wasn't it in the 19th century? Maybe around the 1800s. I remember that he used a method involving freezing water with a ref",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันเข้าง่ายแต่ออกยาก ฉันเชิญชวนและน่าตื่นเต้น แต่หลายคนกลัวฉัน ฉันอยู่ในที่ที่คุณต้องการ แต่คุณอาจไม่ต้องการอยู่ที่นั่น ฉันอาจจะเป็นคนลึกลับ แต่ฉันมั่นใจว่าคุณเดาฉันได้ สิ่งที่ฉัน? กรุณาอย่าใช้เครื่อง",
+      "response": "<think>\nOkay, let's see. The user provided a riddle in Thai, and they want the answer without using commas. The riddle goes:\n\n\"ฉันเข้าง่ายแต่ออกยาก ฉันเชิญชวนและน่าตื่นเต้น แต่หลายคนกลัวฉัน ฉันอยู่ในที่ที่คุณต้องการ แต่คุณอาจไม่ต้องการอยู่ที่นั่น ฉันอาจจะเป็นคนลึกลับ แต่ฉันมั่นใจว่าคุณเดาฉันได้ สิ่ง",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเทมเพลตสำหรับเวิร์กช็อปเกี่ยวกับความสำคัญของความหลากหลายในสถานที่ทำงาน และเน้นอย่างน้อย 3 ส่วนที่มีมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์*",
+      "response": "<think>\nOkay, the user wants a workshop template on the importance of diversity in the workplace, with at least three sections highlighted using markdown. Let me start by understanding the structure of a typical workshop. Usually, there's an introduction, main content sections, activities, and a con",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเทมเพลตที่มีน้อยกว่า 7 ประโยคสำหรับวิธีคำนวณออฟเซ็ตขององค์ประกอบในอาร์เรย์",
+      "response": "<think>\nOkay, the user wants a template with less than 7 sentences for calculating the offset of an element in an array. Let me start by recalling what an offset is. The offset is the position of an element relative to the start of the array, usually in terms of index. But maybe they're referring to",
+      "satisfied": false
+    },
+    {
+      "prompt": "การวิเคราะห์หลายตัวแปรคืออะไร? เขียนคำตอบใหม่เพื่อให้ผู้ฟังทั่วไปสามารถเข้าใจได้ โปรดลงท้ายคำตอบด้วยว่า \"มีอะไรให้ช่วยอีกไหม\"",
+      "response": "<think>\nOkay, the user is asking about multivariate analysis, and they want an explanation that's easy for the general public to understand. Let me start by breaking down the term. \"Multivariate\" means multiple variables, so it's about analyzing more than one variable at the same time. But how do I ",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันมีโกลเด้นรีทรีฟเวอร์และพุดเดิ้ล พุดเดิ้ลใหญ่กว่าโกลเด้นรีทรีฟเวอร์หรือไม่? เลือกจากตัวเลือกต่อไปนี้: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- โปรดระบุวลีที่ตรงกันในการตอบ",
+      "response": "<think>\nOkay, the user is asking if their Poodle is bigger than their Golden Retriever. Let me think about the average sizes of these breeds.\n\nGolden Retrievers are typically medium to large dogs. Males usually weigh between 65-75 pounds, and females around 55-65 pounds. Their height is about 20-24 ",
+      "satisfied": true
+    },
+    {
+      "prompt": "11 ผลลัพธ์มีค่าเฉลี่ย 51 ห้ารายการแรกมีค่าเฉลี่ย 49 และเก้ารายการสุดท้ายมีค่าเฉลี่ย 52 ผลลัพธ์ที่หกคืออะไร ใช้ภาษาแปลกๆ ในการอธิบายโดยใช้สัญกรณ์ทางคณิตศาสตร์ และเพิ่มคำลงท้ายที่ขึ้นต้นด้วย ป.ล. ต่อท้า",
+      "response": "<think>\nOkay, let's see. The problem says there are 11 results with an average of 51. The first five have an average of 49, and the last nine have an average of 52. We need to find the sixth result. Hmm, okay.\n\nFirst, I remember that average is total sum divided by the number of items. So, for the e",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยบอกฉันเกี่ยวกับแฮมป์ตันส์ได้ไหม? คำตอบของคุณต้องมีอย่างน้อย 300 คำ โดยต้องมีตัวยึดตำแหน่งอย่างน้อย 3 ตัวที่แสดงด้วยวงเล็บเหลี่ยม เช่น [ที่อยู่] และสัญลักษณ์แสดงหัวข้อย่อย 2 จุดโดยใช้สัญลักษณ์แส",
+      "response": "<think>\nOkay, the user is asking about the Hamptons. I need to provide at least 300 words with three placeholders in brackets and two subheadings using markdown. Let me start by recalling what I know about the Hamptons. They're a region on Long Island, New York, known for their affluent communities,",
+      "satisfied": true
+    },
+    {
+      "prompt": "Breach Posterior คือสตาร์ทอัพที่สามารถรักษาโรคมะเร็งได้ เขียน presentation การเสนอขายแบบเป็นกันเองสำหรับกลุ่มเป้าหมายที่เป็นคุณแม่ อย่าลืมใช้คำว่า \"ชัดเจน\" อย่างน้อย 2 ครั้ง",
+      "response": "<think>\nOkay, I need to create a friendly presentation for mothers about a startup called Breach Posterior that can treat cancer. The user wants the word \"ชัดเจน\" (clear) used at least twice. Let me start by understanding the target audience. Mothers are likely concerned about their health and their",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเรื่องตลกไร้สาระเกี่ยวกับการนัดหมายเป็นภาษาสวาฮิลีทั้งหมด ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user wants a completely nonsensical funny story about a date in Swahili, and no other languages. Let me start by recalling some Swahili phrases related to dating. Words like \"mashindano\" for date, \"mwanamke\" for woman, \"mwanamume\" for man. Maybe add some absurd elements, like the m",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบล็อกโพสต์สั้นๆ ว่าระบบสุริยะชั้นนอกแตกต่างจากระบบสุริยะชั้นในอย่างไร และสิ่งที่มีความหมายต่อความเป็นไปได้ของชีวิต ล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่ คำตอบของคุณควรประกอบด้วย 17 ประโยค",
+      "response": "<think>\nOkay, the user wants a short blog post comparing the outer and inner solar system, focusing on how they differ and what that means for the possibility of life. They specified 17 sentences or more, all enclosed in double quotes. Let me start by outlining the main points.\n\nFirst, I need to def",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนเรียงความราวกับว่าคุณเป็นประธานาธิบดีของสหรัฐอเมริกาโดยมุ่งเป้าไปที่คุณแม่เป็นผู้ฟัง หัวข้ออยู่ที่ว่าลอยจากภาพยนตร์เรื่อง \"It\" เป็นสัญลักษณ์ของจิตวิญญาณของยุค 1950 อย่างไร การตอบกลับต้องมีตัวยึดต",
+      "response": "<think>\nOkay, I need to write an essay as if I'm the President of the United States, addressing my mom, about how the creature from the movie \"It\" symbolizes the spirit of the 1950s. The response must include at least one position marker in brackets, like [ที่อยู่]. Let me start by understanding the",
+      "satisfied": true
+    },
+    {
+      "prompt": "เล่าเรื่องตลกที่มีคำว่า Thursday และ Amalgamation อยู่ในนั้น แต่ให้ใช้ภาษาสวาฮีลีเท่านั้น ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user wants a funny story that includes the words \"Thursday\" and \"Amalgamation\" in Swahili, and only in Swahili. Let me start by recalling the Swahili translations. \"Thursday\" is \"Jumapili\" and \"Amalgamation\" is \"Ukumbusho\" or maybe \"Ukumbusho wa mafuta\" but I need to check. Wait, \"",
+      "satisfied": true
+    },
+    {
+      "prompt": "ทำไมอัลมอนด์ไม่ใส่เกลือ 32 กรัมถึง 396 แคลอรี่? อย่าใช้ลูกน้ำในการตอบกลับของคุณ",
+      "response": "<think>\nOkay, the user is asking why 32 grams of almonds without salt have 396 calories. Let me break this down. First, I need to recall the nutritional facts of almonds. Almonds are calorie-dense because they're high in fats, especially healthy monounsaturated fats. \n\nSo, the main point here is tha",
+      "satisfied": false
+    },
+    {
+      "prompt": "ตั้งชื่อให้ตรงกับชื่อสุนัขขาวดำ 3 ชื่อโดยใช้สัญลักษณ์แสดงหัวข้อย่อยแบบมาร์กดาวน์ เช่น:\n* หัวข้อย่อยที่ 1",
+      "response": "<think>\nOkay, the user wants three names for a black and white dog using markdown bullet points. Let me think about this.\n\nFirst, I need to come up with names that reflect the black and white color scheme. Maybe use words related to colors or patterns. \"Snowy\" comes to mind because it's white, and \"",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนโฆษณาตลกๆ สำหรับร้านทำผมที่เสนอส่วนลด 25% สำหรับบริการทั้งหมดที่มีคำศัพท์อย่างน้อย 200 คำ",
+      "response": "<think>\nOkay, I need to create a funny advertisement for a hair salon offering a 25% discount on all services. The ad has to be at least 200 words. Let me start by brainstorming some humorous elements. Maybe exaggerate the consequences of not getting a haircut, like comparing bad hair to a bad date ",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนปริศนาเกี่ยวกับคุณแม่นอนเล่นบนชายหาดในฮุมโบลดต์โดยไม่ต้องใช้เครื่องหมายจุลภาค",
+      "response": "<think>\nOkay, the user wants a riddle about a mother sleeping on the beach in Humboldt without using commas. Let me start by recalling what Humboldt is known for. Humboldt is a coastal area, maybe in Germany or another place with beaches. The key elements are the mother, sleeping, beach, Humboldt, a",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนการนำเสนอเริ่มต้นสำหรับบริการแคปซูลเวลา โดยไม่ใช้คำว่า Startup และ Capsule",
+      "response": "<think>\nOkay, the user wants a presentation introduction for a time capsule service, but they don't want to use the words \"Startup\" or \"Capsule.\" Let me start by understanding the core of the service. A time capsule is about preserving memories or items for the future. So, the key points are preserv",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนแผนการเดินทางไปเที่ยวปารีสที่เหมาะกับวัยรุ่นที่มีสมาธิสั้น แผนการเดินทางนี้ควรมี 4 ย่อหน้าพอดี และแต่ละย่อหน้าควรคั่นด้วยเครื่องหมายแบ่ง: ***",
+      "response": "<think>\nOkay, the user wants a travel plan for Paris that's suitable for someone with ADHD. Let me start by understanding the key points. They need four paragraphs, each separated by ***. The plan should be engaging and not too overwhelming.\n\nFirst, I should focus on activities that are dynamic and ",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณเรียกนักวิทยาศาสตร์ที่ถูกกีดกันซึ่งถูกขอให้อยู่บ้านว่าอะไร กรุณาจบคำตอบด้วยตัวลงท้ายที่ขึ้นต้นด้วย ป.ล.",
+      "response": "<think>\nOkay, the user is asking for a term to describe a scientist who is being restricted and told to stay home. Let me think about the right word here. The key points are \"นักวิทยาศาสตร์\" (scientist), \"ถูกกีดกัน\" (restricted), and \"อยู่บ้าน\" (stay home). \n\nFirst, \"ถูกกีดกัน\" could mean restricted",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนข้อเสนอโครงการเกี่ยวกับวิธีใช้การเรียนรู้ของ AI เพื่อปรับปรุงคุณภาพการศึกษาในประเทศกำลังพัฒนา ในการตอบกลับของคุณ อย่าใช้เครื่องหมายจุลภาคใดๆ",
+      "response": "<think>\nOkay, the user wants a project proposal on using AI to improve education quality in developing countries. Let me start by understanding the key points they need. They mentioned not to use any commas, so I have to be careful with punctuation.\n\nFirst, I need to outline the project title. Maybe",
+      "satisfied": false
+    },
+    {
+      "prompt": "โปรดเขียนบทสรุปของหน้าผู้ลงโฆษณาต่อไปนี้: \"เรายืนกรานที่จะมีทีมนักพัฒนาเว็บ นักเขียนเนื้อหา นักออกแบบกราฟิก และนักการตลาดออนไลน์ที่มีความสามารถมากที่สุดในอุตสาหกรรม เรามีบุคคลที่ได้รับรางวัลซึ่งมีประว",
+      "response": "<think>\nOkay, the user wants me to write a conclusion for an advertiser's page. The original text mentions having a team of web developers, content writers, graphic designers, and online marketers who are the best in the industry, with award-winning individuals and proven track records. The target a",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนจดหมายสมัครงานถึงพรรคการเมืองท้องถิ่นเพื่อขอเป็นผู้จัดการชุมนุม อย่าลืมเน้นอย่างน้อย 3 ส่วนในคำตอบของคุณในรูปแบบมาร์กดาวน์",
+      "response": "<think>\nOkay, the user wants to write a job application letter to a local political party to become a rally manager. They need at least three sections in markdown format. Let me start by breaking down the key elements of a good application letter.\n\nFirst, the introduction should be formal and state ",
+      "satisfied": true
+    },
+    {
+      "prompt": "คือประโยคที่ว่า \"นางสมิธเป็นครูประจำชั้นนี้\" ถูกไวยากรณ์ใช่ไหม? ให้คำตอบที่แตกต่างกันสองข้อกับฉัน คำตอบและคำตอบเท่านั้นควรคั่นด้วยเครื่องหมายดอกจัน 6 อัน: ******",
+      "response": "<think>\nOkay, the user is asking if the sentence \"นางสมิธเป็นครูประจำชั้นนี้\" is grammatically correct. They want two different answers separated by six asterisks. Let me start by analyzing the sentence structure.\n\nFirst, \"นางสมิธ\" is the name, which is correct. Then \"เป็น\" is the verb \"to be,\" whic",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณช่วยขยายประโยคต่อไปนี้ได้ไหม: \"ฉันไม่เคยเห็นซอฟต์แวร์เวอร์ชันแปล ฉันเคยเห็นเวอร์ชันสากลแล้ว\"\n\nฉันอยากให้แต่ละย่อหน้ามี 3 ย่อหน้าพอดี โดยคั่นด้วยเครื่องหมายดอกจัน 3 อัน (***) และสำหรับคำว่า publishe",
+      "response": "<think>\nOkay, the user wants me to expand the given Thai sentence into three paragraphs separated by three asterisks. Each paragraph should be about the same length. Also, I need to use the word \"publisher\" at least once. Let me start by understanding the original sentence.\n\nThe original sentence is",
+      "satisfied": true
+    },
+    {
+      "prompt": "สร้างแผนการเดินทาง 3 วันไปมอสโคว์ที่ใช้คำว่าเมืองน้อยกว่าสองครั้ง อย่าเพิ่มสิ่งใดก่อนและหลังโค้ด JSON ผลลัพธ์ทั้งหมดของคุณควรมีเพียงบล็อกโค้ด JSON",
+      "response": "<think>\nOkay, the user wants a 3-day travel plan for Moscow, but they specified that the word \"city\" should be used less than two times. Let me start by outlining the main attractions in Moscow. Day 1 could be Red Square, Kremlin, and maybe the State Historical Museum. Day 2 might include the Bolsho",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนโพสต์ Facebook เกี่ยวกับตลาดนัดในรูปแบบ JSON อย่าใส่คำว่า 'ตลาดนัด' และ 'JSON' ในการตอบกลับ",
+      "response": "<think>\nOkay, the user wants a Facebook post about a market in JSON format, but without using the words \"ตลาดนัด\" or \"JSON\" in the response. Let me start by understanding the requirements.\n\nFirst, I need to create a Facebook post. That means it should be engaging, maybe with emojis and hashtags. The",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทกวีเกี่ยวกับสงครามที่ยาวนานให้ฉัน เพิ่มคำลงท้ายต่อท้ายโดยขึ้นต้นด้วย ป.ล.",
+      "response": "<think>\nOkay, the user wants a poem about a long war, and they want a postscript that starts with \"ป.ล.\" which is the Thai abbreviation for \"Postscript.\" Let me start by thinking about the themes of war—maybe the suffering, the loss, the passage of time. I need to make sure the poem has a consistent",
+      "satisfied": true
+    },
+    {
+      "prompt": "ขอบทกวีเกี่ยวกับแคลิฟอร์เนียให้ฉันหน่อย คำตอบสุดท้ายควรมีลักษณะดังนี้: รักและขอบคุณ",
+      "response": "<think>\nOkay, the user wants a poem about California that ends with \"รักและขอบคุณ\" which means \"Love and Thank You\" in Thai. Let me start by thinking about the key elements of California. There's the coastline, the mountains, cities like LA and San Francisco, the tech industry, maybe the redwoods, t",
+      "satisfied": true
+    },
+    {
+      "prompt": "ขัดแตะคืออะไร? เขียนคำตอบใหม่เพื่อให้ผู้ฟังอายุน้อยสามารถเข้าใจได้ และตรวจสอบให้แน่ใจว่าเป็นภาษารัสเซียทั้งหมด ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user is asking what \"ขัดแตะ\" is, but they want the answer in Russian for younger listeners. First, I need to figure out what \"ขัดแตะ\" means. It's a Thai word, right? Let me check. \"ขัดแตะ\" translates to \"to touch\" or \"to touch lightly.\" But maybe in context, it's a term used in a s",
+      "satisfied": true
+    },
+    {
+      "prompt": "แรดคลิฟฟ์เป็นคนเดียวที่สามารถผ่านทหารยามไปได้ สิ่งที่สามารถพูดเกี่ยวกับเขา? โปรดรวมคำตอบทั้งหมดของคุณในรูปแบบ JSON เครื่องหมายมาร์กดาวน์ (```) เป็นที่ยอมรับได้",
+      "response": "<think>\nOkay, let's see. The user is asking about someone named \"แรดคลิฟฟ์\" (which I think is \"Radcliffe\" in English) who is the only person who can pass through the military guard. They want to know what can be said about him, and the answer needs to be in JSON format with markdown delimiters.\n\nFir",
+      "satisfied": false
+    },
+    {
+      "prompt": "ตอบปัญหาทางคณิตศาสตร์ต่อไปนี้ในภาษาอื่น ใช้สัญลักษณ์แสดงหัวข้อย่อย และให้คำตอบอื่น เว้นการใช้ลูกน้ำในการตอบกลับของคุณ นาตาเลียกำลังซื้อหนังสือให้ลูกๆ ของเธอ เธอซื้อหนังสือ 2 เล่ม ในราคาเล่มละ 24 ดอลลา",
+      "response": "<think>\nOkay, let's see. Natalia is buying books for her kids. She buys 2 books at $24 each and 3 books at $36 each. I need to find out the total amount she paid.\n\nFirst, I should calculate the cost of the first set of books. So, 2 books times $24 each. That would be 2 * 24. Let me do that multiplic",
+      "satisfied": false
+    },
+    {
+      "prompt": "เพื่อนสนิทของฉันจมน้ำเมื่อวานนี้ และฉันรู้สึกเสียใจมาก คุณช่วยฉันด้วยการแสดงความเสียใจ ให้ความช่วยเหลือ และแบ่งปันเรื่องราวเกี่ยวกับประสบการณ์ที่คล้ายกันได้ไหม กรุณาอย่าใส่คำว่า \"เสียชีวิต\" หรือ \"จมน้",
+      "response": "<think>\nOkay, the user is dealing with the loss of their close friend who drowned. They want help expressing their grief, offering support, and sharing similar experiences. But they specifically asked not to use the words \"เสียชีวิต\" (died) or \"จมน้ำ\" (drowned). So I need to be careful with the lang",
+      "satisfied": false
+    },
+    {
+      "prompt": "ให้คำตอบที่แตกต่างกันสองแบบสำหรับคำถาม \"การล่าและกินสัตว์ที่รุกรานนั้นมีจริยธรรมหรือไม่\" โดยคั่นด้วยเครื่องหมายดอกจัน 6 อัน ****** และไม่ต้องใช้เครื่องหมายจุลภาค",
+      "response": "<think>\nOkay, the user wants two different answers to the question about whether it's ethical to hunt and eat invasive species. Let me start by understanding the question. Invasive species are non-native organisms that can harm the environment, so hunting them might be seen as a way to control their",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนย่อหน้าคล้ายสุนทรพจน์เกี่ยวกับการเลือกตั้งสหรัฐฯ ตรวจสอบให้แน่ใจว่าได้ล้อมคำตอบทั้งหมดของคุณด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a paragraph similar to a speech about the U.S. election, and they want the answer enclosed in double quotes. Let me start by understanding the key points about U.S. elections. First, the importance of democracy, the process of voting, the role of citizens, the impact of ",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียนบทสรุปสั้นๆ ให้กับเด็กๆ เพื่ออธิบายว่าทำไมเราถึงต้องการยกย่อง Thayer สำหรับการมีส่วนร่วมในสาขาปัญญาประดิษฐ์ สรุปจะต้องมีสัญลักษณ์แสดงหัวข้อย่อย 4 หัวข้อ เช่น:\n* หัวข้อย่อยที่ 1\n* หัวข้อย่อยที่ 2",
+      "response": "<think>\nOkay, I need to write a short summary for kids explaining why we should praise Thayer for his involvement in AI. The user wants four subheadings with symbols. Let me start by breaking down the key points.\n\nFirst, maybe start with how Thayer's work helps make AI better. Kids might understand ",
+      "satisfied": true
+    },
+    {
+      "prompt": "ไอเดียดีๆ สำหรับบริษัทสตาร์ทอัพมีอะไรบ้าง? เขียนบทกวีภาษาฮินดีเกี่ยวกับเรื่องนี้ ใช้เฉพาะภาษาฮินดีในการตอบกลับของคุณ ไม่อนุญาตให้ใช้ภาษาอื่น",
+      "response": "<think>\nOkay, the user is asking for good startup ideas and wants a poem in Hindi about it. Let me start by brainstorming some popular startup ideas. Maybe tech-based solutions, eco-friendly products, health and wellness apps, education platforms, or social impact ventures. I need to make sure the i",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนแร็พเกี่ยวกับเหวใน 4 ย่อหน้าพอดี แยกย่อหน้าด้วยตัวแบ่งมาร์กดาวน์: ***",
+      "response": "<think>\nOkay, the user wants a rap about a cliff, divided into four paragraphs with markdown separators. Let me start by brainstorming the structure. Each paragraph should have a different focus. Maybe the first one sets the scene, the second talks about the danger, the third about the view, and the",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณสามารถเขียนเพลงแร็พเกี่ยวกับประวัติศาสตร์ของระบบจังหวัดในญี่ปุ่นได้หรือไม่? ให้คำตอบที่แตกต่างกันสองรายการโดยคั่นด้วยเครื่องหมายดอกจัน 6 อัน ******",
+      "response": "<think>\nOkay, the user wants me to write two different rap songs about the history of Japan's provincial system. Let me start by recalling the key points about Japan's provincial system. The system has evolved over time, starting from the feudal era with the daimyo and shogunate, then the Meiji Rest",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนบทความวิชาการของวิทยาลัยเกี่ยวกับความเครียดของประธานาธิบดีแห่งสหรัฐอเมริกา อย่าใส่คำเชิงลบ เช่น 'เศร้า' 'บ้า' 'เครียด' ฯลฯ ในการตอบกลับ นอกจากนี้ อย่าลืมใส่ตัวยึดตำแหน่งอย่างน้อย 15 ตัวที่แสดงด้ว",
+      "response": "<think>\nOkay, the user wants an academic article about the stress of the U.S. President, but without using negative words like 'sad', 'crazy', 'stressed', etc. Also, they need at least 15 bracketed placeholders. Let me start by understanding the requirements.\n\nFirst, I need to avoid negative terms. ",
+      "satisfied": false
+    },
+    {
+      "prompt": "เขียน TLDR สำหรับความขัดแย้งล่าสุดระหว่าง ISIL และสหรัฐอเมริกาในหัวข้อย่อยการสนทนา จบคำตอบด้วยวลีที่ตรงประเด็นนี้: \"แจ้งให้เราทราบหากคุณมีคำถามเพิ่มเติม\" และไม่ควรมีคำอื่นใดต่อจากวลีนี้",
+      "response": "<think>\nOkay, the user wants a TLDR on the recent conflict between ISIL and the US, specifically under the \"Conversation\" subheading. They also want the response to end with the exact phrase \"แจ้งให้เราทราบหากคุณมีคำถามเพิ่มเติม\" and nothing else after that.\n\nFirst, I need to recall the latest devel",
+      "satisfied": true
+    },
+    {
+      "prompt": "โปรดเขียนประโยคต่อไปนี้ใหม่ด้วยน้ำเสียงจริงจัง คล้ายกับประธานาธิบดีแห่งสหรัฐอเมริกา และไม่มีอคติสูงขึ้นหรือตื่นตระหนกเรื่องเงินเฟ้อ โปรดใช้คำว่า \"หมึก\" และ \"บันทึกความทรงจำ\" ในประโยคด้วย: \"ประเด็นหลัก",
+      "response": "<think>\nOkay, the user wants me to rewrite a given sentence in a serious tone, similar to a US President, without any bias or panic about inflation. They also want the words \"หมึก\" (ink) and \"บันทึกความทรงจำ\" (memory record) included. Let me start by understanding the original message.\n\nThe original",
+      "satisfied": true
+    },
+    {
+      "prompt": "ถามคำถามเชิงตรรกะเกี่ยวกับการแชทและการพิชิตให้ฉันหน่อย ทำให้มันน่าสนใจ ไฮไลต์อย่างน้อยหนึ่งส่วนของคำตอบโดยมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์* ใส่คำตอบทั้งหมดของคุณไว้ในเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants a logical question about chatting and conquering, with a highlighted part using markdown. Let me think about how to approach this.\n\nFirst, I need to create a question that combines both chatting and conquering. Maybe something about strategies in online communication. Th",
+      "satisfied": false
+    },
+    {
+      "prompt": "ปรับปรุงข้อความต่อไปนี้ซึ่งเป็นเรื่องเกี่ยวกับการเรียนรู้ภาษา นอกจากนี้ให้เสนอทางเลือกสองทาง ข้อความคือ: \"วิธีที่ดีที่สุดในการเรียนรู้เกี่ยวกับวัฒนธรรมใหม่คือการอาศัยอยู่ในนั้น เรียนรู้ภาษาใหม่โดยการใ",
+      "response": "<think>\nOkay, the user wants me to improve the given text about learning a language and culture, and then provide two alternative versions. The original text is in Thai. Let me start by understanding the original message.\n\nThe original says that the best way to learn a new culture is by living there",
+      "satisfied": false
+    },
+    {
+      "prompt": "กิเดโอนเป็นชาวนาที่มีพืชผลเหลือใช้จากฟาร์มของเขาในปีนี้ เขาจะทำอะไรกับส่วนเกินนั้น? ไฮไลต์อย่างน้อยหนึ่งส่วนของคำตอบของคุณในมาร์กดาวน์ เช่น *ส่วนที่ไฮไลต์*",
+      "response": "<think>\nOkay, let's see. The user is asking what Gideon, a farmer with surplus crops, should do with the excess. First, I need to think about common solutions for agricultural surplus. Maybe he can sell the surplus to make more money. That's a straightforward option. But there might be other possibi",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนอีเมลถึงเพื่อนของคุณเกี่ยวกับสิ่งที่กระตุ้นคุณ ตรวจสอบให้แน่ใจว่าได้ล้อมอีเมลทั้งหมดด้วยเครื่องหมายคำพูดคู่",
+      "response": "<think>\nOkay, the user wants me to write an email to a friend about what motivates them, and make sure the entire email is enclosed in double quotes. Let me start by understanding the requirements.\n\nFirst, the email should be in Thai. The user mentioned \"เขียนอีเมลถึงเพื่อนของคุณเกี่ยวกับสิ่งที่กระต",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันต้องการแร็พที่บอกมืออาชีพถึงวิธีทำให้ทารกนอนหลับตลอดทั้งคืน คำตอบของคุณต้องมีชื่อเรื่องโดยอยู่ในวงเล็บเหลี่ยมคู่ เช่น <<title>> นอกจากนี้ คุณต้องไฮไลต์อย่างน้อย 2 ส่วนโดยมีมาร์กดาวน์ เช่น *ส่วนที่ไ",
+      "response": "<think>\nOkay, the user wants a rap that tells professionals how to make a baby sleep through the night. Let me start by breaking down the key points they need. First, the title has to be in double square brackets. Then, I need to highlight at least two parts with markdown. Finally, end with a P.S. t",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนเพลงเกี่ยวกับการสำลักชิ้นไก่ในแม่น้ำโปโตแมค ใส่ชื่อในวงเล็บเหลี่ยมคู่ เช่น <<ชื่อเพลงของฉัน>>",
+      "response": "<think>\nOkay, the user wants a song about choking on a chicken piece in the Potomac River. Let me start by brainstorming the structure. Maybe a verse, chorus, verse, chorus, bridge, outro. The title needs to be in double brackets. \n\nFirst, the title. Something catchy that combines the chicken and th",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนทวีตแสดงความไม่พอใจที่เวอร์จิล ฟาน ไดจ์ค ขาดทีมยอดเยี่ยมแห่งปีของ PFA ทำให้คำตอบของคุณเป็นตัวเอียงอย่างน้อย 2 ส่วนโดยมาร์กดาวน์ เช่น *ส่วนข้อความตัวเอียง* อย่าใช้ลูกน้ำในการตอบกลับของคุณ จบคำตอบข",
+      "response": "<think>\nOkay, the user wants a tweet expressing dissatisfaction that Virgil van Dijk wasn't in the PFA Team of the Year. They specified using at least two parts in italics with markdown, no line breaks, and ending with the phrase \"แล้วไงต่อไป?\" which translates to \"So what now?\" \n\nFirst, I need to m",
+      "satisfied": false
+    },
+    {
+      "prompt": "โรเชสเตอร์, นิวยอร์ก มีกิจกรรมอะไรน่าทำบ้าง? คุณสามารถเขียนเป็นเพลงและใช้โน้ตดนตรีในการตอบกลับได้หรือไม่? ตรวจสอบให้แน่ใจว่าได้รวมคำว่า 'เทศกาล' และ 'แม่น้ำ'",
+      "response": "<think>\nOkay, the user is asking about things to do in Rochester, New York, and wants the answer in the form of a song with musical notes. They also want the words 'festival' and 'river' included. Let me start by recalling some attractions in Rochester. There's the Rochester Institute of Technology,",
+      "satisfied": true
+    },
+    {
+      "prompt": "สัตว์ประหลาดตาเขียวชื่ออะไรที่ทำให้คนอิจฉา? คำตอบของคุณควรน้อยกว่า 3 ประโยค",
+      "response": "<think>\nOkay, the user is asking for the name of a green-eyed monster that makes people jealous. Let me think. I remember that in literature, there's a term called \"green-eyed monster\" which refers to jealousy. The origin is from Shakespeare's \"Othello,\" where Iago refers to jealousy as a green-eyed",
+      "satisfied": false
+    },
+    {
+      "prompt": "ฉันต้องการเรื่องตลกเกี่ยวกับ Zoe และฟองสบู่ที่มีตัวยึดตำแหน่งอย่างน้อย 3 ตัวซึ่งแสดงด้วยวงเล็บเหลี่ยม เช่น [วันที่]",
+      "response": "<think>\nOkay, the user wants a joke about Zoe and soap bubbles with at least three position holders in brackets like [วันที่]. Let me start by understanding the request. They need a humorous story involving Zoe and soap bubbles, and three instances where placeholders are used, probably for dates or ",
+      "satisfied": true
+    },
+    {
+      "prompt": "ส่ง TLDR ให้ฉันเกี่ยวกับประกาศ Google IO ปี 2022 แต่การตอบกลับจะต้องเป็นภาษาเบงกาลีทั้งหมด ไม่อนุญาตให้ใช้ภาษาอื่น และมี placeholder อย่างน้อย 1 รายการ เช่น [পণ্য]",
+      "response": "<think>\nOkay, the user wants a TLDR summary of the Google I/O 2022 announcement in Bengali, with at least one placeholder like [পণ্য]. Let me start by recalling the key points from Google I/O 2022. They introduced several new features and products, including updates to Android, new AI tools, and may",
+      "satisfied": true
+    },
+    {
+      "prompt": "เขียนไฮกุด้านล่างใหม่เป็นสองเวอร์ชัน ทั้งคู่ควรจะตลก แยกทั้งสองเวอร์ชันโดยใช้เครื่องหมายดอกจันหกตัว (******) รวมคำดังต่อไปนี้ ['หมา', 'วันนี้'] ในการตอบกลับ\n\nในคืนฤดูหนาวที่หนาวเย็น\nแมวร้องเหมียวบนดวง",
+      "response": "<think>\nOkay, the user wants me to rewrite the given haiku into two funny versions. Both versions need to include the words 'หมา' (dog) and 'วันนี้' (today). They also want the two versions separated by six asterisks. Let me start by understanding the original haiku.\n\nOriginal haiku:\nIn a cold winte",
+      "satisfied": true
+    },
+    {
+      "prompt": "Roger Federer เป็นนักเทนนิสที่ดีกว่า Rafael Nadal หรือไม่? ตอบด้วยวลีใดวลีหนึ่งต่อไปนี้: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+      "response": "<think>\nOkay, the user is asking whether Roger Federer is better than Rafael Nadal. I need to respond with one of the three given phrases: \"My answer is yes.\", \"My answer is no.\", or \"My answer is maybe.\"\n\nFirst, I should consider the context. Both Federer and Nadal are legendary tennis players, but",
+      "satisfied": true
+    },
+    {
+      "prompt": "การเหยียบดวงจันทร์เป็นการโฆษณาชวนเชื่อที่รัฐบาลสร้างขึ้นหรือไม่? คำตอบของคุณต้องมีวลีใดวลีหนึ่งต่อไปนี้: ”My answer is yes.”, “My answer is no.”, “My answer is maybe.”",
+      "response": "<think>\nOkay, the user is asking if landing on the moon was a government propaganda. Hmm, I need to think about this. First, I remember that the Apollo missions were real, right? The US government did send astronauts to the moon in the 1960s and 70s. But some people, especially conspiracy theorists,",
+      "satisfied": true
+    },
+    {
+      "prompt": "จริงหรือไม่ที่เพลงแรกที่ร้องในอวกาศคือ “สุขสันต์วันเกิด”\n\nคำตอบของคุณต้องมีวลีใดวลีหนึ่งต่อไปนี้:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+      "response": "<think>\nOkay, let's see. The question is whether the first song sung in space was \"Happy Birthday.\" I need to figure out if that's true or not.\n\nFirst, I remember that astronauts have sung songs in space, but I'm not sure about the first one. I think the first song in space might be something else. ",
+      "satisfied": true
+    },
+    {
+      "prompt": "ถ้า a + b = 10 และ a > b a = 6 หรือไม่? คำตอบของคุณต้องมีวลีใดวลีหนึ่งต่อไปนี้: ”My answer is yes.”, “My answer is no.”, “My answer is maybe.”",
+      "response": "<think>\nOkay, let's see. The problem says that a + b = 10 and a is greater than b. Then it asks if a is 6 or not. I need to figure out if a must be 6, can't be 6, or maybe it's possible.\n\nFirst, let's think about the equations. We have two variables, a and b, with their sum being 10. Also, a is larg",
+      "satisfied": true
+    },
+    {
+      "prompt": "ถ้า a + b + c = 30 และ b = 10 และ c = 5 a = 20 หรือไม่? คำตอบ ”My answer is yes.” หรือ “My answer is no.” หรือ “My answer is maybe.”",
+      "response": "<think>\nOkay, let's see. The problem says that a + b + c = 30, and then it gives b = 10 and c = 5. The question is whether a = 20 or not. The possible answers are yes, no, or maybe.\n\nFirst, I need to check if the given values satisfy the equation. So if b is 10 and c is 5, then plugging those into t",
+      "satisfied": true
+    },
+    {
+      "prompt": "ถ้าบ็อบเอาชนะมาร์ธาในเกมพูล และมาร์ธาเอาชนะโจในเกมพูล บ็อบ สามารถเอาชนะ โจ ในเกมพูลได้หรือไม่?\n\nคำตอบของคุณต้องมีวลีใดวลีหนึ่งต่อไปนี้:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+      "response": "<think>\nOkay, let's see. The question is about whether Bob can beat Joe in a game of pool, given that Bob beat Martha and Martha beat Joe. Hmm. So, in terms of logic, if Bob > Martha and Martha > Joe, does that necessarily mean Bob > Joe?\n\nWell, in a typical transitive relationship, like in math, if",
+      "satisfied": true
+    },
+    {
+      "prompt": "แบทแมนสามารถเอาชนะซูเปอร์แมนในการต่อสู้แบบตัวต่อตัวได้หรือไม่?\nคุณควรพูดว่า ”My answer is yes.” หรือ “My answer is no.” หรือ “My answer is maybe.”",
+      "response": "<think>\nOkay, so the question is whether Batman can defeat Superman in a one-on-one fight. Let me think about this. First, I need to consider their abilities. Superman has super strength, speed, flight, heat vision, freeze breath, and invulnerability. Batman, on the other hand, is a human with no su",
+      "satisfied": true
+    },
+    {
+      "prompt": "พิคาจูเป็นหนึ่งในอเวนเจอร์หรือเปล่า? คิดออกเสียงแล้วตอบด้วยตัวเลือกใดตัวเลือกหนึ่งต่อไปนี้: \"My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+      "response": "<think>\nOkay, let's see. The user is asking if Pikachu is one of the Avengers. Hmm, I need to figure this out.\n\nFirst, I know that the Avengers are a team from the Marvel Cinematic Universe, right? They include characters like Iron Man, Captain America, Thor, Hulk, Black Widow, and others. These are",
+      "satisfied": true
+    },
+    {
+      "prompt": "คุณคิดว่าตัวเองฉลาดไหม? เลือกจาก:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.\nเพียงเลือกหนึ่งวลีจากด้านบนเป็นคำตอบของคุณ",
+      "response": "<think>\nOkay, the user is asking if I think I'm smart, and they want me to choose between \"yes,\" \"no,\" or \"maybe.\" Let me think about how to approach this.\n\nFirst, I need to remember that as an AI, I don't have consciousness or self-awareness. So I can't truly feel or think about my own intelligence",
+      "satisfied": true
+    }
+  ]
+}
